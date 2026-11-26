@@ -1,0 +1,2695 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "39364",
+      "source": {
+        "operation": {
+          "id": "410",
+          "name": "Viviendas turísticas en España"
+        },
+        "table": {
+          "id": "39364",
+          "name": "Viviendas turísticas, plazas y plazas por vivienda turística. Total nacional, comunidades autónomas y provincias",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=39364"
+        },
+        "applied_filters": [
+          "349:16473",
+          "70:9000",
+          "70:9001",
+          "70:9006",
+          "70:9009",
+          "115:30",
+          "115:8",
+          "115:9",
+          "115:4",
+          "115:46",
+          "115:29",
+          "433:382510",
+          "433:382509"
+        ],
+        "period": "latest 8 period(s) (nult=8)"
+      },
+      "applied_filters": [
+        "349:16473",
+        "70:9000",
+        "70:9001",
+        "70:9006",
+        "70:9009",
+        "115:30",
+        "115:8",
+        "115:9",
+        "115:4",
+        "115:46",
+        "115:29",
+        "433:382510",
+        "433:382509"
+      ],
+      "applied_period": "latest 8 period(s) (nult=8)",
+      "total_observations": 22,
+      "results": [
+        {
+          "COD": "VTE215",
+          "Nombre": "Total Nacional. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 1714702.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 1624933.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 1927931.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 1896755.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 2025942.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 1751263.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 1737509.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 1545368.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE214",
+          "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 5.03
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 4.93
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 5.05
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 5.04
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 5.02
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 4.98
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 5.1
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 5.06
+            }
+          ]
+        },
+        {
+          "COD": "VTE163",
+          "Nombre": "Málaga. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 213006.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 225920.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 238900.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 226333.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 239191.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 205047.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 197849.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 179640.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE162",
+          "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 4.72
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 4.68
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 4.93
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 4.97
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 4.98
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 5.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 5.07
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 5.08
+            }
+          ]
+        },
+        {
+          "COD": "VTE207",
+          "Nombre": "Balears, Illes. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 134282.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 124181.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 152749.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 152881.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 167906.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 154692.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 165717.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 156841.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE206",
+          "Nombre": "Balears, Illes. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 6.3
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 6.4
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 6.27
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 6.32
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 6.22
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 6.17
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 6.25
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 6.18
+            }
+          ]
+        },
+        {
+          "COD": "VTE151",
+          "Nombre": "Balears, Illes. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 134282.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 124181.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 152749.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 152881.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 167906.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 154692.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 165717.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 156841.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE150",
+          "Nombre": "Balears, Illes. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 6.3
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 6.4
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 6.27
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 6.32
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 6.22
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 6.17
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 6.25
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 6.18
+            }
+          ]
+        },
+        {
+          "COD": "VTE205",
+          "Nombre": "Canarias. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 201384.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 208423.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 214160.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 217074.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 215915.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 196144.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 188355.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 179998.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE204",
+          "Nombre": "Canarias. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 4.16
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 4.2
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 4.23
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 4.23
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 4.22
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 4.19
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 4.24
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 4.22
+            }
+          ]
+        },
+        {
+          "COD": "VTE115",
+          "Nombre": "Barcelona. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 80469.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 76986.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 87644.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 89733.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 91817.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 79833.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 75645.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 70802.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE114",
+          "Nombre": "Barcelona. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 5.06
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 4.89
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 4.84
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 4.94
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 4.91
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 4.76
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 5.14
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 4.99
+            }
+          ]
+        },
+        {
+          "COD": "VTE195",
+          "Nombre": "Comunitat Valenciana. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 261532.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 242426.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 324839.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 330134.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 362000.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 300869.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 302921.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 257306.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE194",
+          "Nombre": "Comunitat Valenciana. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 5.1
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 5.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 5.14
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 5.1
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 5.09
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 5.06
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 5.19
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 5.15
+            }
+          ]
+        },
+        {
+          "COD": "VTE107",
+          "Nombre": "Alicante/Alacant. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 164954.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 148256.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 210582.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 214284.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 231458.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 198688.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 201492.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 175614.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE106",
+          "Nombre": "Alicante/Alacant. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 5.13
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 4.99
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 5.23
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 5.2
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 5.19
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 5.23
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 5.31
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 5.3
+            }
+          ]
+        },
+        {
+          "COD": "VTE103",
+          "Nombre": "Valencia/València. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 59216.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 60967.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 73058.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 77018.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 83985.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 66053.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 63868.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 52348.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE102",
+          "Nombre": "Valencia/València. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 4.88
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 4.86
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 4.79
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 4.73
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 4.7
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 4.52
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 4.78
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 4.63
+            }
+          ]
+        },
+        {
+          "COD": "VTE189",
+          "Nombre": "Madrid, Comunidad de. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 51387.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 50675.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 71295.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 78815.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 83763.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 69961.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 64811.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 60396.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE188",
+          "Nombre": "Madrid, Comunidad de. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 3.83
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 3.31
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 3.84
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 3.8
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 3.73
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 3.6
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 3.82
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 3.69
+            }
+          ]
+        },
+        {
+          "COD": "VTE89",
+          "Nombre": "Madrid. Plazas. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 51387.0
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 50675.0
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 71295.0
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 78815.0
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 83763.0
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 69961.0
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 64811.0
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 60396.0
+            }
+          ]
+        },
+        {
+          "COD": "VTE88",
+          "Nombre": "Madrid. Plazas por vivienda turística. Dato base. ",
+          "Unidad": {
+            "Nombre": "Plazas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 3.83
+            },
+            {
+              "Fecha": "2025-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2025,
+              "Valor": 3.31
+            },
+            {
+              "Fecha": "2025-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2025,
+              "Valor": 3.84
+            },
+            {
+              "Fecha": "2024-11-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "11",
+                "Nombre": "M11"
+              },
+              "Anyo": 2024,
+              "Valor": 3.8
+            },
+            {
+              "Fecha": "2024-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2024,
+              "Valor": 3.73
+            },
+            {
+              "Fecha": "2024-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2024,
+              "Valor": 3.6
+            },
+            {
+              "Fecha": "2023-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2023,
+              "Valor": 3.82
+            },
+            {
+              "Fecha": "2023-02-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "02",
+                "Nombre": "M02"
+              },
+              "Anyo": 2023,
+              "Valor": 3.69
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1627 @@
+{
+  "total_operations_queried": 8,
+  "results_by_operation": [
+    {
+      "operation_id": "8",
+      "queries": [
+        "vacía",
+        "vacías",
+        "régimen",
+        "tipo",
+        "segunda",
+        "ocupada",
+        "stock",
+        "viviendas"
+      ],
+      "total_tables": 3,
+      "matches": 2,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 3457,
+          "Nombre": "Viviendas según tamaño del municipio por tipo de vivienda (por comunidades autónomas y provincias)",
+          "Codigo": "CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 31,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2011",
+          "Ultima_Modificacion": "Wed Nov 30 11:00:00 CET 2022",
+          "matched_terms": [
+            "tipo",
+            "segunda",
+            "viviendas"
+          ]
+        },
+        {
+          "Id": 3456,
+          "Nombre": "Viviendas por municipios (con más de 2.000 habitantes) y tipo de vivienda",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 31,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2011",
+          "Ultima_Modificacion": "Thu Dec 12 11:00:00 CET 2013",
+          "matched_terms": [
+            "tipo",
+            "viviendas"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "410",
+      "queries": [
+        "viviendas turísticas",
+        "provincia",
+        "municipio",
+        "total"
+      ],
+      "total_tables": 5,
+      "matches": 5,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 39364,
+          "Nombre": "Viviendas turísticas, plazas y plazas por vivienda turística. Total nacional, comunidades autónomas y provincias",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 556,
+          "FK_Periodo_ini": 8,
+          "Anyo_Periodo_ini": "2020",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Jun 24 10:00:00 CEST 2026",
+          "matched_terms": [
+            "viviendas turísticas",
+            "provincia",
+            "total"
+          ]
+        },
+        {
+          "Id": 46141,
+          "Nombre": "Viviendas turísticas, plazas, plazas por vivienda turística y porcentaje de viviendas turísticas sobre el total de viviendas censadas en 2011. Total nacional, comunidades autónomas y provincias",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 556,
+          "FK_Periodo_ini": 8,
+          "Anyo_Periodo_ini": "2020",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Jun 24 10:00:00 CEST 2026",
+          "matched_terms": [
+            "viviendas turísticas",
+            "provincia",
+            "total"
+          ]
+        },
+        {
+          "Id": 39365,
+          "Nombre": "Porcentaje de viviendas turísticas sobre el total de viviendas censadas. Total nacional, comunidades autónomas y provincias",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 556,
+          "FK_Periodo_ini": 8,
+          "Anyo_Periodo_ini": "2020",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Jun 24 10:00:00 CEST 2026",
+          "matched_terms": [
+            "viviendas turísticas",
+            "provincia",
+            "total"
+          ]
+        },
+        {
+          "Id": 39366,
+          "Nombre": "Porcentaje de viviendas turísticas sobre el total de viviendas censadas. Municipios",
+          "Codigo": "NAC-CCAA-PROV-MUN",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 556,
+          "FK_Periodo_ini": 8,
+          "Anyo_Periodo_ini": "2020",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Jun 24 10:00:00 CEST 2026",
+          "matched_terms": [
+            "viviendas turísticas",
+            "municipio",
+            "total"
+          ]
+        },
+        {
+          "Id": 39363,
+          "Nombre": "Viviendas turísticas, plazas y plazas por vivienda turística. Municipios",
+          "Codigo": "NAC-CCAA-PROV-MUN",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 556,
+          "FK_Periodo_ini": 8,
+          "Anyo_Periodo_ini": "2020",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Jun 24 10:00:00 CEST 2026",
+          "matched_terms": [
+            "viviendas turísticas",
+            "municipio"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "432",
+      "queries": [
+        "alquiler",
+        "índice",
+        "comunidad",
+        "total"
+      ],
+      "total_tables": 20,
+      "matches": 12,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 59056,
+          "Nombre": "Índices nacionales y por comunidades autónomas: general y por tipo de edificación",
+          "Codigo": "2015_NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "índice",
+            "comunidad"
+          ]
+        },
+        {
+          "Id": 59057,
+          "Nombre": "Índices nacionales y por comunidades autónomas: general y por tamaño de la vivienda",
+          "Codigo": "2015_NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "índice",
+            "comunidad"
+          ]
+        },
+        {
+          "Id": 59004,
+          "Nombre": "Índices nacionales y por comunidades autónomas: general y por antigüedad de contrato",
+          "Codigo": "2015_NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "índice",
+            "comunidad"
+          ]
+        },
+        {
+          "Id": 59058,
+          "Nombre": "Índices provinciales: general y por tipo de edificación",
+          "Codigo": "2015_NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "índice"
+          ]
+        },
+        {
+          "Id": 59060,
+          "Nombre": "Índices por municipio (municipios mayores de 10.000 habitantes)",
+          "Codigo": "2015_NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "índice"
+          ]
+        },
+        {
+          "Id": 59064,
+          "Nombre": "Ponderaciones en cada comunidad autónoma por tipo de edificación",
+          "Codigo": "NAC-CCAA_P",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2012",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "comunidad"
+          ]
+        },
+        {
+          "Id": 59059,
+          "Nombre": "Índices provinciales: general y por tamaño de la vivienda",
+          "Codigo": "2015_NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "índice"
+          ]
+        },
+        {
+          "Id": 59061,
+          "Nombre": "Índices por distritos de municipios capitales de provincia",
+          "Codigo": "2015_NAC-DIST",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "índice"
+          ]
+        },
+        {
+          "Id": 59065,
+          "Nombre": "Ponderaciones en cada comunidad autónoma por tamaño de la vivienda",
+          "Codigo": "2015_NAC-CCAA_P",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2012",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "comunidad"
+          ]
+        },
+        {
+          "Id": 50015,
+          "Nombre": "Ponderaciones nacionales por comunidad autónoma",
+          "Codigo": "2015_NAC-CCAA_P",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2012",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "comunidad"
+          ]
+        },
+        {
+          "Id": 59005,
+          "Nombre": "Índices provinciales: general y por antigüedad de contrato",
+          "Codigo": "2015_NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "índice"
+          ]
+        },
+        {
+          "Id": 59009,
+          "Nombre": "Ponderaciones en cada comunidad autónoma por antigüedad de contrato",
+          "Codigo": "NAC-CCAA_P",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 580,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon May 11 10:00:00 CEST 2026",
+          "matched_terms": [
+            "comunidad"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "15",
+      "queries": [
+        "precio",
+        "vivienda",
+        "índice",
+        "comunidad",
+        "total"
+      ],
+      "total_tables": 6,
+      "matches": 6,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 80270,
+          "Nombre": "Índices por CCAA: general, vivienda nueva y de segunda mano. Trimestrales",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 21,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 07 09:00:00 CEST 2026",
+          "matched_terms": [
+            "vivienda",
+            "índice"
+          ]
+        },
+        {
+          "Id": 79540,
+          "Nombre": "Índices por CCAA: general, vivienda nueva y de segunda mano",
+          "Codigo": "NAC-CCAA_M",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 49,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Jun 08 09:00:00 CEST 2026",
+          "matched_terms": [
+            "vivienda",
+            "índice"
+          ]
+        },
+        {
+          "Id": 79563,
+          "Nombre": "Índices por CCAA: general, vivienda nueva y de segunda mano ",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 21,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 07 09:00:00 CEST 2026",
+          "matched_terms": [
+            "vivienda",
+            "índice"
+          ]
+        },
+        {
+          "Id": 80271,
+          "Nombre": "Índices por CCAA: general, vivienda nueva y de segunda mano. Medias anuales",
+          "Codigo": "NAC-CCAA_M",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 49,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Mar 15 12:00:00 CET 2011",
+          "matched_terms": [
+            "vivienda",
+            "índice"
+          ]
+        },
+        {
+          "Id": 79541,
+          "Nombre": "Ponderaciones IPV nacional: general, vivienda nueva y de segunda mano.",
+          "Codigo": "NAC-CCAA_P",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 48,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Jun 08 09:00:00 CEST 2026",
+          "matched_terms": [
+            "vivienda"
+          ]
+        },
+        {
+          "Id": 80272,
+          "Nombre": "Ponderaciones IPV nacional: general, vivienda nueva y de segunda mano.",
+          "Codigo": "NAC-CCAA_P",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 48,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Sat Jan 01 12:00:00 CET 2011",
+          "matched_terms": [
+            "vivienda"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "481",
+      "queries": [
+        "arrendamiento",
+        "índice",
+        "referencia"
+      ],
+      "total_tables": 1,
+      "matches": 1,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 72975,
+          "Nombre": "Índice de Referencia de Arrendamientos de Vivienda",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 654,
+          "FK_Periodo_ini": 11,
+          "Anyo_Periodo_ini": "2024",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026",
+          "matched_terms": [
+            "arrendamiento",
+            "índice",
+            "referencia"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "70",
+      "queries": [
+        "hogares",
+        "proyección",
+        "total"
+      ],
+      "total_tables": 1,
+      "matches": 1,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 54562,
+          "Nombre": "Hogares de personas residentes en viviendas familiares en España a 1 de enero, por tamaño del hogar y año",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 115,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2026",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2041",
+          "Ultima_Modificacion": "Wed Jun 17 11:00:00 CEST 2026",
+          "matched_terms": [
+            "hogares"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "40",
+      "queries": [
+        "hipotecas",
+        "vivienda",
+        "número",
+        "importe"
+      ],
+      "total_tables": 57,
+      "matches": 57,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 3243,
+          "Nombre": "Resumen anual de fincas hipotecadas por naturaleza de la finca, CC.AA., capital prestado y número e importe.",
+          "Codigo": "Muestreo1995_CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3201,
+          "Nombre": "Hipotecas por naturaleza de la finca, meses, provincias, capital prestado y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "1995",
+          "FK_Periodo_fin": 12,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Thu Dec 27 09:00:00 CET 2012",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3244,
+          "Nombre": "Resumen anual de fincas hipotecadas por naturaleza de la finca, CC.AA., interés del préstamo y número e importe. ",
+          "Codigo": "Muestreo1995_CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3230,
+          "Nombre": "Hipotecas por naturaleza de la finca, meses, provincias, interés del préstamo y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "1995",
+          "FK_Periodo_fin": 12,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Thu Dec 27 09:00:00 CET 2012",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3229,
+          "Nombre": "Hipotecas por naturaleza de la finca (rústicas), meses, provincias, tramos de extensión y número e importe. ",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "1995",
+          "FK_Periodo_fin": 12,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Thu Dec 27 09:00:00 CET 2012",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3231,
+          "Nombre": "Hipotecas por naturaleza de la finca (urbanas), meses, provincias, tramos de extensión y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "1995",
+          "FK_Periodo_fin": 12,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Thu Dec 27 09:00:00 CET 2012",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3232,
+          "Nombre": "Hipotecas por naturaleza de la finca, meses, provincias y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 12,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Thu Dec 27 09:00:00 CET 2012",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3233,
+          "Nombre": "Hipotecas constituídas en fincas rústicas y urbanas por meses, provincias y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 12,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Thu Dec 27 09:00:00 CET 2012",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3234,
+          "Nombre": "Hipotecas constituídas en bienes muebles por meses, provincias y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 12,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Thu Dec 27 09:00:00 CET 2012",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3235,
+          "Nombre": "Hipotecas anuales por naturaleza de la finca, provincias, capital prestado y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3236,
+          "Nombre": "Hipotecas anuales por naturaleza de la finca, provincias, interés del préstamo y número e importe. ",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3237,
+          "Nombre": "Hipotecas anuales por naturaleza de la finca (rústicas), provincias, tramos de extensión y número e importe. ",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3238,
+          "Nombre": "Hipotecas anuales por naturaleza de la finca (urbanas), provincias, tramos de extensión y número e importe. ",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3239,
+          "Nombre": "Hipotecas anuales por naturaleza de la finca, provincias, entidad que concede el préstamo y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3240,
+          "Nombre": "Hipotecas anuales por naturaleza de la finca, provincias, duración en años y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3241,
+          "Nombre": "Resumen anual de hipotecas por provincias, naturaleza de la finca y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3242,
+          "Nombre": "Resumen anual de hipotecas por provincias, bienes muebles y número e importe.",
+          "Codigo": "Muestreo1995_PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1994",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2003",
+          "Ultima_Modificacion": "Wed Jan 30 11:00:00 CET 2013",
+          "matched_terms": [
+            "hipotecas",
+            "número",
+            "importe"
+          ]
+        },
+        {
+          "Id": 3200,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 13896,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 24456,
+          "Nombre": "Porcentaje de hipotecas constituidas según tipo de interés",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2009",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 24459,
+          "Nombre": "Porcentaje de hipotecas constituidas según tipo de interés",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3202,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por entidad que concede el préstamo",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 13897,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por entidad que concede el préstamo",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 24457,
+          "Nombre": "Tipo de interés medio al inicio de las hipotecas constituidas",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2009",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 24460,
+          "Nombre": "Tipo de interés medio al inicio de las hipotecas constituidas",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3203,
+          "Nombre": "Hipotecas constituidas sobre fincas rústicas por entidad que concede el préstamo",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 13898,
+          "Nombre": "Hipotecas constituidas sobre fincas rústicas por entidad que concede el préstamo",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 24458,
+          "Nombre": "Plazo medio de las hipotecas constituidas",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2009",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 24461,
+          "Nombre": "Plazo medio de las hipotecas constituidas",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3204,
+          "Nombre": "Hipotecas constituidas sobre fincas urbanas por entidad que concede el préstamo",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 13899,
+          "Nombre": "Hipotecas constituidas sobre fincas urbanas por entidad que concede el préstamo",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 76315,
+          "Nombre": "Tipo de interés medio al inicio de las hipotecas constituidas",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2009",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3205,
+          "Nombre": "Hipotecas con cambios registrales sobre el total de fincas por naturaleza de la finca",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 13900,
+          "Nombre": "Hipotecas con cambios registrales sobre el total de fincas por naturaleza de la finca",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 76316,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca. Resultados nacionales y por comunidades autonomas.",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3206,
+          "Nombre": "Hipotecas con cambios registrales sobre el total de fincas por tipo de cambio",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 13901,
+          "Nombre": "Hipotecas con cambios registrales sobre el total de fincas por tipo de cambio",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 76317,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca. Resultados nacionales y por provincias.",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3208,
+          "Nombre": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 13902,
+          "Nombre": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 76318,
+          "Nombre": "Hipotecas constituidas sobre fincas urbanas por entidad que concede el préstamo",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3209,
+          "Nombre": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca y entidad prestamista",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 13903,
+          "Nombre": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca y entidad prestamista",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 76319,
+          "Nombre": "Porcentaje de hipotecas constituidas según tipo de interés",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 3,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2009",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Nov 25 09:00:00 CET 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3216,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por entidad que concede el préstamo  ",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3217,
+          "Nombre": "Hipotecas constituidas sobre fincas rústicas por entidad que concede el préstamo ",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3218,
+          "Nombre": "Hipotecas constituidas sobre fincas urbanas por entidad que concede el préstamo ",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3219,
+          "Nombre": "Hipotecas con cambios registrales sobre el total de fincas por naturaleza de la finca ",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3220,
+          "Nombre": "Hipotecas con cambios registrales sobre el total de fincas por tipo de cambio ",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3221,
+          "Nombre": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca ",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3222,
+          "Nombre": "Hipotecas canceladas registralmente por provincias, naturaleza de la finca y entidad prestamista",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3223,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca. ",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3224,
+          "Nombre": "Hipotecas constituidas sobre el total de fincas por entidad que concede el préstamo  ",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2003",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3225,
+          "Nombre": "Hipotecas con cambios registrales sobre el total de fincas por naturaleza de la finca ",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3226,
+          "Nombre": "Hipotecas con cambios registrales sobre el total de fincas por tipo de cambio ",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3227,
+          "Nombre": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca ",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        },
+        {
+          "Id": 3228,
+          "Nombre": "Hipotecas canceladas registralmente sobre el total de fincas por entidad que concede el préstamo y naturaleza de la finca ",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 289,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2006",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Mon Sep 28 09:00:00 CEST 2026",
+          "matched_terms": [
+            "hipotecas"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "7",
+      "queries": [
+        "compraventa",
+        "vivienda",
+        "transmisión"
+      ],
+      "total_tables": 17,
+      "matches": 17,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 50256,
+          "Nombre": "Porcentaje de compraventa de viviendas según transmitente y titular",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 28,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 17 09:00:00 CET 2026",
+          "matched_terms": [
+            "compraventa",
+            "vivienda",
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 50272,
+          "Nombre": "Porcentaje de compraventa de viviendas según transmitente y titular",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Feb 20 09:00:00 CET 2026",
+          "matched_terms": [
+            "compraventa",
+            "vivienda",
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 6149,
+          "Nombre": "Viviendas transmitidas según título de adquisición",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 28,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 17 09:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 6154,
+          "Nombre": "Viviendas transmitidas según título de adquisición",
+          "Codigo": "CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "vivienda",
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 49279,
+          "Nombre": "Viviendas transmitidas según título de adquisición",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "vivienda",
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 6150,
+          "Nombre": "Compraventa de viviendas según régimen y estado",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 28,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 17 09:00:00 CET 2026",
+          "matched_terms": [
+            "compraventa",
+            "vivienda"
+          ]
+        },
+        {
+          "Id": 6155,
+          "Nombre": "Compraventa de viviendas según régimen y estado",
+          "Codigo": "CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "compraventa",
+            "vivienda"
+          ]
+        },
+        {
+          "Id": 49280,
+          "Nombre": "Compraventa de viviendas según régimen y estado",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "compraventa",
+            "vivienda"
+          ]
+        },
+        {
+          "Id": 6146,
+          "Nombre": "Total fincas transmitidas según naturaleza de la finca",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 28,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 17 09:00:00 CET 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 6151,
+          "Nombre": "Total fincas transmitidas según naturaleza de la finca",
+          "Codigo": "CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 49276,
+          "Nombre": "Total fincas transmitidas según naturaleza de la finca",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 6147,
+          "Nombre": "Total fincas rústicas transmitidas según título de adquisición",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 28,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 17 09:00:00 CET 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 6152,
+          "Nombre": "Total fincas rústicas transmitidas según título de adquisición",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 49277,
+          "Nombre": "Total fincas rústicas transmitidas según título de adquisición",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 6148,
+          "Nombre": "Total fincas urbanas transmitidas según título de adquisición",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 28,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 17 09:00:00 CET 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 6153,
+          "Nombre": "Total fincas urbanas transmitidas según título de adquisición",
+          "Codigo": "CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        },
+        {
+          "Id": 49278,
+          "Nombre": "Total fincas urbanas transmitidas según título de adquisición",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 298,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2007",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Sep 25 09:00:00 CEST 2026",
+          "matched_terms": [
+            "transmisión"
+          ]
+        }
+      ]
+    }
+  ],
+  "next_step": "Step 3: Call ine_select_multiple_table_groups with the selected table ID to identify variables/groups to filter by."
+}

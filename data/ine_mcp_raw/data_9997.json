@@ -1,0 +1,1455 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "9997",
+      "source": {
+        "operation": {
+          "id": "155",
+          "name": "Encuesta de Condiciones de Vida (ECV)"
+        },
+        "table": {
+          "id": "9997",
+          "name": "Hogares por régimen de tenencia de la vivienda y comunidades autónomas",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=9997"
+        },
+        "applied_filters": [
+          "349:16473",
+          "70:9005",
+          "70:9009",
+          "26:8644",
+          "26:404691",
+          "26:404692",
+          "26:284025",
+          "26:284026"
+        ],
+        "period": "latest 6 period(s) (nult=6)"
+      },
+      "applied_filters": [
+        "349:16473",
+        "70:9005",
+        "70:9009",
+        "26:8644",
+        "26:404691",
+        "26:404692",
+        "26:284025",
+        "26:284026"
+      ],
+      "applied_period": "latest 6 period(s) (nult=6)",
+      "total_observations": 15,
+      "results": [
+        {
+          "COD": "ECV2644",
+          "Nombre": "Total Nacional. Propiedad. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 73.3
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 73.6
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 75.1
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 75.9
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 75.8
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 75.2
+            }
+          ]
+        },
+        {
+          "COD": "ECV9760",
+          "Nombre": "Total Nacional. Propiedad sin hipoteca. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 48.9
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 48.8
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 48.7
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 49.5
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 49.0
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 48.5
+            }
+          ]
+        },
+        {
+          "COD": "ECV9759",
+          "Nombre": "Total Nacional. Propiedad con hipoteca. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 24.4
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 24.7
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 26.4
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 26.5
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 26.8
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 26.7
+            }
+          ]
+        },
+        {
+          "COD": "ECV2643",
+          "Nombre": "Total Nacional. Alquiler a precio de mercado. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 16.7
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 17.0
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 15.4
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 15.1
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 15.2
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 14.7
+            }
+          ]
+        },
+        {
+          "COD": "ECV2642",
+          "Nombre": "Total Nacional. Alquiler inferior al precio de mercado. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 3.5
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.4
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 3.3
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 3.0
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 2.8
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 3.3
+            }
+          ]
+        },
+        {
+          "COD": "ECV2608",
+          "Nombre": "Cataluña. Propiedad. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 67.1
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 67.2
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 69.2
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 70.0
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 71.9
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 69.8
+            }
+          ]
+        },
+        {
+          "COD": "ECV9742",
+          "Nombre": "Cataluña. Propiedad sin hipoteca. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 40.9
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 41.5
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 41.9
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 43.2
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 43.3
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 44.1
+            }
+          ]
+        },
+        {
+          "COD": "ECV9741",
+          "Nombre": "Cataluña. Propiedad con hipoteca. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 26.2
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 25.7
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 27.3
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 26.8
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 28.5
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 25.7
+            }
+          ]
+        },
+        {
+          "COD": "ECV2607",
+          "Nombre": "Cataluña. Alquiler a precio de mercado. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 23.2
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 23.6
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 20.7
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 21.3
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 20.9
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 21.0
+            }
+          ]
+        },
+        {
+          "COD": "ECV2606",
+          "Nombre": "Cataluña. Alquiler inferior al precio de mercado. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 4.8
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 4.3
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 4.2
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 3.8
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 3.7
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 5.8
+            }
+          ]
+        },
+        {
+          "COD": "ECV2592",
+          "Nombre": "Madrid, Comunidad de. Propiedad. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 69.1
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 69.7
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 72.7
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 73.4
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 71.7
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 74.0
+            }
+          ]
+        },
+        {
+          "COD": "ECV9734",
+          "Nombre": "Madrid, Comunidad de. Propiedad sin hipoteca. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 44.0
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 44.3
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 44.3
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 45.6
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 43.5
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 43.7
+            }
+          ]
+        },
+        {
+          "COD": "ECV9733",
+          "Nombre": "Madrid, Comunidad de. Propiedad con hipoteca. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 25.1
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 25.4
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 28.4
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 27.8
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 28.3
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 30.3
+            }
+          ]
+        },
+        {
+          "COD": "ECV2591",
+          "Nombre": "Madrid, Comunidad de. Alquiler a precio de mercado. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 22.6
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 22.7
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 19.7
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 19.0
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 20.3
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 18.5
+            }
+          ]
+        },
+        {
+          "COD": "ECV2590",
+          "Nombre": "Madrid, Comunidad de. Alquiler inferior al precio de mercado. Hogar. ",
+          "Unidad": {
+            "Nombre": "Porcentaje de hogares",
+            "Codigo": null,
+            "Abrev": "% hogares"
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2025,
+              "Valor": 4.3
+            },
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 4.4
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 4.0
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 3.8
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 3.7
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 3.7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

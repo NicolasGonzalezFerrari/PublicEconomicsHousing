@@ -1,0 +1,502 @@
+[
+  {
+    "anyo": 2026,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 341001.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 329764.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 381837.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 376463.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 403267.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 351389.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 340424.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 305136.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 311518.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Total Nacional. Viviendas turísticas. Dato base.",
+    "valor": 285868.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 45176.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 48261.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 48412.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 45543.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 48034.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 41038.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 39041.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 35360.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 35060.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Málaga. Viviendas turísticas. Dato base.",
+    "valor": 30659.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 21304.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 19398.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 24361.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 24190.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 26979.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 25073.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 26507.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 25393.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 27038.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Balears, Illes. Viviendas turísticas. Dato base.",
+    "valor": 26458.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 48356.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 49676.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 50686.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 51286.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 51155.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 46784.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 44376.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 42651.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 40935.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Canarias. Viviendas turísticas. Dato base.",
+    "valor": 38768.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 51305.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 46915.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 56851.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 52870.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 58705.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 52598.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 52026.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 45709.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 49265.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Cataluña. Viviendas turísticas. Dato base.",
+    "valor": 49588.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 15905.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 15741.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 18113.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 18157.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 18690.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 16768.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 14713.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 14188.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 14807.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Barcelona. Viviendas turísticas. Dato base.",
+    "valor": 18953.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 51268.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 48441.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 63190.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 64745.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 71146.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 59413.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 58337.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 49950.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 51691.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Comunitat Valenciana. Viviendas turísticas. Dato base.",
+    "valor": 47403.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 32148.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 29697.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 40273.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 41179.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 44589.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 38007.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 37962.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 33115.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 34061.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Alicante/Alacant. Viviendas turísticas. Dato base.",
+    "valor": 31946.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 13431.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 15309.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 18555.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 20760.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 22435.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 19456.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 16970.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 16351.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 15763.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Madrid, Comunidad de. Viviendas turísticas. Dato base.",
+    "valor": 15241.0
+  },
+  {
+    "anyo": 2026,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 13431.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 15309.0
+  },
+  {
+    "anyo": 2025,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 18555.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 20760.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 22435.0
+  },
+  {
+    "anyo": 2024,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 19456.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 16970.0
+  },
+  {
+    "anyo": 2023,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 16351.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 15763.0
+  },
+  {
+    "anyo": 2022,
+    "serie": "Madrid. Viviendas turísticas. Dato base.",
+    "valor": 15241.0
+  }
+]

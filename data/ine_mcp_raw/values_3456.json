@@ -1,0 +1,2103 @@
+{
+  "total_requests_processed": 2,
+  "results": [
+    {
+      "table_id": "3456",
+      "group_id": "31723",
+      "queries": null,
+      "total_values": 2308,
+      "filter_mode": "no_filter",
+      "truncated": true,
+      "selected_values": [
+        {
+          "Id": 465,
+          "FK_Variable": 19,
+          "Nombre": "Murchante",
+          "Codigo": "31176",
+          "FK_JerarquiaPadres": [
+            32,
+            392379
+          ]
+        },
+        {
+          "Id": 480,
+          "FK_Variable": 19,
+          "Nombre": "Olite/Erriberri",
+          "Codigo": "31191",
+          "FK_JerarquiaPadres": [
+            32,
+            392381
+          ]
+        },
+        {
+          "Id": 484,
+          "FK_Variable": 19,
+          "Nombre": "Logroño",
+          "Codigo": "26089",
+          "FK_JerarquiaPadres": [
+            27,
+            292519,
+            392393
+          ]
+        },
+        {
+          "Id": 485,
+          "FK_Variable": 19,
+          "Nombre": "Málaga",
+          "Codigo": "29067",
+          "FK_JerarquiaPadres": [
+            30,
+            292420,
+            392121
+          ]
+        },
+        {
+          "Id": 486,
+          "FK_Variable": 19,
+          "Nombre": "Ourense",
+          "Codigo": "32054",
+          "FK_JerarquiaPadres": [
+            53,
+            292628,
+            392358
+          ]
+        },
+        {
+          "Id": 487,
+          "FK_Variable": 19,
+          "Nombre": "Pontevedra",
+          "Codigo": "36038",
+          "FK_JerarquiaPadres": [
+            36,
+            392362
+          ]
+        },
+        {
+          "Id": 488,
+          "FK_Variable": 19,
+          "Nombre": "Salamanca",
+          "Codigo": "37274",
+          "FK_JerarquiaPadres": [
+            37,
+            292619,
+            392214
+          ]
+        },
+        {
+          "Id": 489,
+          "FK_Variable": 19,
+          "Nombre": "Santander",
+          "Codigo": "39075",
+          "FK_JerarquiaPadres": [
+            39,
+            292516,
+            392171
+          ]
+        },
+        {
+          "Id": 490,
+          "FK_Variable": 19,
+          "Nombre": "Soria",
+          "Codigo": "42173",
+          "FK_JerarquiaPadres": [
+            42,
+            392225
+          ]
+        },
+        {
+          "Id": 491,
+          "FK_Variable": 19,
+          "Nombre": "Tarragona",
+          "Codigo": "43148",
+          "FK_JerarquiaPadres": [
+            43,
+            292625,
+            392296
+          ]
+        },
+        {
+          "Id": 492,
+          "FK_Variable": 19,
+          "Nombre": "Teruel",
+          "Codigo": "44216",
+          "FK_JerarquiaPadres": [
+            44,
+            392138
+          ]
+        },
+        {
+          "Id": 493,
+          "FK_Variable": 19,
+          "Nombre": "València",
+          "Codigo": "46250",
+          "FK_JerarquiaPadres": [
+            46,
+            292311,
+            392318
+          ]
+        },
+        {
+          "Id": 494,
+          "FK_Variable": 19,
+          "Nombre": "Zaragoza",
+          "Codigo": "50297",
+          "FK_JerarquiaPadres": [
+            50,
+            292387,
+            392146
+          ]
+        },
+        {
+          "Id": 495,
+          "FK_Variable": 19,
+          "Nombre": "Valladolid",
+          "Codigo": "47186",
+          "FK_JerarquiaPadres": [
+            47,
+            292477,
+            392226
+          ]
+        },
+        {
+          "Id": 499,
+          "FK_Variable": 19,
+          "Nombre": "Lesaka",
+          "Codigo": "31153",
+          "FK_JerarquiaPadres": [
+            32,
+            392382
+          ]
+        },
+        {
+          "Id": 503,
+          "FK_Variable": 19,
+          "Nombre": "Lodosa",
+          "Codigo": "31157",
+          "FK_JerarquiaPadres": [
+            32,
+            392383
+          ]
+        },
+        {
+          "Id": 509,
+          "FK_Variable": 19,
+          "Nombre": "Marcilla",
+          "Codigo": "31163",
+          "FK_JerarquiaPadres": [
+            32,
+            392383
+          ]
+        },
+        {
+          "Id": 511,
+          "FK_Variable": 19,
+          "Nombre": "Mendavia",
+          "Codigo": "31165",
+          "FK_JerarquiaPadres": [
+            32,
+            392383
+          ]
+        },
+        {
+          "Id": 514,
+          "FK_Variable": 19,
+          "Nombre": "Milagro",
+          "Codigo": "31169",
+          "FK_JerarquiaPadres": [
+            32,
+            392383
+          ]
+        },
+        {
+          "Id": 518,
+          "FK_Variable": 19,
+          "Nombre": "Ateca",
+          "Codigo": "50038",
+          "FK_JerarquiaPadres": [
+            50,
+            392147
+          ]
+        },
+        {
+          "Id": 541,
+          "FK_Variable": 19,
+          "Nombre": "Utebo",
+          "Codigo": "50272",
+          "FK_JerarquiaPadres": [
+            50,
+            392146
+          ]
+        },
+        {
+          "Id": 550,
+          "FK_Variable": 19,
+          "Nombre": "Villanueva de Gállego",
+          "Codigo": "50288",
+          "FK_JerarquiaPadres": [
+            50,
+            392146
+          ]
+        },
+        {
+          "Id": 554,
+          "FK_Variable": 19,
+          "Nombre": "Zuera",
+          "Codigo": "50298",
+          "FK_JerarquiaPadres": [
+            50,
+            392146
+          ]
+        },
+        {
+          "Id": 559,
+          "FK_Variable": 19,
+          "Nombre": "Albacete",
+          "Codigo": "02003",
+          "FK_JerarquiaPadres": [
+            3,
+            292620,
+            392237
+          ]
+        },
+        {
+          "Id": 560,
+          "FK_Variable": 19,
+          "Nombre": "Almería",
+          "Codigo": "04013",
+          "FK_JerarquiaPadres": [
+            5,
+            292617,
+            392079
+          ]
+        },
+        {
+          "Id": 561,
+          "FK_Variable": 19,
+          "Nombre": "Ávila",
+          "Codigo": "05019",
+          "FK_JerarquiaPadres": [
+            6,
+            392180
+          ]
+        },
+        {
+          "Id": 562,
+          "FK_Variable": 19,
+          "Nombre": "Badajoz",
+          "Codigo": "06015",
+          "FK_JerarquiaPadres": [
+            7,
+            292518,
+            392332
+          ]
+        },
+        {
+          "Id": 563,
+          "FK_Variable": 19,
+          "Nombre": "Barcelona",
+          "Codigo": "08019",
+          "FK_JerarquiaPadres": [
+            9,
+            292244,
+            392268
+          ]
+        },
+        {
+          "Id": 564,
+          "FK_Variable": 19,
+          "Nombre": "Burgos",
+          "Codigo": "09059",
+          "FK_JerarquiaPadres": [
+            10,
+            292618,
+            392185
+          ]
+        },
+        {
+          "Id": 565,
+          "FK_Variable": 19,
+          "Nombre": "Ciudad Real",
+          "Codigo": "13034",
+          "FK_JerarquiaPadres": [
+            14,
+            392248
+          ]
+        },
+        {
+          "Id": 566,
+          "FK_Variable": 19,
+          "Nombre": "Cuenca",
+          "Codigo": "16078",
+          "FK_JerarquiaPadres": [
+            17,
+            392249
+          ]
+        },
+        {
+          "Id": 567,
+          "FK_Variable": 19,
+          "Nombre": "Girona",
+          "Codigo": "17079",
+          "FK_JerarquiaPadres": [
+            18,
+            392279
+          ]
+        },
+        {
+          "Id": 568,
+          "FK_Variable": 19,
+          "Nombre": "Granada",
+          "Codigo": "18087",
+          "FK_JerarquiaPadres": [
+            19,
+            292612,
+            392095
+          ]
+        },
+        {
+          "Id": 569,
+          "FK_Variable": 19,
+          "Nombre": "León",
+          "Codigo": "24089",
+          "FK_JerarquiaPadres": [
+            25,
+            292624,
+            392194
+          ]
+        },
+        {
+          "Id": 570,
+          "FK_Variable": 19,
+          "Nombre": "Lugo",
+          "Codigo": "27028",
+          "FK_JerarquiaPadres": [
+            28,
+            392355
+          ]
+        },
+        {
+          "Id": 571,
+          "FK_Variable": 19,
+          "Nombre": "Vitoria-Gasteiz",
+          "Codigo": "01059",
+          "FK_JerarquiaPadres": [
+            2,
+            292513,
+            392384
+          ]
+        },
+        {
+          "Id": 572,
+          "FK_Variable": 19,
+          "Nombre": "Donostia/San Sebastián",
+          "Codigo": "20069",
+          "FK_JerarquiaPadres": [
+            21,
+            292616,
+            392390
+          ]
+        },
+        {
+          "Id": 579,
+          "FK_Variable": 19,
+          "Nombre": "Morales del Vino",
+          "Codigo": "49127",
+          "FK_JerarquiaPadres": [
+            49,
+            392234
+          ]
+        },
+        {
+          "Id": 638,
+          "FK_Variable": 19,
+          "Nombre": "Zamora",
+          "Codigo": "49275",
+          "FK_JerarquiaPadres": [
+            49,
+            392230
+          ]
+        },
+        {
+          "Id": 664,
+          "FK_Variable": 19,
+          "Nombre": "Larraga",
+          "Codigo": "31142",
+          "FK_JerarquiaPadres": [
+            32,
+            392381
+          ]
+        },
+        {
+          "Id": 671,
+          "FK_Variable": 19,
+          "Nombre": "Leitza",
+          "Codigo": "31149",
+          "FK_JerarquiaPadres": [
+            32,
+            392382
+          ]
+        },
+        {
+          "Id": 690,
+          "FK_Variable": 19,
+          "Nombre": "Villanubla",
+          "Codigo": "47217",
+          "FK_JerarquiaPadres": [
+            47,
+            392226
+          ]
+        },
+        {
+          "Id": 692,
+          "FK_Variable": 19,
+          "Nombre": "Villanueva de los Infantes",
+          "Codigo": "13093",
+          "FK_JerarquiaPadres": [
+            14,
+            392245
+          ]
+        },
+        {
+          "Id": 697,
+          "FK_Variable": 19,
+          "Nombre": "Zarza, La",
+          "Codigo": "06162",
+          "FK_JerarquiaPadres": [
+            7,
+            392331
+          ]
+        },
+        {
+          "Id": 698,
+          "FK_Variable": 19,
+          "Nombre": "Abanto y Ciérvana-Abanto Zierbena",
+          "Codigo": "48002",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 701,
+          "FK_Variable": 19,
+          "Nombre": "Bakio",
+          "Codigo": "48012",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 703,
+          "FK_Variable": 19,
+          "Nombre": "Berango",
+          "Codigo": "48016",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 706,
+          "FK_Variable": 19,
+          "Nombre": "Karrantza Harana/Valle de Carranza",
+          "Codigo": "48022",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 707,
+          "FK_Variable": 19,
+          "Nombre": "Etxebarri",
+          "Codigo": "48029",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 710,
+          "FK_Variable": 19,
+          "Nombre": "Güeñes",
+          "Codigo": "48045",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 711,
+          "FK_Variable": 19,
+          "Nombre": "Gernika-Lumo",
+          "Codigo": "48046",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 717,
+          "FK_Variable": 19,
+          "Nombre": "Markina-Xemein",
+          "Codigo": "48060",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 719,
+          "FK_Variable": 19,
+          "Nombre": "Ugao-Miraballes",
+          "Codigo": "48065",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 722,
+          "FK_Variable": 19,
+          "Nombre": "Ondarroa",
+          "Codigo": "48073",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 723,
+          "FK_Variable": 19,
+          "Nombre": "Urduña/Orduña",
+          "Codigo": "48074",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 724,
+          "FK_Variable": 19,
+          "Nombre": "Plentzia",
+          "Codigo": "48077",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 726,
+          "FK_Variable": 19,
+          "Nombre": "Valle de Trápaga-Trapagaran",
+          "Codigo": "48080",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 727,
+          "FK_Variable": 19,
+          "Nombre": "Sopuerta",
+          "Codigo": "48086",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 730,
+          "FK_Variable": 19,
+          "Nombre": "Igorre",
+          "Codigo": "48094",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 731,
+          "FK_Variable": 19,
+          "Nombre": "Zalla",
+          "Codigo": "48096",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 732,
+          "FK_Variable": 19,
+          "Nombre": "Derio",
+          "Codigo": "48901",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 733,
+          "FK_Variable": 19,
+          "Nombre": "Loiu",
+          "Codigo": "48903",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 734,
+          "FK_Variable": 19,
+          "Nombre": "Sondika",
+          "Codigo": "48904",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 737,
+          "FK_Variable": 19,
+          "Nombre": "Alonsotegi",
+          "Codigo": "48912",
+          "FK_JerarquiaPadres": [
+            48,
+            392391
+          ]
+        },
+        {
+          "Id": 766,
+          "FK_Variable": 19,
+          "Nombre": "Cheste",
+          "Codigo": "46109",
+          "FK_JerarquiaPadres": [
+            46,
+            392321
+          ]
+        },
+        {
+          "Id": 767,
+          "FK_Variable": 19,
+          "Nombre": "Chiva",
+          "Codigo": "46111",
+          "FK_JerarquiaPadres": [
+            46,
+            392321
+          ]
+        },
+        {
+          "Id": 768,
+          "FK_Variable": 19,
+          "Nombre": "Daimús",
+          "Codigo": "46113",
+          "FK_JerarquiaPadres": [
+            46,
+            392316
+          ]
+        },
+        {
+          "Id": 772,
+          "FK_Variable": 19,
+          "Nombre": "Faura",
+          "Codigo": "46122",
+          "FK_JerarquiaPadres": [
+            46,
+            392320
+          ]
+        },
+        {
+          "Id": 774,
+          "FK_Variable": 19,
+          "Nombre": "Picassent",
+          "Codigo": "46194",
+          "FK_JerarquiaPadres": [
+            46,
+            392318
+          ]
+        },
+        {
+          "Id": 775,
+          "FK_Variable": 19,
+          "Nombre": "Polinyà de Xúquer",
+          "Codigo": "46197",
+          "FK_JerarquiaPadres": [
+            46,
+            392319
+          ]
+        },
+        {
+          "Id": 776,
+          "FK_Variable": 19,
+          "Nombre": "Pobla de Farnals, la",
+          "Codigo": "46199",
+          "FK_JerarquiaPadres": [
+            46,
+            392320
+          ]
+        },
+        {
+          "Id": 778,
+          "FK_Variable": 19,
+          "Nombre": "Puig de Santa Maria, el",
+          "Codigo": "46204",
+          "FK_JerarquiaPadres": [
+            46,
+            392320
+          ]
+        },
+        {
+          "Id": 780,
+          "FK_Variable": 19,
+          "Nombre": "Rafelbunyol",
+          "Codigo": "46207",
+          "FK_JerarquiaPadres": [
+            46,
+            392320
+          ]
+        },
+        {
+          "Id": 782,
+          "FK_Variable": 19,
+          "Nombre": "Real",
+          "Codigo": "46212",
+          "FK_JerarquiaPadres": [
+            46,
+            392321
+          ]
+        },
+        {
+          "Id": 785,
+          "FK_Variable": 19,
+          "Nombre": "Sagunt/Sagunto",
+          "Codigo": "46220",
+          "FK_JerarquiaPadres": [
+            46,
+            392320
+          ]
+        },
+        {
+          "Id": 789,
+          "FK_Variable": 19,
+          "Nombre": "Simat de la Valldigna",
+          "Codigo": "46231",
+          "FK_JerarquiaPadres": [
+            46,
+            392316
+          ]
+        },
+        {
+          "Id": 791,
+          "FK_Variable": 19,
+          "Nombre": "Tavernes Blanques",
+          "Codigo": "46237",
+          "FK_JerarquiaPadres": [
+            46,
+            392318
+          ]
+        },
+        {
+          "Id": 795,
+          "FK_Variable": 19,
+          "Nombre": "Utiel",
+          "Codigo": "46249",
+          "FK_JerarquiaPadres": [
+            46,
+            392327
+          ]
+        },
+        {
+          "Id": 796,
+          "FK_Variable": 19,
+          "Nombre": "Vallada",
+          "Codigo": "46251",
+          "FK_JerarquiaPadres": [
+            46,
+            392323
+          ]
+        },
+        {
+          "Id": 799,
+          "FK_Variable": 19,
+          "Nombre": "Castelló",
+          "Codigo": "46257",
+          "FK_JerarquiaPadres": [
+            46,
+            392319
+          ]
+        },
+        {
+          "Id": 803,
+          "FK_Variable": 19,
+          "Nombre": "Aldeamayor de San Martín",
+          "Codigo": "47007",
+          "FK_JerarquiaPadres": [
+            47,
+            392227
+          ]
+        },
+        {
+          "Id": 804,
+          "FK_Variable": 19,
+          "Nombre": "Arroyo de la Encomienda",
+          "Codigo": "47010",
+          "FK_JerarquiaPadres": [
+            47,
+            392226
+          ]
+        },
+        {
+          "Id": 821,
+          "FK_Variable": 19,
+          "Nombre": "Cigales",
+          "Codigo": "47050",
+          "FK_JerarquiaPadres": [
+            47,
+            392226
+          ]
+        },
+        {
+          "Id": 822,
+          "FK_Variable": 19,
+          "Nombre": "Cistérniga",
+          "Codigo": "47052",
+          "FK_JerarquiaPadres": [
+            47,
+            392226
+          ]
+        },
+        {
+          "Id": 833,
+          "FK_Variable": 19,
+          "Nombre": "Laguna de Duero",
+          "Codigo": "47076",
+          "FK_JerarquiaPadres": [
+            47,
+            392226
+          ]
+        },
+        {
+          "Id": 837,
+          "FK_Variable": 19,
+          "Nombre": "Medina de Rioseco",
+          "Codigo": "47086",
+          "FK_JerarquiaPadres": [
+            47,
+            392228
+          ]
+        },
+        {
+          "Id": 850,
+          "FK_Variable": 19,
+          "Nombre": "Portillo",
+          "Codigo": "47122",
+          "FK_JerarquiaPadres": [
+            47,
+            392227
+          ]
+        },
+        {
+          "Id": 854,
+          "FK_Variable": 19,
+          "Nombre": "Huarte/Uharte",
+          "Codigo": "31122",
+          "FK_JerarquiaPadres": [
+            32,
+            392380
+          ]
+        },
+        {
+          "Id": 857,
+          "FK_Variable": 19,
+          "Nombre": "Burguillos de Toledo",
+          "Codigo": "45023",
+          "FK_JerarquiaPadres": [
+            45,
+            392262
+          ]
+        },
+        {
+          "Id": 859,
+          "FK_Variable": 19,
+          "Nombre": "Calera y Chozas",
+          "Codigo": "45028",
+          "FK_JerarquiaPadres": [
+            45,
+            392264
+          ]
+        },
+        {
+          "Id": 862,
+          "FK_Variable": 19,
+          "Nombre": "Carpio de Tajo, El",
+          "Codigo": "45037",
+          "FK_JerarquiaPadres": [
+            45,
+            392263
+          ]
+        },
+        {
+          "Id": 863,
+          "FK_Variable": 19,
+          "Nombre": "Casar de Escalona, El",
+          "Codigo": "45040",
+          "FK_JerarquiaPadres": [
+            45,
+            392263
+          ]
+        },
+        {
+          "Id": 866,
+          "FK_Variable": 19,
+          "Nombre": "Cedillo del Condado",
+          "Codigo": "45047",
+          "FK_JerarquiaPadres": [
+            45,
+            392262
+          ]
+        },
+        {
+          "Id": 868,
+          "FK_Variable": 19,
+          "Nombre": "Consuegra",
+          "Codigo": "45053",
+          "FK_JerarquiaPadres": [
+            45,
+            392266
+          ]
+        },
+        {
+          "Id": 870,
+          "FK_Variable": 19,
+          "Nombre": "Chozas de Canales",
+          "Codigo": "45056",
+          "FK_JerarquiaPadres": [
+            45,
+            392262
+          ]
+        },
+        {
+          "Id": 871,
+          "FK_Variable": 19,
+          "Nombre": "Dosbarrios",
+          "Codigo": "45059",
+          "FK_JerarquiaPadres": [
+            45,
+            392266
+          ]
+        },
+        {
+          "Id": 874,
+          "FK_Variable": 19,
+          "Nombre": "Polán",
+          "Codigo": "45133",
+          "FK_JerarquiaPadres": [
+            45,
+            392262
+          ]
+        },
+        {
+          "Id": 875,
+          "FK_Variable": 19,
+          "Nombre": "Portillo de Toledo",
+          "Codigo": "45134",
+          "FK_JerarquiaPadres": [
+            45,
+            392263
+          ]
+        },
+        {
+          "Id": 876,
+          "FK_Variable": 19,
+          "Nombre": "Puebla de Montalbán, La",
+          "Codigo": "45136",
+          "FK_JerarquiaPadres": [
+            45,
+            392263
+          ]
+        },
+        {
+          "Id": 878,
+          "FK_Variable": 19,
+          "Nombre": "Quintanar de la Orden",
+          "Codigo": "45142",
+          "FK_JerarquiaPadres": [
+            45,
+            392266
+          ]
+        },
+        {
+          "Id": 882,
+          "FK_Variable": 19,
+          "Nombre": "San Pablo de los Montes",
+          "Codigo": "45153",
+          "FK_JerarquiaPadres": [
+            45,
+            392267
+          ]
+        },
+        {
+          "Id": 884,
+          "FK_Variable": 19,
+          "Nombre": "Santa Cruz del Retamar",
+          "Codigo": "45157",
+          "FK_JerarquiaPadres": [
+            45,
+            392263
+          ]
+        },
+        {
+          "Id": 887,
+          "FK_Variable": 19,
+          "Nombre": "Talavera de la Reina",
+          "Codigo": "45165",
+          "FK_JerarquiaPadres": [
+            45,
+            392264
+          ]
+        },
+        {
+          "Id": 888,
+          "FK_Variable": 19,
+          "Nombre": "Toledo",
+          "Codigo": "45168",
+          "FK_JerarquiaPadres": [
+            45,
+            292517,
+            392262
+          ]
+        },
+        {
+          "Id": 891,
+          "FK_Variable": 19,
+          "Nombre": "Urda",
+          "Codigo": "45177",
+          "FK_JerarquiaPadres": [
+            45,
+            392266
+          ]
+        },
+        {
+          "Id": 895,
+          "FK_Variable": 19,
+          "Nombre": "Villafranca de los Caballeros",
+          "Codigo": "45187",
+          "FK_JerarquiaPadres": [
+            45,
+            392266
+          ]
+        },
+        {
+          "Id": 897,
+          "FK_Variable": 19,
+          "Nombre": "Villanueva de Alcardete",
+          "Codigo": "45192",
+          "FK_JerarquiaPadres": [
+            45,
+            392266
+          ]
+        },
+        {
+          "Id": 900,
+          "FK_Variable": 19,
+          "Nombre": "Viso de San Juan, El",
+          "Codigo": "45199",
+          "FK_JerarquiaPadres": [
+            45,
+            392262
+          ]
+        },
+        {
+          "Id": 903,
+          "FK_Variable": 19,
+          "Nombre": "Agullent",
+          "Codigo": "46004",
+          "FK_JerarquiaPadres": [
+            46,
+            392317
+          ]
+        },
+        {
+          "Id": 904,
+          "FK_Variable": 19,
+          "Nombre": "Albaida",
+          "Codigo": "46006",
+          "FK_JerarquiaPadres": [
+            46,
+            392317
+          ]
+        },
+        {
+          "Id": 905,
+          "FK_Variable": 19,
+          "Nombre": "Albalat de la Ribera",
+          "Codigo": "46008",
+          "FK_JerarquiaPadres": [
+            46,
+            392319
+          ]
+        },
+        {
+          "Id": 907,
+          "FK_Variable": 19,
+          "Nombre": "Albuixech",
+          "Codigo": "46014",
+          "FK_JerarquiaPadres": [
+            46,
+            392318
+          ]
+        },
+        {
+          "Id": 909,
+          "FK_Variable": 19,
+          "Nombre": "Alcúdia de Crespins, l'",
+          "Codigo": "46020",
+          "FK_JerarquiaPadres": [
+            46,
+            392323
+          ]
+        },
+        {
+          "Id": 914,
+          "FK_Variable": 19,
+          "Nombre": "Almoines",
+          "Codigo": "46034",
+          "FK_JerarquiaPadres": [
+            46,
+            392316
+          ]
+        },
+        {
+          "Id": 920,
+          "FK_Variable": 19,
+          "Nombre": "Benaguasil",
+          "Codigo": "46051",
+          "FK_JerarquiaPadres": [
+            46,
+            392326
+          ]
+        },
+        {
+          "Id": 924,
+          "FK_Variable": 19,
+          "Nombre": "Benifairó de les Valls",
+          "Codigo": "46058",
+          "FK_JerarquiaPadres": [
+            46,
+            392320
+          ]
+        },
+        {
+          "Id": 926,
+          "FK_Variable": 19,
+          "Nombre": "Benimodo",
+          "Codigo": "46063",
+          "FK_JerarquiaPadres": [
+            46,
+            392319
+          ]
+        },
+        {
+          "Id": 929,
+          "FK_Variable": 19,
+          "Nombre": "Bétera",
+          "Codigo": "46070",
+          "FK_JerarquiaPadres": [
+            46,
+            392326
+          ]
+        },
+        {
+          "Id": 930,
+          "FK_Variable": 19,
+          "Nombre": "Bocairent",
+          "Codigo": "46072",
+          "FK_JerarquiaPadres": [
+            46,
+            392317
+          ]
+        },
+        {
+          "Id": 931,
+          "FK_Variable": 19,
+          "Nombre": "Bonrepòs i Mirambell",
+          "Codigo": "46074",
+          "FK_JerarquiaPadres": [
+            46,
+            392318
+          ]
+        },
+        {
+          "Id": 932,
+          "FK_Variable": 19,
+          "Nombre": "Burjassot",
+          "Codigo": "46078",
+          "FK_JerarquiaPadres": [
+            46,
+            392318
+          ]
+        },
+        {
+          "Id": 934,
+          "FK_Variable": 19,
+          "Nombre": "Canet d'En Berenguer",
+          "Codigo": "46082",
+          "FK_JerarquiaPadres": [
+            46,
+            392320
+          ]
+        },
+        {
+          "Id": 936,
+          "FK_Variable": 19,
+          "Nombre": "Casinos",
+          "Codigo": "46089",
+          "FK_JerarquiaPadres": [
+            46,
+            392326
+          ]
+        },
+        {
+          "Id": 937,
+          "FK_Variable": 19,
+          "Nombre": "Castelló de Rugat",
+          "Codigo": "46090",
+          "FK_JerarquiaPadres": [
+            46,
+            392317
+          ]
+        },
+        {
+          "Id": 942,
+          "FK_Variable": 19,
+          "Nombre": "Cullera",
+          "Codigo": "46105",
+          "FK_JerarquiaPadres": [
+            46,
+            392319
+          ]
+        },
+        {
+          "Id": 943,
+          "FK_Variable": 19,
+          "Nombre": "Chella",
+          "Codigo": "46107",
+          "FK_JerarquiaPadres": [
+            46,
+            392324
+          ]
+        },
+        {
+          "Id": 945,
+          "FK_Variable": 19,
+          "Nombre": "Torredembarra",
+          "Codigo": "43153",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 946,
+          "FK_Variable": 19,
+          "Nombre": "Tortosa",
+          "Codigo": "43155",
+          "FK_JerarquiaPadres": [
+            43,
+            392297
+          ]
+        },
+        {
+          "Id": 949,
+          "FK_Variable": 19,
+          "Nombre": "Vandellòs i l'Hospitalet de l'Infant",
+          "Codigo": "43162",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 950,
+          "FK_Variable": 19,
+          "Nombre": "Vilallonga del Camp",
+          "Codigo": "43166",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 956,
+          "FK_Variable": 19,
+          "Nombre": "Camarles",
+          "Codigo": "43903",
+          "FK_JerarquiaPadres": [
+            43,
+            392297
+          ]
+        },
+        {
+          "Id": 957,
+          "FK_Variable": 19,
+          "Nombre": "Ampolla, L'",
+          "Codigo": "43906",
+          "FK_JerarquiaPadres": [
+            43,
+            392297
+          ]
+        },
+        {
+          "Id": 960,
+          "FK_Variable": 19,
+          "Nombre": "Albalate del Arzobispo",
+          "Codigo": "44008",
+          "FK_JerarquiaPadres": [
+            44,
+            392140
+          ]
+        },
+        {
+          "Id": 1013,
+          "FK_Variable": 19,
+          "Nombre": "Utrillas",
+          "Codigo": "44238",
+          "FK_JerarquiaPadres": [
+            44,
+            392142
+          ]
+        },
+        {
+          "Id": 1025,
+          "FK_Variable": 19,
+          "Nombre": "Alcaudete de la Jara",
+          "Codigo": "45006",
+          "FK_JerarquiaPadres": [
+            45,
+            392265
+          ]
+        },
+        {
+          "Id": 1070,
+          "FK_Variable": 19,
+          "Nombre": "Ametlla de Mar, L'",
+          "Codigo": "43013",
+          "FK_JerarquiaPadres": [
+            43,
+            392297
+          ]
+        },
+        {
+          "Id": 1072,
+          "FK_Variable": 19,
+          "Nombre": "Banyeres del Penedès",
+          "Codigo": "43020",
+          "FK_JerarquiaPadres": [
+            43,
+            392295
+          ]
+        },
+        {
+          "Id": 1077,
+          "FK_Variable": 19,
+          "Nombre": "Borges del Camp, Les",
+          "Codigo": "43031",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1080,
+          "FK_Variable": 19,
+          "Nombre": "Castellvell del Camp",
+          "Codigo": "43042",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1082,
+          "FK_Variable": 19,
+          "Nombre": "Constantí",
+          "Codigo": "43047",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1085,
+          "FK_Variable": 19,
+          "Nombre": "Espluga de Francolí, L'",
+          "Codigo": "43054",
+          "FK_JerarquiaPadres": [
+            43,
+            392301
+          ]
+        },
+        {
+          "Id": 1093,
+          "FK_Variable": 19,
+          "Nombre": "Llorenç del Penedès",
+          "Codigo": "43074",
+          "FK_JerarquiaPadres": [
+            43,
+            392295
+          ]
+        },
+        {
+          "Id": 1097,
+          "FK_Variable": 19,
+          "Nombre": "Molar, El",
+          "Codigo": "28086",
+          "FK_JerarquiaPadres": [
+            29,
+            392365
+          ]
+        },
+        {
+          "Id": 1098,
+          "FK_Variable": 19,
+          "Nombre": "Montbrió del Camp",
+          "Codigo": "43088",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1100,
+          "FK_Variable": 19,
+          "Nombre": "Mont-roig del Camp",
+          "Codigo": "43092",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1104,
+          "FK_Variable": 19,
+          "Nombre": "Perelló, El",
+          "Codigo": "43104",
+          "FK_JerarquiaPadres": [
+            43,
+            392297
+          ]
+        },
+        {
+          "Id": 1106,
+          "FK_Variable": 19,
+          "Nombre": "Pla de Santa Maria, El",
+          "Codigo": "43108",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1107,
+          "FK_Variable": 19,
+          "Nombre": "Pobla de Montornès, La",
+          "Codigo": "43111",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1114,
+          "FK_Variable": 19,
+          "Nombre": "Riudoms",
+          "Codigo": "43129",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1117,
+          "FK_Variable": 19,
+          "Nombre": "Ràpita, La",
+          "Codigo": "43136",
+          "FK_JerarquiaPadres": [
+            43,
+            392297
+          ]
+        },
+        {
+          "Id": 1118,
+          "FK_Variable": 19,
+          "Nombre": "Santa Bàrbara",
+          "Codigo": "43138",
+          "FK_JerarquiaPadres": [
+            43,
+            392297
+          ]
+        },
+        {
+          "Id": 1119,
+          "FK_Variable": 19,
+          "Nombre": "Santa Oliva",
+          "Codigo": "43140",
+          "FK_JerarquiaPadres": [
+            43,
+            392295
+          ]
+        },
+        {
+          "Id": 1121,
+          "FK_Variable": 19,
+          "Nombre": "Selva del Camp, La",
+          "Codigo": "43145",
+          "FK_JerarquiaPadres": [
+            43,
+            392296
+          ]
+        },
+        {
+          "Id": 1133,
+          "FK_Variable": 19,
+          "Nombre": "Real Sitio de San Ildefonso",
+          "Codigo": "40181",
+          "FK_JerarquiaPadres": [
+            40,
+            392217
+          ]
+        },
+        {
+          "Id": 1143,
+          "FK_Variable": 19,
+          "Nombre": "Cabezas de San Juan, Las",
+          "Codigo": "41020",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1144,
+          "FK_Variable": 19,
+          "Nombre": "Carmona",
+          "Codigo": "41024",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1145,
+          "FK_Variable": 19,
+          "Nombre": "Carrión de los Céspedes",
+          "Codigo": "41025",
+          "FK_JerarquiaPadres": [
+            41,
+            392124
+          ]
+        },
+        {
+          "Id": 1146,
+          "FK_Variable": 19,
+          "Nombre": "Castilleja de Guzmán",
+          "Codigo": "41028",
+          "FK_JerarquiaPadres": [
+            41,
+            392124
+          ]
+        },
+        {
+          "Id": 1149,
+          "FK_Variable": 19,
+          "Nombre": "Coronil, El",
+          "Codigo": "41036",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1150,
+          "FK_Variable": 19,
+          "Nombre": "Dos Hermanas",
+          "Codigo": "41038",
+          "FK_JerarquiaPadres": [
+            41,
+            392126
+          ]
+        },
+        {
+          "Id": 1151,
+          "FK_Variable": 19,
+          "Nombre": "Estepa",
+          "Codigo": "41041",
+          "FK_JerarquiaPadres": [
+            41,
+            392122
+          ]
+        },
+        {
+          "Id": 1152,
+          "FK_Variable": 19,
+          "Nombre": "Fuentes de Andalucía",
+          "Codigo": "41042",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1153,
+          "FK_Variable": 19,
+          "Nombre": "Gilena",
+          "Codigo": "41046",
+          "FK_JerarquiaPadres": [
+            41,
+            392122
+          ]
+        },
+        {
+          "Id": 1154,
+          "FK_Variable": 19,
+          "Nombre": "Guadalcanal",
+          "Codigo": "41048",
+          "FK_JerarquiaPadres": [
+            41,
+            392123
+          ]
+        },
+        {
+          "Id": 1155,
+          "FK_Variable": 19,
+          "Nombre": "Huévar del Aljarafe",
+          "Codigo": "41051",
+          "FK_JerarquiaPadres": [
+            41,
+            392124
+          ]
+        },
+        {
+          "Id": 1157,
+          "FK_Variable": 19,
+          "Nombre": "Luisiana, La",
+          "Codigo": "41056",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1158,
+          "FK_Variable": 19,
+          "Nombre": "Mairena del Alcor",
+          "Codigo": "41058",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1159,
+          "FK_Variable": 19,
+          "Nombre": "Marchena",
+          "Codigo": "41060",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1160,
+          "FK_Variable": 19,
+          "Nombre": "Martín de la Jara",
+          "Codigo": "41062",
+          "FK_JerarquiaPadres": [
+            41,
+            392127
+          ]
+        },
+        {
+          "Id": 1161,
+          "FK_Variable": 19,
+          "Nombre": "Morón de la Frontera",
+          "Codigo": "41065",
+          "FK_JerarquiaPadres": [
+            41,
+            392127
+          ]
+        },
+        {
+          "Id": 1163,
+          "FK_Variable": 19,
+          "Nombre": "Palomares del Río",
+          "Codigo": "41070",
+          "FK_JerarquiaPadres": [
+            41,
+            392126
+          ]
+        },
+        {
+          "Id": 1164,
+          "FK_Variable": 19,
+          "Nombre": "Pedroso, El",
+          "Codigo": "41073",
+          "FK_JerarquiaPadres": [
+            41,
+            392123
+          ]
+        },
+        {
+          "Id": 1165,
+          "FK_Variable": 19,
+          "Nombre": "Puebla de Cazalla, La",
+          "Codigo": "41077",
+          "FK_JerarquiaPadres": [
+            41,
+            392127
+          ]
+        },
+        {
+          "Id": 1166,
+          "FK_Variable": 19,
+          "Nombre": "Puebla del Río, La",
+          "Codigo": "41079",
+          "FK_JerarquiaPadres": [
+            41,
+            392128
+          ]
+        },
+        {
+          "Id": 1167,
+          "FK_Variable": 19,
+          "Nombre": "Rinconada, La",
+          "Codigo": "41081",
+          "FK_JerarquiaPadres": [
+            41,
+            392126
+          ]
+        },
+        {
+          "Id": 1168,
+          "FK_Variable": 19,
+          "Nombre": "Roda de Andalucía, La",
+          "Codigo": "41082",
+          "FK_JerarquiaPadres": [
+            41,
+            392122
+          ]
+        },
+        {
+          "Id": 1169,
+          "FK_Variable": 19,
+          "Nombre": "San Juan de Aznalfarache",
+          "Codigo": "41086",
+          "FK_JerarquiaPadres": [
+            41,
+            392126
+          ]
+        },
+        {
+          "Id": 1171,
+          "FK_Variable": 19,
+          "Nombre": "Tomares",
+          "Codigo": "41093",
+          "FK_JerarquiaPadres": [
+            41,
+            392124
+          ]
+        },
+        {
+          "Id": 1172,
+          "FK_Variable": 19,
+          "Nombre": "Utrera",
+          "Codigo": "41095",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1173,
+          "FK_Variable": 19,
+          "Nombre": "Valencina de la Concepción",
+          "Codigo": "41096",
+          "FK_JerarquiaPadres": [
+            41,
+            392124
+          ]
+        },
+        {
+          "Id": 1174,
+          "FK_Variable": 19,
+          "Nombre": "Villanueva del Ariscal",
+          "Codigo": "41098",
+          "FK_JerarquiaPadres": [
+            41,
+            392124
+          ]
+        },
+        {
+          "Id": 1176,
+          "FK_Variable": 19,
+          "Nombre": "Viso del Alcor, El",
+          "Codigo": "41102",
+          "FK_JerarquiaPadres": [
+            41,
+            392125
+          ]
+        },
+        {
+          "Id": 1177,
+          "FK_Variable": 19,
+          "Nombre": "Isla Mayor",
+          "Codigo": "41902",
+          "FK_JerarquiaPadres": [
+            41,
+            392128
+          ]
+        },
+        {
+          "Id": 1194,
+          "FK_Variable": 19,
+          "Nombre": "Burgo de Osma-Ciudad de Osma",
+          "Codigo": "42043",
+          "FK_JerarquiaPadres": [
+            42,
+            392222
+          ]
+        },
+        {
+          "Id": 1209,
+          "FK_Variable": 19,
+          "Nombre": "Estella-Lizarra",
+          "Codigo": "31097",
+          "FK_JerarquiaPadres": [
+            32,
+            392377
+          ]
+        },
+        {
+          "Id": 1210,
+          "FK_Variable": 19,
+          "Nombre": "Esteribar",
+          "Codigo": "31098",
+          "FK_JerarquiaPadres": [
+            32,
+            392378
+          ]
+        },
+        {
+          "Id": 1216,
+          "FK_Variable": 19,
+          "Nombre": "Falces",
+          "Codigo": "31104",
+          "FK_JerarquiaPadres": [
+            32,
+            392383
+          ]
+        },
+        {
+          "Id": 1217,
+          "FK_Variable": 19,
+          "Nombre": "Fitero",
+          "Codigo": "31105",
+          "FK_JerarquiaPadres": [
+            32,
+            392379
+          ]
+        },
+        {
+          "Id": 1219,
+          "FK_Variable": 19,
+          "Nombre": "Funes",
+          "Codigo": "31107",
+          "FK_JerarquiaPadres": [
+            32,
+            392383
+          ]
+        },
+        {
+          "Id": 1220,
+          "FK_Variable": 19,
+          "Nombre": "Fustiñana",
+          "Codigo": "31108",
+          "FK_JerarquiaPadres": [
+            32,
+            392379
+          ]
+        },
+        {
+          "Id": 1228,
+          "FK_Variable": 19,
+          "Nombre": "Victoria de Acentejo, La",
+          "Codigo": "38051",
+          "FK_JerarquiaPadres": [
+            38,
+            8619,
+            392169
+          ]
+        },
+        {
+          "Id": 1229,
+          "FK_Variable": 19,
+          "Nombre": "Ampuero",
+          "Codigo": "39002",
+          "FK_JerarquiaPadres": [
+            39,
+            392171
+          ]
+        },
+        {
+          "Id": 1232,
+          "FK_Variable": 19,
+          "Nombre": "Bárcena de Cicero",
+          "Codigo": "39009",
+          "FK_JerarquiaPadres": [
+            39,
+            392171
+          ]
+        },
+        {
+          "Id": 1235,
+          "FK_Variable": 19,
+          "Nombre": "Camargo",
+          "Codigo": "39016",
+          "FK_JerarquiaPadres": [
+            39,
+            392171
+          ]
+        },
+        {
+          "Id": 1236,
+          "FK_Variable": 19,
+          "Nombre": "Cartes",
+          "Codigo": "39018",
+          "FK_JerarquiaPadres": [
+            39,
+            392171
+          ]
+        },
+        {
+          "Id": 1237,
+          "FK_Variable": 19,
+          "Nombre": "Castro-Urdiales",
+          "Codigo": "39020",
+          "FK_JerarquiaPadres": [
+            39,
+            392171
+          ]
+        },
+        {
+          "Id": 1242,
+          "FK_Variable": 19,
+          "Nombre": "Valdáliga",
+          "Codigo": "39091",
+          "FK_JerarquiaPadres": [
+            39,
+            392171
+          ]
+        },
+        {
+          "Id": 1244,
+          "FK_Variable": 19,
+          "Nombre": "Val de San Vicente",
+          "Codigo": "39095",
+          "FK_JerarquiaPadres": [
+            39,
+            392171
+          ]
+        },
+        {
+          "Id": 1247,
+          "FK_Variable": 19,
+          "Nombre": "Voto",
+          "Codigo": "39102",
+          "FK_JerarquiaPadres": [
+            39,
+            392171
+          ]
+        },
+        {
+          "Id": 1262,
+          "FK_Variable": 19,
+          "Nombre": "Carbonero el Mayor",
+          "Codigo": "40043",
+          "FK_JerarquiaPadres": [
+            40,
+            392216
+          ]
+        }
+      ]
+    },
+    {
+      "table_id": "3456",
+      "group_id": "31724",
+      "queries": null,
+      "total_values": 7,
+      "filter_mode": "no_filter",
+      "truncated": false,
+      "selected_values": [
+        {
+          "Id": 283862,
+          "FK_Variable": 545,
+          "Nombre": "Total viviendas",
+          "Codigo": "1"
+        },
+        {
+          "Id": 283863,
+          "FK_Variable": 545,
+          "Nombre": "Vivienda familiar",
+          "Codigo": "2",
+          "FK_JerarquiaPadres": [
+            283862
+          ]
+        },
+        {
+          "Id": 283864,
+          "FK_Variable": 545,
+          "Nombre": "Vivienda principal",
+          "Codigo": "2.1",
+          "FK_JerarquiaPadres": [
+            283863
+          ]
+        },
+        {
+          "Id": 283865,
+          "FK_Variable": 545,
+          "Nombre": "Vivienda no principal",
+          "Codigo": "2.2",
+          "FK_JerarquiaPadres": [
+            283863
+          ]
+        },
+        {
+          "Id": 283866,
+          "FK_Variable": 545,
+          "Nombre": "Vivienda secundaria",
+          "Codigo": "2.2.1",
+          "FK_JerarquiaPadres": [
+            283865
+          ]
+        },
+        {
+          "Id": 283867,
+          "FK_Variable": 545,
+          "Nombre": "Vivienda vacía",
+          "Codigo": "2.2.2",
+          "FK_JerarquiaPadres": [
+            283865
+          ]
+        },
+        {
+          "Id": 283868,
+          "FK_Variable": 545,
+          "Nombre": "Vivienda colectiva",
+          "Codigo": "3"
+        }
+      ]
+    }
+  ],
+  "next_step": "Step 5: Call ine_select_multiple_table_data with 'tv' filters in 'FK_Variable:Id' format taken from returned values. If user specifies no period, latest data (nult=1) will be used."
+}

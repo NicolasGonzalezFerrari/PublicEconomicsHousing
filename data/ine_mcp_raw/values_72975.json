@@ -1,0 +1,21 @@
+{
+  "total_requests_processed": 1,
+  "results": [
+    {
+      "table_id": "72975",
+      "group_id": "148765",
+      "queries": null,
+      "total_values": 1,
+      "filter_mode": "no_filter",
+      "truncated": false,
+      "selected_values": [
+        {
+          "Id": 74,
+          "FK_Variable": 3,
+          "Nombre": "Variación anual"
+        }
+      ]
+    }
+  ],
+  "next_step": "Step 5: Call ine_select_multiple_table_data with 'tv' filters in 'FK_Variable:Id' format taken from returned values. If user specifies no period, latest data (nult=1) will be used."
+}

@@ -1,0 +1,125 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "72975",
+      "source": {
+        "operation": {
+          "id": "481",
+          "name": "Índice de Referencia de Arrendamientos de Vivienda"
+        },
+        "table": {
+          "id": "72975",
+          "name": "Índice de Referencia de Arrendamientos de Vivienda",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=72975"
+        },
+        "applied_filters": [
+          "3:74"
+        ],
+        "period": "latest 6 period(s) (nult=6)"
+      },
+      "applied_filters": [
+        "3:74"
+      ],
+      "applied_period": "latest 6 period(s) (nult=6)",
+      "total_observations": 1,
+      "results": [
+        {
+          "COD": "IRAV1",
+          "Nombre": "Total Nacional. Índice general. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Tasas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "10",
+                "Nombre": "M10"
+              },
+              "Anyo": 2026,
+              "Valor": 2.57
+            },
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 2.54
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 2.47
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 2.49
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 2.44
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 2.48
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

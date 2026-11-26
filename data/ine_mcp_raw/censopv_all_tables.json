@@ -1,0 +1,50 @@
+{
+  "total_operations_queried": 1,
+  "results_by_operation": [
+    {
+      "operation_id": "8",
+      "queries": null,
+      "total_tables": 3,
+      "matches": 3,
+      "filter_mode": "no_filter",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 1315,
+          "Nombre": "¿A cuántos me parezco?",
+          "Codigo": "PROV",
+          "T3_Periodicidad": "Al Detalle",
+          "FK_Publicacion": 633,
+          "FechaRef_ini": "1262300400000",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue May 17 09:00:00 CEST 2011"
+        },
+        {
+          "Id": 3457,
+          "Nombre": "Viviendas según tamaño del municipio por tipo de vivienda (por comunidades autónomas y provincias)",
+          "Codigo": "CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 31,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2011",
+          "Ultima_Modificacion": "Wed Nov 30 11:00:00 CET 2022"
+        },
+        {
+          "Id": 3456,
+          "Nombre": "Viviendas por municipios (con más de 2.000 habitantes) y tipo de vivienda",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 31,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2011",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2011",
+          "Ultima_Modificacion": "Thu Dec 12 11:00:00 CET 2013"
+        }
+      ]
+    }
+  ],
+  "next_step": "Step 3: Call ine_select_multiple_table_groups with the selected table ID to identify variables/groups to filter by."
+}

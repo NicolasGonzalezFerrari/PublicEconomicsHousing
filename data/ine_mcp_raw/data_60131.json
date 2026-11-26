@@ -1,0 +1,415 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "60131",
+      "source": {
+        "operation": {
+          "id": "450",
+          "name": "Estadística Continua de Población"
+        },
+        "table": {
+          "id": "60131",
+          "name": "Hogares de personas residentes en viviendas familiares por fecha y tamaño del hogar",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=60131"
+        },
+        "applied_filters": [
+          "349:16473",
+          "70:8997",
+          "70:8998",
+          "70:8999",
+          "36:8688"
+        ],
+        "period": "latest 6 period(s) (nult=6)"
+      },
+      "applied_filters": [
+        "349:16473",
+        "70:8997",
+        "70:8998",
+        "70:8999",
+        "36:8688"
+      ],
+      "applied_period": "latest 6 period(s) (nult=6)",
+      "total_observations": 4,
+      "results": [
+        {
+          "COD": "ECP355533",
+          "Nombre": "Total Nacional. Total. Hogares en viviendas familiares. Número. ",
+          "Unidad": {
+            "Nombre": "Hogares",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "1 de octubre de"
+              },
+              "Anyo": 2026,
+              "Valor": 19953529.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "1 de julio de"
+              },
+              "Anyo": 2026,
+              "Valor": 19884367.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "1 de abril de"
+              },
+              "Anyo": 2026,
+              "Valor": 19820650.0
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "1 de enero de"
+              },
+              "Anyo": 2026,
+              "Valor": 19761683.0
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "1 de octubre de"
+              },
+              "Anyo": 2025,
+              "Valor": 19709515.0
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "1 de julio de"
+              },
+              "Anyo": 2025,
+              "Valor": 19639045.0
+            }
+          ]
+        },
+        {
+          "COD": "ECP355629",
+          "Nombre": "Andalucía. Total. Hogares en viviendas familiares. Número. ",
+          "Unidad": {
+            "Nombre": "Hogares",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "1 de octubre de"
+              },
+              "Anyo": 2026,
+              "Valor": 3479154.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "1 de julio de"
+              },
+              "Anyo": 2026,
+              "Valor": 3472502.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "1 de abril de"
+              },
+              "Anyo": 2026,
+              "Valor": 3462352.0
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "1 de enero de"
+              },
+              "Anyo": 2026,
+              "Valor": 3451183.0
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "1 de octubre de"
+              },
+              "Anyo": 2025,
+              "Valor": 3440158.0
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "1 de julio de"
+              },
+              "Anyo": 2025,
+              "Valor": 3427765.0
+            }
+          ]
+        },
+        {
+          "COD": "ECP355624",
+          "Nombre": "Aragón. Total. Hogares en viviendas familiares. Número. ",
+          "Unidad": {
+            "Nombre": "Hogares",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "1 de octubre de"
+              },
+              "Anyo": 2026,
+              "Valor": 580781.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "1 de julio de"
+              },
+              "Anyo": 2026,
+              "Valor": 578411.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "1 de abril de"
+              },
+              "Anyo": 2026,
+              "Valor": 576060.0
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "1 de enero de"
+              },
+              "Anyo": 2026,
+              "Valor": 573990.0
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "1 de octubre de"
+              },
+              "Anyo": 2025,
+              "Valor": 572434.0
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "1 de julio de"
+              },
+              "Anyo": 2025,
+              "Valor": 569636.0
+            }
+          ]
+        },
+        {
+          "COD": "ECP355619",
+          "Nombre": "Asturias, Principado de. Total. Hogares en viviendas familiares. Número. ",
+          "Unidad": {
+            "Nombre": "Hogares",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "1 de octubre de"
+              },
+              "Anyo": 2026,
+              "Valor": 465826.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "1 de julio de"
+              },
+              "Anyo": 2026,
+              "Valor": 464153.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "1 de abril de"
+              },
+              "Anyo": 2026,
+              "Valor": 462517.0
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "1 de enero de"
+              },
+              "Anyo": 2026,
+              "Valor": 461266.0
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "1 de octubre de"
+              },
+              "Anyo": 2025,
+              "Valor": 460626.0
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "1 de julio de"
+              },
+              "Anyo": 2025,
+              "Valor": 459057.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "total_requests_processed": 2,
+  "results": [
+    {
+      "table_id": "60131",
+      "group_id": "114659",
+      "queries": null,
+      "total_values": 20,
+      "filter_mode": "no_filter",
+      "truncated": false,
+      "selected_values": [
+        {
+          "Id": 16473,
+          "FK_Variable": 349,
+          "Nombre": "Total Nacional",
+          "Codigo": "00"
+        },
+        {
+          "Id": 8997,
+          "FK_Variable": 70,
+          "Nombre": "Andalucía",
+          "Codigo": "01",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 8998,
+          "FK_Variable": 70,
+          "Nombre": "Aragón",
+          "Codigo": "02",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 8999,
+          "FK_Variable": 70,
+          "Nombre": "Asturias, Principado de",
+          "Codigo": "03",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9000,
+          "FK_Variable": 70,
+          "Nombre": "Balears, Illes",
+          "Codigo": "04",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            274508
+          ]
+        },
+        {
+          "Id": 9001,
+          "FK_Variable": 70,
+          "Nombre": "Canarias",
+          "Codigo": "05",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            274508
+          ]
+        },
+        {
+          "Id": 9002,
+          "FK_Variable": 70,
+          "Nombre": "Cantabria",
+          "Codigo": "06",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9003,
+          "FK_Variable": 70,
+          "Nombre": "Castilla y León",
+          "Codigo": "07",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9004,
+          "FK_Variable": 70,
+          "Nombre": "Castilla - La Mancha",
+          "Codigo": "08",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9005,
+          "FK_Variable": 70,
+          "Nombre": "Cataluña",
+          "Codigo": "09",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9006,
+          "FK_Variable": 70,
+          "Nombre": "Comunitat Valenciana",
+          "Codigo": "10",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9007,
+          "FK_Variable": 70,
+          "Nombre": "Extremadura",
+          "Codigo": "11",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9008,
+          "FK_Variable": 70,
+          "Nombre": "Galicia",
+          "Codigo": "12",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9009,
+          "FK_Variable": 70,
+          "Nombre": "Madrid, Comunidad de",
+          "Codigo": "13",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9010,
+          "FK_Variable": 70,
+          "Nombre": "Murcia, Región de",
+          "Codigo": "14",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9011,
+          "FK_Variable": 70,
+          "Nombre": "Navarra, Comunidad Foral de",
+          "Codigo": "15",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9012,
+          "FK_Variable": 70,
+          "Nombre": "País Vasco",
+          "Codigo": "16",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9013,
+          "FK_Variable": 70,
+          "Nombre": "Rioja, La",
+          "Codigo": "17",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            457344,
+            274508
+          ]
+        },
+        {
+          "Id": 9015,
+          "FK_Variable": 70,
+          "Nombre": "Ceuta",
+          "Codigo": "18",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            274508
+          ]
+        },
+        {
+          "Id": 8995,
+          "FK_Variable": 70,
+          "Nombre": "Melilla",
+          "Codigo": "19",
+          "FK_JerarquiaPadres": [
+            16473,
+            274511,
+            274508
+          ]
+        }
+      ]
+    },
+    {
+      "table_id": "60131",
+      "group_id": "114660",
+      "queries": null,
+      "total_values": 5,
+      "filter_mode": "no_filter",
+      "truncated": false,
+      "selected_values": [
+        {
+          "Id": 8688,
+          "FK_Variable": 36,
+          "Nombre": "Total"
+        },
+        {
+          "Id": 21413,
+          "FK_Variable": 36,
+          "Nombre": "1",
+          "Codigo": "1"
+        },
+        {
+          "Id": 21414,
+          "FK_Variable": 36,
+          "Nombre": "2",
+          "Codigo": "2"
+        },
+        {
+          "Id": 21415,
+          "FK_Variable": 36,
+          "Nombre": "3",
+          "Codigo": "3"
+        },
+        {
+          "Id": 21424,
+          "FK_Variable": 36,
+          "Nombre": "4 y más",
+          "Codigo": "GE4"
+        }
+      ]
+    }
+  ],
+  "next_step": "Step 5: Call ine_select_multiple_table_data with 'tv' filters in 'FK_Variable:Id' format taken from returned values. If user specifies no period, latest data (nult=1) will be used."
+}
