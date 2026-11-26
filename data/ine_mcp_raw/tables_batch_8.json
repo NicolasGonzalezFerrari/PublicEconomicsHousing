@@ -1,0 +1,4731 @@
+{
+  "total_operations_queried": 8,
+  "results_by_operation": [
+    {
+      "operation_id": "155",
+      "queries": [
+        "vivienda",
+        "gastos",
+        "alquiler",
+        "pobreza",
+        "tenencia"
+      ],
+      "total_tables": 254,
+      "matches": 94,
+      "filter_mode": "union_of_phrases",
+      "truncated": true,
+      "tables": [
+        {
+          "Id": 59960,
+          "Nombre": "Tasa de riesgo de pobreza por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "pobreza",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 59971,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "vivienda",
+            "pobreza",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60263,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "pobreza",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 61790,
+          "Nombre": "Riesgo de pobreza o exclusión social (estrategia Europa 2020) y sus componentes por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "pobreza",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 9994,
+          "Nombre": "Hogares por régimen de tenencia de la vivienda y edad y sexo de la persona de referencia.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 9995,
+          "Nombre": "Hogares por régimen de tenencia de la vivienda y nacionalidad de la persona de referencia.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 9996,
+          "Nombre": "Hogares por régimen de tenencia de la vivienda y tipo de hogar.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 9997,
+          "Nombre": "Hogares por régimen de tenencia de la vivienda y comunidades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60179,
+          "Nombre": "Hogares por régimen de tenencia de la vivienda y tamaño del hogar.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60180,
+          "Nombre": "Hogares por régimen de tenencia de la vivienda y número de perceptores.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 76845,
+          "Nombre": "Hogares por régimen de tenencia de la vivienda y comunidades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60181,
+          "Nombre": "Hogares por régimen de tenencia de la vivienda y grado de urbanización.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 59949,
+          "Nombre": "Renta por persona y unidad consumo por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60147,
+          "Nombre": "Personas con carencia material por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 10002,
+          "Nombre": "Hogares que sufren determinados problemas en la vivienda y su entorno por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2020",
+          "Ultima_Modificacion": "Thu Feb 13 11:00:00 CET 2025",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 59956,
+          "Nombre": "Renta por hogar por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60153,
+          "Nombre": "Hogares con carencia material por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 59953,
+          "Nombre": "Personas por decil de renta por unidad de consumo y régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60166,
+          "Nombre": "Personas con carencia en un determinado número de conceptos (estrategia Europa 2020) por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60170,
+          "Nombre": "Hogares con carencia en un determinado número de conceptos (estrategia Europa 2020) por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60161,
+          "Nombre": "Personas de 16 y más años con carencia en necesidades básicas y actividades sociales y de ocio por régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2013",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60174,
+          "Nombre": "Personas según dificultades para llegar a fin de mes y régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 60178,
+          "Nombre": "Hogares según dificultades para llegar a fin de mes y régimen de tenencia de la vivienda.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "vivienda",
+            "tenencia"
+          ]
+        },
+        {
+          "Id": 9958,
+          "Nombre": "Tasa de riesgo de pobreza por edad y sexo.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 10003,
+          "Nombre": "Riesgo de pobreza o exclusión social (estrategia Europa 2020). Intersecciones entre subpoblaciones",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 29281,
+          "Nombre": "Tasa de riesgo de pobreza por edad y sexo.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 29287,
+          "Nombre": "Riesgo de pobreza o exclusión social y de sus componentes por edad y sexo.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59962,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por edad y sexo.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59972,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por CCAA.",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 60253,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030). Intersecciones entre subpoblaciones",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 60264,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por CCAA.",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 67989,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por CCAA.",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 79174,
+          "Nombre": "Hogares según carga de los gastos sanitarios por edad y sexo de la persona de referencia",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 420,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2017",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2025",
+          "Ultima_Modificacion": "Mon Mar 30 11:00:00 CEST 2026",
+          "matched_terms": [
+            "gastos"
+          ]
+        },
+        {
+          "Id": 79669,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por sexo. Coeficientes de variación.",
+          "Codigo": "NAC_CV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed May 20 11:00:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 9959,
+          "Nombre": "Tasa de riesgo de pobreza por nivel de formación alcanzado (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 29282,
+          "Nombre": "Tasa de riesgo de pobreza por comunidades autónomas",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 29288,
+          "Nombre": "Riesgo de pobreza o exclusión social y de sus componentes por comunidades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59963,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por nivel de formación alcanzado (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 60254,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por edad y sexo.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 67240,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por edad y sexo.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 79175,
+          "Nombre": "Hogares según carga de los gastos sanitarios por nacionalidad de la persona de referencia",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 420,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2017",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2025",
+          "Ultima_Modificacion": "Mon Mar 30 11:00:00 CEST 2026",
+          "matched_terms": [
+            "gastos"
+          ]
+        },
+        {
+          "Id": 79670,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por edad. Coeficientes de variación.",
+          "Codigo": "NAC_CV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed May 20 11:00:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 9960,
+          "Nombre": "Tasa de riesgo de pobreza por relación con la actividad (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 10005,
+          "Nombre": "Riesgo de pobreza o exclusión social (estrategia Europa 2020) y sus componentes por edad y sexo",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 49148,
+          "Nombre": "Tasa de riesgo de pobreza por comunidades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 55265,
+          "Nombre": "Riesgo de pobreza o exclusión social (nueva definición 2021) y de sus componentes por edad y sexo.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59964,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por relación con la actividad (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 60256,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por nivel de formación alcanzado (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 79176,
+          "Nombre": "Hogares según carga de los gastos sanitarios por país de nacimiento de la persona de referencia",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 420,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2017",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2025",
+          "Ultima_Modificacion": "Mon Mar 30 11:00:00 CEST 2026",
+          "matched_terms": [
+            "gastos"
+          ]
+        },
+        {
+          "Id": 79671,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por comunidades autónomas. Coeficientes de variación.",
+          "Codigo": "NAC-CCAA_CV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed May 20 11:00:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 9961,
+          "Nombre": "Tasa de riesgo de pobreza por nacionalidad (personas de 16 y mas años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 55266,
+          "Nombre": "Riesgo de pobreza o exclusión social (nueva definición 2021) y de sus componentes por comunidades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59965,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por nacionalidad (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 60257,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por relación con la actividad (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 79177,
+          "Nombre": "Hogares según carga de los gastos sanitarios por tipo de hogar",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 420,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2017",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2025",
+          "Ultima_Modificacion": "Mon Mar 30 11:00:00 CEST 2026",
+          "matched_terms": [
+            "gastos"
+          ]
+        },
+        {
+          "Id": 9962,
+          "Nombre": "Tasa de riesgo de pobreza por tipo de hogar.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 10007,
+          "Nombre": "Riesgo de pobreza o exclusión social (estrategia Europa 2020) por nivel de formación alcanzado (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59967,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por tipo de hogar.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 67990,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por nivel de formación alcanzado (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 68023,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por nacionalidad (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 68024,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por país de nacimiento (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 68025,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por relación con la actividad más frecuente (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 68026,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por quintil de renta por unidad de consumo (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 75484,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por país de nacimiento (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 79178,
+          "Nombre": "Hogares según carga de los gastos sanitarios por quintil de renta por unidad de consumo",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 420,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2017",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2025",
+          "Ultima_Modificacion": "Mon Mar 30 11:00:00 CEST 2026",
+          "matched_terms": [
+            "gastos"
+          ]
+        },
+        {
+          "Id": 9963,
+          "Nombre": "Tasa de riesgo de pobreza por comunidades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 10008,
+          "Nombre": "Riesgo de pobreza o exclusión social (estrategia Europa 2020) por relación con la actividad (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59957,
+          "Nombre": "Tasa de riesgo de pobreza por tamaño del hogar.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59968,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por tamaño del hogar.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 60258,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por nacionalidad (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 79180,
+          "Nombre": "Hogares según carga de los gastos sanitarios por comunidad autónoma",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 420,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2017",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2025",
+          "Ultima_Modificacion": "Mon Mar 30 11:00:00 CEST 2026",
+          "matched_terms": [
+            "gastos"
+          ]
+        },
+        {
+          "Id": 9998,
+          "Nombre": "Hogares que sufren determinados problemas en la vivienda y su entorno por edad y sexo de la persona de referencia",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2020",
+          "Ultima_Modificacion": "Thu Jul 15 11:00:00 CEST 2021",
+          "matched_terms": [
+            "vivienda"
+          ]
+        },
+        {
+          "Id": 10009,
+          "Nombre": "Riesgo de pobreza o exclusión social (estrategia Europa 2020) por nacionalidad (personas de 16 y más años).",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59954,
+          "Nombre": "Tasa de riesgo de pobreza con umbral fijo en el año 2008 por número de perceptores.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 01 16:45:00 CEST 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 59958,
+          "Nombre": "Tasa de riesgo de pobreza por número de perceptores.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 60259,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por tipo de hogar.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 76847,
+          "Nombre": "Riesgo de pobreza o exclusión social (objetivo Europa 2030) y sus componentes por CCAA.",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        },
+        {
+          "Id": 9999,
+          "Nombre": "Hogares que sufren determinados problemas en la vivienda y su entorno por nacionalidad de la persona de referencia.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2020",
+          "Ultima_Modificacion": "Thu Jul 15 11:00:00 CEST 2021",
+          "matched_terms": [
+            "vivienda"
+          ]
+        },
+        {
+          "Id": 10001,
+          "Nombre": "Hogares que sufren determinados problemas en la vivienda y su entorno por comunidades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2004",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2020",
+          "Ultima_Modificacion": "Thu Jul 15 11:00:00 CEST 2021",
+          "matched_terms": [
+            "vivienda"
+          ]
+        },
+        {
+          "Id": 10010,
+          "Nombre": "Riesgo de pobreza o exclusión social (estrategia Europa 2020) por tipo de hogar.",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 344,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Feb 05 11:00:00 CET 2026",
+          "matched_terms": [
+            "pobreza"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "450",
+      "queries": [
+        "población",
+        "hogares"
+      ],
+      "total_tables": 78,
+      "matches": 64,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 56934,
+          "Nombre": "Población residente por fecha, sexo y edad (desde 1971)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "1971",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56940,
+          "Nombre": "Población residente por fecha, sexo y edad (desde 1971)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "1971",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56945,
+          "Nombre": "Población residente por fecha, sexo y edad (desde 1971)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "1971",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59238,
+          "Nombre": "Población residente por fecha, sexo y edad",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "1971",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59583,
+          "Nombre": "Población residente por fecha, sexo y edad",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "1971",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59589,
+          "Nombre": "Población residente por fecha, sexo y edad",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "1971",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60124,
+          "Nombre": "Población residente en viviendas familiares por fecha, sexo y edad",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60127,
+          "Nombre": "Población residente en viviendas familiares por fecha, sexo, grupo de edad y nacionalidad (española/extranjera)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60129,
+          "Nombre": "Población residente en viviendas familiares por fecha, sexo, grupo de edad y nacionalidad (española/extranjera)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60131,
+          "Nombre": "Hogares de personas residentes en viviendas familiares por fecha y tamaño del hogar",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "hogares"
+          ]
+        },
+        {
+          "Id": 60133,
+          "Nombre": "Hogares de personas residentes en viviendas familiares por fecha y tamaño del hogar",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "hogares"
+          ]
+        },
+        {
+          "Id": 60135,
+          "Nombre": "Hogares de personas residentes en viviendas familiares por fecha y tamaño del hogar",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "hogares"
+          ]
+        },
+        {
+          "Id": 69792,
+          "Nombre": "Población residente por fecha, sexo y edad (desde 1971)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "1971",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 77019,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad (agrupación de países)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79543,
+          "Nombre": "Población residente por  sexo y grandes grupos de edad",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 675,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56935,
+          "Nombre": "Población residente por fecha, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56941,
+          "Nombre": "Población residente por fecha, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56946,
+          "Nombre": "Población residente por fecha, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56950,
+          "Nombre": "Población residente por fecha, sexo y grupo de edad",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59239,
+          "Nombre": "Población residente por fecha, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59584,
+          "Nombre": "Población residente por fecha, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59590,
+          "Nombre": "Población residente por fecha, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59662,
+          "Nombre": "Población residente por fecha, sexo y grupo de edad",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60125,
+          "Nombre": "Población residente en viviendas familiares por fecha, sexo, grupo de edad y nacionalidad (española/extranjera)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60128,
+          "Nombre": "Población residente en viviendas familiares por fecha, sexo, grupo de edad y lugar de nacimiento (España/extranjero)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60130,
+          "Nombre": "Población residente en viviendas familiares por fecha, sexo, grupo de edad y lugar de nacimiento (España/extranjero)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60132,
+          "Nombre": "Tamaño medio de los hogares de personas residentes en viviendas familiares por fecha",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "hogares"
+          ]
+        },
+        {
+          "Id": 60134,
+          "Nombre": "Tamaño medio de los hogares de personas residentes en viviendas familiares por fecha",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "hogares"
+          ]
+        },
+        {
+          "Id": 60136,
+          "Nombre": "Tamaño medio de los hogares de personas residentes en viviendas familiares por fecha",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "hogares"
+          ]
+        },
+        {
+          "Id": 69793,
+          "Nombre": "Población residente por fecha, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 77023,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad (agrupación de países)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79544,
+          "Nombre": "Población residente por  sexo y nacionalidad (española/extranjera)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 675,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56936,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56942,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad (agrupación de países)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56947,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad (agrupación de países)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56951,
+          "Nombre": " Población residente por fecha, sexo, nacionalidad (española/extranjera)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59585,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad (española/extranjera)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59587,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad (española/extranjera)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59591,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad (española/extranjera)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59663,
+          "Nombre": " Población residente por fecha, sexo, nacionalidad (española/extranjera)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 60126,
+          "Nombre": "Población residente en viviendas familiares por fecha, sexo, grupo de edad y lugar de nacimiento (España/extranjero)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Nov 12 09:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79545,
+          "Nombre": "Población residente por  sexo y país de nacimiento  (España/extranjero)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 675,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 82104,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y nacionalidad (española/extranjera)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 20,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56937,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y país de nacimiento",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56943,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y lugar de nacimiento (agrupación de países)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56948,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y lugar de nacimiento (agrupación de países)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56952,
+          "Nombre": " Población residente por fecha, sexo y lugar de nacimiento (España/extranjero)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59586,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y país de nacimiento (España/extranjero)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59588,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y lugar de nacimiento (España/extranjero)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59592,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y lugar de nacimiento (España/extranjero)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 59664,
+          "Nombre": " Población residente por fecha, sexo y lugar de nacimiento (España/extranjero)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56938,
+          "Nombre": "Población residente por fecha, sexo, edad, nacionalidad (agrupación de países) y lugar de nacimiento (agrupación de países)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56944,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad (agrupación de países) y lugar de nacimiento (agrupación de países)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56949,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad (agrupación de países) y lugar de nacimiento (agrupación de países)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 82105,
+          "Nombre": "Población residente por fecha, sexo, grupo de edad y lugar de nacimiento (España/extranjero)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 20,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 56939,
+          "Nombre": "Población residente por fecha, sexo, generación (edad a 31 de diciembre), nacionalidad (agrupación de países) y lugar de nacimiento (agrupación de países)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue Dec 02 11:10:00 CET 2025",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79273,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79277,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue May 23 09:00:00 CEST 2023",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79278,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue May 23 09:00:00 CEST 2023",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79274,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
+          "Codigo": "CCAA_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79275,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 79276,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
+          "Codigo": "NAC_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2026",
+          "Ultima_Modificacion": "Tue May 23 09:00:00 CEST 2023",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 77099,
+          "Nombre": "Población residente por fecha, sexo, nacionalidad (agrupación de países) y lugar de nacimiento (agrupación de países)",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FK_Periodo_fin": 19,
+          "Anyo_Periodo_fin": "2025",
+          "Ultima_Modificacion": "Tue May 23 09:00:00 CEST 2023",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 69797,
+          "Nombre": "Población residente en islas por fecha, sexo y grupo de edad",
+          "Codigo": "PROV_SDET",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 610,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2002",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 24 13:00:00 CET 2026",
+          "matched_terms": [
+            "población"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "71",
+      "queries": [
+        "migración",
+        "extranjero"
+      ],
+      "total_tables": 171,
+      "matches": 171,
+      "filter_mode": "union_of_phrases",
+      "truncated": true,
+      "tables": [
+        {
+          "Id": 24417,
+          "Nombre": "Saldo migratorio con el extranjero por comunidad autónoma, semestre, sexo, grupo de edad y nacionalidad (española/extranjera)",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24426,
+          "Nombre": "Saldo migratorio con el extranjero por provincia, semestre, sexo, grupo de edad y nacionalidad (España/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 33535,
+          "Nombre": "Saldo migratorio con el extranjero por comunidad autónoma, semestre, sexo, grupo de edad y país de nacimiento (España/Extranjero)",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 33538,
+          "Nombre": "Saldo migratorio con el extranjero por provincia, semestre, sexo, grupo de edad y país de nacimiento (España/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24418,
+          "Nombre": "Saldo migratorio con el extranjero por comunidad autónoma, semestre y nacionalidad",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24427,
+          "Nombre": "Saldo migratorio con el extranjero por provincia, semestre y  nacionalidad",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24319,
+          "Nombre": "Saldo migratorio con el extranjero por comunidad autónoma, año, sexo, grupo de edad y nacionalidad (España/extranjero)",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24328,
+          "Nombre": "Saldo migratorio con el extranjero por provincia, año, sexo, grupo de edad y nacionalidad (España/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24419,
+          "Nombre": "Saldo migratorio con el extranjero por comunidad autónoma, semestre y país de nacimiento",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24428,
+          "Nombre": "Saldo migratorio con el extranjero por provincia, semestre y país de nacimiento",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 33547,
+          "Nombre": "Saldo migratorio con el extranjero por comunidad autónoma, año, sexo, grupo de edad y país de nacimiento(España/extranjero)",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 33550,
+          "Nombre": "Saldo migratorio con el extranjero por provincia, año, sexo, grupo de edad y país de nacimiento (España/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24320,
+          "Nombre": "Saldo migratorio con el extranjero por comunidad autónoma, año y nacionalidad",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24329,
+          "Nombre": "Saldo migratorio con el extranjero por provincia, año y  nacionalidad",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24321,
+          "Nombre": "Saldo migratorio con el extranjero por comunidad autónoma, año y país de nacimiento",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24330,
+          "Nombre": "Saldo migratorio con el extranjero por provincia, año y país de nacimiento",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24403,
+          "Nombre": "Saldo migratorio con el extranjero por semestre, sexo y edad ",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24404,
+          "Nombre": "Saldo migratorio con el extranjero por semestre, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24405,
+          "Nombre": "Saldo migratorio con el extranjero por semestre, sexo, grupo de edad y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24406,
+          "Nombre": "Saldo migratorio con el extranjero por semestre, sexo, grupo de edad y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24408,
+          "Nombre": "Saldo migratorio con el extranjero por semestre, nacionalidad  y país de nacimiento (España/extranjero)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24409,
+          "Nombre": "Saldo migratorio con el extranjero por semestre, país de nacimiento y nacionalidad (española/extranjera)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24304,
+          "Nombre": "Saldo migratorio con el extranjero por año, sexo y edad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24305,
+          "Nombre": "Saldo migratorio con el extranjero por año, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24306,
+          "Nombre": "Saldo migratorio con el extranjero por año, sexo, grupo de edad y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24307,
+          "Nombre": "Saldo migratorio con el extranjero por año, sexo, grupo de edad y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24309,
+          "Nombre": "Saldo migratorio con el extranjero por año, nacionalidad  y país de nacimiento (España/extranjero)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24310,
+          "Nombre": "Saldo migratorio con el extranjero por año, país de nacimiento y nacionalidad (española/extranjera)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración",
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24282,
+          "Nombre": "Flujo de inmigración procedente del extranjero por año, sexo y edad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24312,
+          "Nombre": "Flujo de inmigración procedente del extranjero por comunidad autónoma, año, sexo, grupo de edad y nacionalidad  (España/extranjero) ",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24322,
+          "Nombre": "Flujo de inmigración procedente del extranjero por provincia, año, sexo, grupo de edad y nacionalidad (España/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24331,
+          "Nombre": "Flujo de migración interautonómica por año, sexo y edad ",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24369,
+          "Nombre": "Flujo de migración interautonómica por año, comunidad autónoma de origen y destino, sexo",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24379,
+          "Nombre": "Flujo de migración interprovincial por año, provincia de origen y destino, sexo",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24387,
+          "Nombre": "Flujo de inmigración procedente del extranjero por semestre, sexo y edad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 26,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24411,
+          "Nombre": "Flujo de inmigración procedente del extranjero por comunidad autónoma, semestre, sexo, grupo de edad y nacionalidad  (española/extranjera)",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24420,
+          "Nombre": "Flujo de inmigración procedente del extranjero por provincia, semestre, sexo, grupo de edad y nacionalidad (española/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24429,
+          "Nombre": "Flujo de migración interautonómica por semestre, sexo y edad ",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24439,
+          "Nombre": "Flujo de migración interautonómica por semestre, comunidad autónoma de origen y destino, sexo",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24447,
+          "Nombre": "Flujo de migración interprovincial por semestre, provincia de origen y destino, sexo",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 10304,
+          "Nombre": "Flujo de inmigración procedente del extranjero por año, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24332,
+          "Nombre": "Flujo de migración interautonómica por año, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24370,
+          "Nombre": "Saldo migratorio interautonómico por año, comunidad autónoma, sexo y edad ",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24380,
+          "Nombre": "Saldo migratorio interprovincial por año, provincia, sexo y edad",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24388,
+          "Nombre": "Flujo de inmigración procedente del extranjero por semestre, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24430,
+          "Nombre": "Flujo de migración interautonómica por semestre, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24440,
+          "Nombre": "Saldo migratorio interautonómico por semestre, comunidad autónoma, sexo y edad ",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24448,
+          "Nombre": "Saldo migratorio interprovincial por semestre, provincia, sexo y edad",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 33532,
+          "Nombre": "Flujo de inmigración procedente del extranjero por comunidad autónoma, semestre, sexo, grupo de edad y país de nacimiento (España/Extranjero)",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 33536,
+          "Nombre": "Flujo de inmigración procedente del extranjero por provincia, semestre, sexo, grupo de edad y país de nacimento (España/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 33545,
+          "Nombre": "Flujo de inmigración procedente del extranjero por comunidad autónoma, año, sexo, grupo de edad y país de nacimiento  (España/extranjero) ",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 33548,
+          "Nombre": "Flujo de inmigración procedente del extranjero por provincia, año, sexo, grupo de edad y país de nacimiento (España/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24287,
+          "Nombre": "Flujo de inmigración procedente del extranjero por año, sexo, grupo de edad y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24313,
+          "Nombre": "Flujo de inmigración procedente del extranjero por comunidad autónoma, año y nacionalidad",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24323,
+          "Nombre": "Flujo de inmigración procedente del extranjero por provincia, año y nacionalidad",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24333,
+          "Nombre": "Flujo de migración interautonómica por año, sexo, grupo de edad y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24371,
+          "Nombre": "Saldo migratorio interautonómico por año, comunidad autónoma, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24381,
+          "Nombre": "Saldo migratorio interprovincial por año, provincia, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24389,
+          "Nombre": "Flujo de inmigración procedente del extranjero por semestre, sexo, grupo de edad y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24412,
+          "Nombre": "Flujo de inmigración procedente del extranjero por comunidad autónoma, semestre y nacionalidad",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24421,
+          "Nombre": "Flujo de inmigración procedente del extranjero por provincia, semestre y nacionalidad",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24431,
+          "Nombre": "Flujo de migración interautonómica por semestre, sexo, grupo de edad y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24441,
+          "Nombre": "Saldo migratorio interautonómico por semestre, comunidad autónoma, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24449,
+          "Nombre": "Saldo migratorio interprovincial por semestre, provincia, sexo y generación (edad a 31 de diciembre)",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24289,
+          "Nombre": "Flujo de inmigración procedente del extranjero por año, sexo, grupo de edad y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24314,
+          "Nombre": "Flujo de inmigración procedente del extranjero por comunidad autónoma, año y país de nacimiento",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24324,
+          "Nombre": "Flujo de inmigración procedente del extranjero por provincia, año y país de nacimiento",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24334,
+          "Nombre": "Flujo de migración interautonómica por año, sexo, grupo de edad y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24373,
+          "Nombre": "Saldo migratorio interautonómico por año, comunidad autónoma, sexo, grupo de edad y nacionalidad (agrupación de países)",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24382,
+          "Nombre": "Saldo migratorio interprovincial por año, provincia, sexo, grupo de edad y nacionalidad (agrupación de países)",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24390,
+          "Nombre": "Flujo de inmigración procedente del extranjero por semestre, sexo, grupo de edad y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24413,
+          "Nombre": "Flujo de inmigración procedente del extranjero por comunidad autónoma, semestre y país de nacimiento",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24422,
+          "Nombre": "Flujo de inmigración procedente del extranjero por provincia, semestre y país de nacimiento",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24432,
+          "Nombre": "Flujo de migración interautonómica por semestre, sexo, grupo de edad y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24442,
+          "Nombre": "Saldo migratorio interautonómico por semestre, comunidad autónoma, sexo, grupo de edad y nacionalidad (agrupación de países)",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24450,
+          "Nombre": "Saldo migratorio interprovincial por semestre, provincia, sexo, grupo de edad y nacionalidad (agrupación de países)",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 6,
+          "FK_Publicacion": 479,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 24290,
+          "Nombre": "Flujo de inmigración procedente del extranjero por año, sexo, grupo de edad, país de origen, nacionalidad (española/extranjera) y país de nacimiento en relación con el país de origen",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24316,
+          "Nombre": "Flujo de emigración con destino al extranjero por comunidad autónoma, año, sexo, grupo de edad y nacionalidad (España/extranjero)",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24325,
+          "Nombre": "Flujo de emigración con destino al extranjero por provincia, año, sexo, grupo de edad y nacionalidad (España/extranjero)",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "extranjero"
+          ]
+        },
+        {
+          "Id": 24335,
+          "Nombre": "Flujo de migración interautonómica por año, sexo, nacionalidad (agrupación de países) y país de nacimiento (agrupación de países)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 116,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2008",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Nov 18 11:00:00 CET 2022",
+          "matched_terms": [
+            "migración"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "455",
+      "queries": [
+        "migración",
+        "residencia"
+      ],
+      "total_tables": 127,
+      "matches": 22,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 75690,
+          "Nombre": "Migraciones y cambios de residencia por área submunicipal año, sexo y país de nacimiento (España/extranjero)",
+          "Codigo": "SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración",
+            "residencia"
+          ]
+        },
+        {
+          "Id": 69754,
+          "Nombre": "Migraciones intermunicipales por año, sexo, edad (grandes grupos), nacionalidad (española/extranjera) y relación residencial a principio y final de año",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración",
+            "residencia"
+          ]
+        },
+        {
+          "Id": 76268,
+          "Nombre": "Migraciones y cambios de residencia por área submunicipal año, grupo de edad y país de nacimiento (España/extranjero)",
+          "Codigo": "SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración",
+            "residencia"
+          ]
+        },
+        {
+          "Id": 69755,
+          "Nombre": "Migraciones intermunicipales por año, sexo, edad (grandes grupos), país de nacimiento (España/extranjero) y relación residencial a principio y final de año",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración",
+            "residencia"
+          ]
+        },
+        {
+          "Id": 69756,
+          "Nombre": "Migraciones intermunicipales por comunidad y provincia, año y relación residencial a principio y final de año",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración",
+            "residencia"
+          ]
+        },
+        {
+          "Id": 69757,
+          "Nombre": "Migraciones intermunicipales por capital de provincia, año y relación residencial a principio y final de año",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración",
+            "residencia"
+          ]
+        },
+        {
+          "Id": 69717,
+          "Nombre": "Migraciones interautonómicas por año, sexo y edad ",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69718,
+          "Nombre": "Migraciones interautonómicas por año, sexo, edad (grandes grupos) y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69719,
+          "Nombre": "Migraciones interautonómicas por año, sexo, edad (grandes grupos) y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 76269,
+          "Nombre": "Migraciones por área submunicipal, año y país de nacimiento (5 principales países)",
+          "Codigo": "SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69720,
+          "Nombre": "Migraciones interautonómicas por año, sexo, nacionalidad (agrupación de países) y país de nacimiento (agrupación de países)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69721,
+          "Nombre": "Migraciones interprovinciales por año, sexo y edad ",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69753,
+          "Nombre": "Migraciones intermunicipales por año, tamaño del municipio de procedencia, y tamaño del municipio de destino",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69722,
+          "Nombre": "Migraciones interprovinciales por año, sexo, edad (grandes grupos) y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69723,
+          "Nombre": "Migraciones interprovinciales por año, sexo, edad (grandes grupos) y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69741,
+          "Nombre": "Migraciones interautonómicas por año, sexo y comunidad autónoma de procedencia y destino",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69724,
+          "Nombre": "Migraciones interprovinciales por año, sexo, nacionalidad (agrupación de países) y país de nacimiento (agrupación de países)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69742,
+          "Nombre": "Migraciones interprovinciales por año, sexo y provincia de procedencia y destino",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69725,
+          "Nombre": "Migraciones intermunicipales por año, sexo y edad ",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69726,
+          "Nombre": "Migraciones intermunicipales por año, sexo, edad (grandes grupos) y nacionalidad",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69727,
+          "Nombre": "Migraciones intermunicipales por año, sexo, edad (grandes grupos) y país de nacimiento",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        },
+        {
+          "Id": 69728,
+          "Nombre": "Migraciones intermunicipales por año, sexo, nacionalidad (agrupación de países) y país de nacimiento (agrupación de países)",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 622,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "migración"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "10",
+      "queries": [
+        "vivienda",
+        "urbano",
+        "indicador"
+      ],
+      "total_tables": 42,
+      "matches": 42,
+      "filter_mode": "no_matches_returning_all",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 69301,
+          "Nombre": "Demografía",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69308,
+          "Nombre": "Demografía",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69315,
+          "Nombre": "Demografía",
+          "Codigo": "NAC-KERNEL",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69322,
+          "Nombre": "Demografía",
+          "Codigo": "NAC-FUA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69329,
+          "Nombre": "Demografía",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69336,
+          "Nombre": "Demografía",
+          "Codigo": "NAC-SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69302,
+          "Nombre": "Aspectos sociales",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69309,
+          "Nombre": "Aspectos sociales",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69316,
+          "Nombre": "Aspectos sociales",
+          "Codigo": "NAC-KERNEL",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69323,
+          "Nombre": "Aspectos sociales",
+          "Codigo": "NAC-FUA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69330,
+          "Nombre": "Aspectos sociales",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69337,
+          "Nombre": "Aspectos sociales",
+          "Codigo": "NAC-SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69303,
+          "Nombre": "Aspectos económicos",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69310,
+          "Nombre": "Aspectos económicos",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69317,
+          "Nombre": "Aspectos económicos",
+          "Codigo": "NAC-KERNEL",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69324,
+          "Nombre": "Aspectos económicos",
+          "Codigo": "NAC-FUA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69331,
+          "Nombre": "Aspectos económicos",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69338,
+          "Nombre": "Aspectos económicos",
+          "Codigo": "NAC-SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69304,
+          "Nombre": "Formación y educación",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69311,
+          "Nombre": "Formación y educación",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69318,
+          "Nombre": "Formación y educación",
+          "Codigo": "NAC-KERNEL",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69325,
+          "Nombre": "Formación y educación",
+          "Codigo": "NAC-FUA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69332,
+          "Nombre": "Formación y educación",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69339,
+          "Nombre": "Formación y educación",
+          "Codigo": "NAC-SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69305,
+          "Nombre": "Superficie y uso del suelo",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69312,
+          "Nombre": "Superficie y uso del suelo",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69319,
+          "Nombre": "Superficie y uso del suelo",
+          "Codigo": "NAC-KERNEL",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69326,
+          "Nombre": "Superficie y uso del suelo",
+          "Codigo": "NAC-FUA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69333,
+          "Nombre": "Superficie y uso del suelo",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69340,
+          "Nombre": "Superficie y uso del suelo",
+          "Codigo": "NAC-SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69306,
+          "Nombre": "Desplazamientos al trabajo",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 31 11:00:00 CET 2024"
+        },
+        {
+          "Id": 69313,
+          "Nombre": "Desplazamientos al trabajo",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 31 11:00:00 CET 2024"
+        },
+        {
+          "Id": 69320,
+          "Nombre": "Desplazamientos al trabajo",
+          "Codigo": "NAC-KERNEL",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Sun Jun 01 11:00:00 CEST 2014"
+        },
+        {
+          "Id": 69327,
+          "Nombre": "Desplazamientos al trabajo",
+          "Codigo": "NAC-FUA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 31 11:00:00 CET 2024"
+        },
+        {
+          "Id": 69334,
+          "Nombre": "Desplazamientos al trabajo",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 31 11:00:00 CET 2024"
+        },
+        {
+          "Id": 69341,
+          "Nombre": "Desplazamientos al trabajo",
+          "Codigo": "NAC-SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 31 11:00:00 CET 2024"
+        },
+        {
+          "Id": 69307,
+          "Nombre": "Turismo",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69314,
+          "Nombre": "Turismo",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69321,
+          "Nombre": "Turismo",
+          "Codigo": "NAC-KERNEL",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69328,
+          "Nombre": "Turismo",
+          "Codigo": "NAC-FUA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69335,
+          "Nombre": "Turismo",
+          "Codigo": "NAC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        },
+        {
+          "Id": 69342,
+          "Nombre": "Turismo",
+          "Codigo": "NAC-SUBCITY-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 405,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2010",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Oct 21 11:00:00 CEST 2026"
+        }
+      ]
+    },
+    {
+      "operation_id": "239",
+      "queries": [
+        "apartamentos",
+        "turísticos",
+        "plazas"
+      ],
+      "total_tables": 40,
+      "matches": 17,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 75193,
+          "Nombre": "Plazas, apartamentos, grados de ocupación y personal empleado por puntos turísticos",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "apartamentos",
+            "turísticos",
+            "plazas"
+          ]
+        },
+        {
+          "Id": 2022,
+          "Nombre": "Apartamentos, plazas, grados de ocupación y personal empleado por zonas turísticas",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2005",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "apartamentos",
+            "turísticos",
+            "plazas"
+          ]
+        },
+        {
+          "Id": 2083,
+          "Nombre": "Plazas, apartamentos, grados de ocupación y personal empleado por puntos turísticos",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2005",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "apartamentos",
+            "turísticos",
+            "plazas"
+          ]
+        },
+        {
+          "Id": 2021,
+          "Nombre": "Apartamentos, plazas, grados de ocupación y personal empleado por comunidades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2000",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "apartamentos",
+            "plazas"
+          ]
+        },
+        {
+          "Id": 2072,
+          "Nombre": "Plazas, apartamentos, grados de ocupación y personal empleado por provincias",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2005",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "apartamentos",
+            "plazas"
+          ]
+        },
+        {
+          "Id": 2019,
+          "Nombre": "Viajeros y pernoctaciones por zonas turísticas",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2005",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "turísticos"
+          ]
+        },
+        {
+          "Id": 75191,
+          "Nombre": "Viajeros y pernoctaciones por puntos turísticos",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "turísticos"
+          ]
+        },
+        {
+          "Id": 3151,
+          "Nombre": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2001",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 16:20:00 CET 2026",
+          "matched_terms": [
+            "plazas"
+          ]
+        },
+        {
+          "Id": 3154,
+          "Nombre": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2001",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 16:20:00 CET 2026",
+          "matched_terms": [
+            "plazas"
+          ]
+        },
+        {
+          "Id": 61768,
+          "Nombre": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 16:20:00 CET 2026",
+          "matched_terms": [
+            "plazas"
+          ]
+        },
+        {
+          "Id": 2025,
+          "Nombre": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidadesy ciudades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2001",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 16:20:00 CET 2026",
+          "matched_terms": [
+            "plazas"
+          ]
+        },
+        {
+          "Id": 2082,
+          "Nombre": "Viajeros y pernoctaciones por puntos turísticos",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2005",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "turísticos"
+          ]
+        },
+        {
+          "Id": 2942,
+          "Nombre": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2001",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 16:20:00 CET 2026",
+          "matched_terms": [
+            "plazas"
+          ]
+        },
+        {
+          "Id": 49369,
+          "Nombre": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 3,
+          "Anyo_Periodo_ini": "2020",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 16:20:00 CET 2026",
+          "matched_terms": [
+            "plazas"
+          ]
+        },
+        {
+          "Id": 2020,
+          "Nombre": "Estancia media por zonas turísticas",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2005",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "turísticos"
+          ]
+        },
+        {
+          "Id": 2081,
+          "Nombre": "Estancia media por puntos turísticos",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2005",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "turísticos"
+          ]
+        },
+        {
+          "Id": 2030,
+          "Nombre": "Tasa de variación interanual de establecimientos, plazas, grados de ocupación y personal empleado",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 2,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2001",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Tue Nov 03 09:00:00 CET 2026",
+          "matched_terms": [
+            "plazas"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "486",
+      "queries": [
+        "construcción",
+        "producción"
+      ],
+      "total_tables": 9,
+      "matches": 9,
+      "filter_mode": "no_matches_returning_all",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 75486,
+          "Nombre": "Índices nacionales: general y por divisiones",
+          "Codigo": "2021-CNAE2009_NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 664,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026"
+        },
+        {
+          "Id": 75487,
+          "Nombre": "Índices nacionales: general y por divisiones",
+          "Codigo": "2021-CNAE2009_NAC_CEC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 664,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026"
+        },
+        {
+          "Id": 75488,
+          "Nombre": "Índices nacionales: general y por divisiones",
+          "Codigo": "2021-CNAE2009_NAC_CEEC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 664,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026"
+        },
+        {
+          "Id": 75489,
+          "Nombre": "Coeficiente de variación de la tasa anual del índice general",
+          "Codigo": "2021-CNAE2009_NAC_CV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 664,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026"
+        },
+        {
+          "Id": 79192,
+          "Nombre": "Índices nacionales: general y por divisiones",
+          "Codigo": "2021-CNAE2009_NAC_P",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 673,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2021",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Fri Mar 13 09:00:00 CET 2026"
+        },
+        {
+          "Id": 79681,
+          "Nombre": "Índices nacionales: general y por divisiones",
+          "Codigo": "2021-CNAE2009_NAC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 664,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026"
+        },
+        {
+          "Id": 79682,
+          "Nombre": "Índices nacionales: general y por divisiones corregidos de efectos de calendario (Base 2021)",
+          "Codigo": "2021-CNAE2009_NAC_CEC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 664,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026"
+        },
+        {
+          "Id": 79683,
+          "Nombre": "Índices nacionales: general y por divisiones corregidos de efectos estacionales y de calendario (Base 2021)",
+          "Codigo": "2021-CNAE2009_NAC_CEEC",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 664,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026"
+        },
+        {
+          "Id": 79684,
+          "Nombre": "Coeficiente de variación de la tasa anual del índice general",
+          "Codigo": "2021-CNAE2009_NAC_CV",
+          "FK_Periodicidad": 1,
+          "FK_Publicacion": 664,
+          "FK_Periodo_ini": 1,
+          "Anyo_Periodo_ini": "2025",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Fri Nov 13 09:00:00 CET 2026"
+        }
+      ]
+    },
+    {
+      "operation_id": "259",
+      "queries": [
+        "ejecuciones",
+        "hipotecarias"
+      ],
+      "total_tables": 15,
+      "matches": 15,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 7709,
+          "Nombre": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 345,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 7711,
+          "Nombre": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 345,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 10739,
+          "Nombre": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por comunidad autónoma",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 415,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 10740,
+          "Nombre": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda por comunidad autónoma",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 415,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 24468,
+          "Nombre": "Viviendas habituales de personas físicas con ejecución hipotecaria. Total nacional",
+          "Codigo": "NAC",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 345,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 49281,
+          "Nombre": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por comunidades y ciudades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 415,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 7712,
+          "Nombre": "Viviendas con ejecución hipotecaria iniciada según titular de la vivienda",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 345,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 10743,
+          "Nombre": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por provincia",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 415,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 10744,
+          "Nombre": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda por provincia",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 415,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 76197,
+          "Nombre": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por provincia",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 415,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 10741,
+          "Nombre": "Viviviendas con ejecución hipotecaria iniciada según titular de la vivienda por comunidad autónoma",
+          "Codigo": "CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 415,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 10745,
+          "Nombre": "Viviviendas con ejecución hipotecaria iniciada según titular de la vivienda por provincia",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 415,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 76198,
+          "Nombre": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 345,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 76199,
+          "Nombre": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 345,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        },
+        {
+          "Id": 76200,
+          "Nombre": "Viviendas con ejecución hipotecaria iniciada según titular de la vivienda",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 3,
+          "FK_Publicacion": 345,
+          "FK_Periodo_ini": 19,
+          "Anyo_Periodo_ini": "2014",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Wed Sep 16 09:00:00 CEST 2026",
+          "matched_terms": [
+            "ejecuciones",
+            "hipotecarias"
+          ]
+        }
+      ]
+    }
+  ],
+  "next_step": "Step 3: Call ine_select_multiple_table_groups with the selected table ID to identify variables/groups to filter by."
+}

@@ -1,0 +1,2128 @@
+{
+  "total_operations_queried": 2,
+  "results_by_operation": [
+    {
+      "operation_id": "22",
+      "queries": [
+        "población",
+        "municipio"
+      ],
+      "total_tables": 65,
+      "matches": 65,
+      "filter_mode": "union_of_phrases",
+      "truncated": false,
+      "tables": [
+        {
+          "Id": 2855,
+          "Nombre": "Albacete: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2856,
+          "Nombre": "Alicante/Alacant: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2857,
+          "Nombre": "Almería: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2915,
+          "Nombre": "Población por comunidades y ciudades autónomas y tamaño de los municipios.",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2854,
+          "Nombre": "Araba/Álava: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2917,
+          "Nombre": "Población por provincias y tamaño de los municipios",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2886,
+          "Nombre": "Asturias: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2858,
+          "Nombre": "Ávila: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2859,
+          "Nombre": "Badajoz: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2860,
+          "Nombre": "Balears, Illes: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2861,
+          "Nombre": "Barcelona: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2905,
+          "Nombre": "Bizkaia: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2862,
+          "Nombre": "Burgos: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2863,
+          "Nombre": "Cáceres: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2864,
+          "Nombre": "Cádiz: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2893,
+          "Nombre": "Cantabria: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2865,
+          "Nombre": "Castellón/Castelló: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2866,
+          "Nombre": "Ciudad Real: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2901,
+          "Nombre": "Córdoba: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2868,
+          "Nombre": "Coruña, A: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2869,
+          "Nombre": "Cuenca: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2873,
+          "Nombre": "Gipuzkoa: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2870,
+          "Nombre": "Girona: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2871,
+          "Nombre": "Granada: Población por municipios y sexo.",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2872,
+          "Nombre": "Guadalajara: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2874,
+          "Nombre": "Huelva: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2875,
+          "Nombre": "Huesca: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2876,
+          "Nombre": "Jaén: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2877,
+          "Nombre": "León: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2878,
+          "Nombre": "Lleida: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2880,
+          "Nombre": "Lugo: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2881,
+          "Nombre": "Madrid: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2882,
+          "Nombre": "Málaga: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2883,
+          "Nombre": "Murcia: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2884,
+          "Nombre": "Navarra: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2885,
+          "Nombre": "Ourense: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2888,
+          "Nombre": "Palencia: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2889,
+          "Nombre": "Palmas, Las: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2890,
+          "Nombre": "Pontevedra: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2879,
+          "Nombre": "Rioja, La: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2891,
+          "Nombre": "Salamanca: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2892,
+          "Nombre": "Santa Cruz de Tenerife: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2894,
+          "Nombre": "Segovia: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2895,
+          "Nombre": "Sevilla: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2896,
+          "Nombre": "Soria: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2900,
+          "Nombre": "Tarragona: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2899,
+          "Nombre": "Teruel: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2902,
+          "Nombre": "Toledo: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2903,
+          "Nombre": "Valencia/València: Población por municipios y sexo.",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2904,
+          "Nombre": "Valladolid: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2906,
+          "Nombre": "Zamora: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2907,
+          "Nombre": "Zaragoza: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2908,
+          "Nombre": "Ceuta: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2909,
+          "Nombre": "Melilla: Población por municipios y sexo. ",
+          "Codigo": "PROV-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "población",
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2852,
+          "Nombre": "Población por provincias y sexo.",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 2853,
+          "Nombre": "Población por comunidades y ciudades autónomas y sexo.",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 2910,
+          "Nombre": "Población por islas y sexo",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 2911,
+          "Nombre": "Población por capitales de provincia y sexo.",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 29005,
+          "Nombre": "Cifras oficiales del padrón por municipio",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Dec 11 11:00:00 CET 2025",
+          "matched_terms": [
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2851,
+          "Nombre": "Distribución de los municipios por comunidades y ciudades autónomas y tamaño de los municipios.",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2913,
+          "Nombre": "Distribución de los municipios por provincias y tamaño de los municipios",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1996",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "municipio"
+          ]
+        },
+        {
+          "Id": 2919,
+          "Nombre": "Variación anual de población por capitales de provincia.",
+          "Codigo": "MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1998",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 2921,
+          "Nombre": "Variación anual en la población por islas",
+          "Codigo": "PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1998",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 2918,
+          "Nombre": "Variación anual en la población por provincias",
+          "Codigo": "NAC-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1998",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población"
+          ]
+        },
+        {
+          "Id": 2920,
+          "Nombre": "Variación anual en la población por comunidades y ciudades autónomas",
+          "Codigo": "NAC-CCAA",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 29,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "1998",
+          "FK_Periodo_fin": 28,
+          "Anyo_Periodo_fin": "2021",
+          "Ultima_Modificacion": "Thu Dec 23 11:00:00 CET 2021",
+          "matched_terms": [
+            "población"
+          ]
+        }
+      ]
+    },
+    {
+      "operation_id": "353",
+      "queries": [
+        "renta",
+        "hogares"
+      ],
+      "total_tables": 540,
+      "matches": 108,
+      "filter_mode": "union_of_phrases",
+      "truncated": true,
+      "tables": [
+        {
+          "Id": 30656,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30824,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30833,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30842,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30851,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30860,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30869,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30878,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30887,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "1976_DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30896,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30917,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30926,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30935,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30944,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30953,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30962,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30971,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30980,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30989,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 30998,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31007,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2016",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31016,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31025,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31034,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31043,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31052,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31061,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31070,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31079,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31088,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31097,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31106,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31115,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31124,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31133,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31142,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31151,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31160,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31169,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31178,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31187,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31196,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31205,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31214,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31223,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31232,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31241,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31250,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31259,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31268,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31277,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31286,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 31295,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 53689,
+          "Nombre": "Indicadores de renta media y mediana",
+          "Codigo": "NAC-CCAA-PROV",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37607,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37608,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37677,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37678,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37679,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37680,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37682,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37683,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37684,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37685,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37686,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37687,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37688,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37689,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37690,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37691,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37692,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37693,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37694,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37695,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37697,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37698,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37699,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37700,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37701,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        },
+        {
+          "Id": 37702,
+          "Nombre": "Índice de Gini y Distribución de la renta P80/P20",
+          "Codigo": "DIST-SECC-MUN",
+          "FK_Periodicidad": 12,
+          "FK_Publicacion": 507,
+          "FK_Periodo_ini": 28,
+          "Anyo_Periodo_ini": "2015",
+          "FechaRef_fin": "null",
+          "Ultima_Modificacion": "Thu Oct 15 09:00:00 CEST 2026",
+          "matched_terms": [
+            "renta"
+          ]
+        }
+      ]
+    }
+  ],
+  "next_step": "Step 3: Call ine_select_multiple_table_groups with the selected table ID to identify variables/groups to filter by."
+}

@@ -1,0 +1,13 @@
+# Course pack too large for GitHub (>100 MB hard limit)
+Public_Economics_TODO.pdf
+
+# Python / local tooling
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

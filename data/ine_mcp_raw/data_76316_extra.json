@@ -1,0 +1,129 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "76316",
+      "source": {
+        "operation": {
+          "id": "40",
+          "name": "Estadística de Hipotecas"
+        },
+        "table": {
+          "id": "76316",
+          "name": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca. Resultados nacionales y por comunidades autonomas.",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=76316"
+        },
+        "applied_filters": [
+          "240:12365",
+          "247:12417",
+          "349:16473"
+        ],
+        "period": "latest 6 period(s) (nult=6)"
+      },
+      "applied_filters": [
+        "240:12365",
+        "247:12417",
+        "349:16473"
+      ],
+      "applied_period": "latest 6 period(s) (nult=6)",
+      "total_observations": 1,
+      "results": [
+        {
+          "COD": "HPT34618",
+          "Nombre": "Viviendas. Número de hipotecas. Total Nacional. Base nueva. Mensual. ",
+          "Unidad": {
+            "Nombre": "Hipotecas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 46469.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 33841.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 43372.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 45907.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 42213.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 40010.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

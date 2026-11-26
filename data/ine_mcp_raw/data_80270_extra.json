@@ -1,0 +1,769 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "80270",
+      "source": {
+        "operation": {
+          "id": "15",
+          "name": "Índice de Precios de la Vivienda (IPV)"
+        },
+        "table": {
+          "id": "80270",
+          "name": "Índices por CCAA: general, vivienda nueva y de segunda mano. Trimestrales",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=80270"
+        },
+        "applied_filters": [
+          "349:16473",
+          "70:9005",
+          "70:9009",
+          "345:16463",
+          "3:83",
+          "3:74"
+        ],
+        "period": "latest 8 period(s) (nult=8)"
+      },
+      "applied_filters": [
+        "349:16473",
+        "70:9005",
+        "70:9009",
+        "345:16463",
+        "3:83",
+        "3:74"
+      ],
+      "applied_period": "latest 8 period(s) (nult=8)",
+      "total_observations": 6,
+      "results": [
+        {
+          "COD": "IPV1209",
+          "Nombre": "Nacional. General. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Notas": [
+            {
+              "texto": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736152838&menu=ultiDatos&idp=1254735976607#~#https://www.ine.es/consul/serie.do?s=IPV769&nult=100&TB_iframe=true&position=center&width=700&height=500&L=0&nocab=1",
+              "Fk_TipoNota": 6,
+              "Nombre_TipoNota": "URLFMI",
+              "textoTipo": null
+            }
+          ],
+          "Data": [
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2026,
+              "Valor": 111.095
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2026,
+              "Valor": 107.458
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2025,
+              "Valor": 103.805
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2025,
+              "Valor": 101.937
+            },
+            {
+              "Fecha": "2025-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2025,
+              "Valor": 99.043
+            },
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2025,
+              "Valor": 95.215
+            },
+            {
+              "Fecha": "2024-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2024,
+              "Valor": 91.956
+            },
+            {
+              "Fecha": "2024-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2024,
+              "Valor": 90.337
+            }
+          ]
+        },
+        {
+          "COD": "IPV1376",
+          "Nombre": "Nacional. General. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Tasas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2026,
+              "Valor": 12.2
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2026,
+              "Valor": 12.9
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2025,
+              "Valor": 12.9
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2025,
+              "Valor": 12.8
+            },
+            {
+              "Fecha": "2025-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2025,
+              "Valor": 12.7
+            },
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2025,
+              "Valor": 12.2
+            },
+            {
+              "Fecha": "2024-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2024,
+              "Valor": 11.3
+            },
+            {
+              "Fecha": "2024-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2024,
+              "Valor": 8.1
+            }
+          ]
+        },
+        {
+          "COD": "IPV1594",
+          "Nombre": "Cataluña. General. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2026,
+              "Valor": 109.046
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2026,
+              "Valor": 106.491
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2025,
+              "Valor": 103.047
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2025,
+              "Valor": 101.52
+            },
+            {
+              "Fecha": "2025-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2025,
+              "Valor": 99.027
+            },
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2025,
+              "Valor": 96.405
+            },
+            {
+              "Fecha": "2024-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2024,
+              "Valor": 92.959
+            },
+            {
+              "Fecha": "2024-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2024,
+              "Valor": 91.222
+            }
+          ]
+        },
+        {
+          "COD": "IPV1379",
+          "Nombre": "Cataluña. General. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Tasas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2026,
+              "Valor": 10.1
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2026,
+              "Valor": 10.5
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2025,
+              "Valor": 10.9
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2025,
+              "Valor": 11.3
+            },
+            {
+              "Fecha": "2025-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2025,
+              "Valor": 11.6
+            },
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2025,
+              "Valor": 11.7
+            },
+            {
+              "Fecha": "2024-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2024,
+              "Valor": 10.4
+            },
+            {
+              "Fecha": "2024-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2024,
+              "Valor": 6.8
+            }
+          ]
+        },
+        {
+          "COD": "IPV1437",
+          "Nombre": "Madrid, Comunidad de. General. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2026,
+              "Valor": 111.85
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2026,
+              "Valor": 107.296
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2025,
+              "Valor": 104.115
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2025,
+              "Valor": 102.306
+            },
+            {
+              "Fecha": "2025-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2025,
+              "Valor": 99.111
+            },
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2025,
+              "Valor": 94.468
+            },
+            {
+              "Fecha": "2024-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2024,
+              "Valor": 91.164
+            },
+            {
+              "Fecha": "2024-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2024,
+              "Valor": 89.567
+            }
+          ]
+        },
+        {
+          "COD": "IPV1439",
+          "Nombre": "Madrid, Comunidad de. General. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Tasas",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2026,
+              "Valor": 12.9
+            },
+            {
+              "Fecha": "2026-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2026,
+              "Valor": 13.6
+            },
+            {
+              "Fecha": "2025-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2025,
+              "Valor": 14.2
+            },
+            {
+              "Fecha": "2025-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2025,
+              "Valor": 14.2
+            },
+            {
+              "Fecha": "2025-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "II",
+                "Nombre": "T2"
+              },
+              "Anyo": 2025,
+              "Valor": 13.3
+            },
+            {
+              "Fecha": "2025-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "I",
+                "Nombre": "T1"
+              },
+              "Anyo": 2025,
+              "Valor": 11.6
+            },
+            {
+              "Fecha": "2024-10-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "IV",
+                "Nombre": "T4"
+              },
+              "Anyo": 2024,
+              "Valor": 10.3
+            },
+            {
+              "Fecha": "2024-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "III",
+                "Nombre": "T3"
+              },
+              "Anyo": 2024,
+              "Valor": 7.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

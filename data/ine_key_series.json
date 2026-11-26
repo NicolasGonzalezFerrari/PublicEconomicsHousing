@@ -1,0 +1,928 @@
+{
+  "VTE_39364": [
+    {
+      "Nombre": "Total Nacional. Plazas. Dato base. ",
+      "Anyo": 2026,
+      "Valor": 1714702.0,
+      "Fecha": "2026-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 1624933.0,
+      "Fecha": "2025-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 1927931.0,
+      "Fecha": "2025-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 1896755.0,
+      "Fecha": "2024-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 2025942.0,
+      "Fecha": "2024-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 1751263.0,
+      "Fecha": "2024-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 1737509.0,
+      "Fecha": "2023-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 1545368.0,
+      "Fecha": "2023-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2026,
+      "Valor": 5.03,
+      "Fecha": "2026-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 4.93,
+      "Fecha": "2025-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 5.05,
+      "Fecha": "2025-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 5.04,
+      "Fecha": "2024-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 5.02,
+      "Fecha": "2024-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 4.98,
+      "Fecha": "2024-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 5.1,
+      "Fecha": "2023-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Total Nacional. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 5.06,
+      "Fecha": "2023-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas. Dato base. ",
+      "Anyo": 2026,
+      "Valor": 213006.0,
+      "Fecha": "2026-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 225920.0,
+      "Fecha": "2025-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 238900.0,
+      "Fecha": "2025-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 226333.0,
+      "Fecha": "2024-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 239191.0,
+      "Fecha": "2024-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 205047.0,
+      "Fecha": "2024-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 197849.0,
+      "Fecha": "2023-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 179640.0,
+      "Fecha": "2023-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2026,
+      "Valor": 4.72,
+      "Fecha": "2026-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 4.68,
+      "Fecha": "2025-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 4.93,
+      "Fecha": "2025-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 4.97,
+      "Fecha": "2024-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 4.98,
+      "Fecha": "2024-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 5.0,
+      "Fecha": "2024-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 5.07,
+      "Fecha": "2023-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Málaga. Plazas por vivienda turística. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 5.08,
+      "Fecha": "2023-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Balears, Illes. Plazas. Dato base. ",
+      "Anyo": 2026,
+      "Valor": 134282.0,
+      "Fecha": "2026-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Balears, Illes. Plazas. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 124181.0,
+      "Fecha": "2025-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Balears, Illes. Plazas. Dato base. ",
+      "Anyo": 2025,
+      "Valor": 152749.0,
+      "Fecha": "2025-05-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Balears, Illes. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 152881.0,
+      "Fecha": "2024-11-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Balears, Illes. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 167906.0,
+      "Fecha": "2024-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Balears, Illes. Plazas. Dato base. ",
+      "Anyo": 2024,
+      "Valor": 154692.0,
+      "Fecha": "2024-02-01T00:00:00.000+01:00"
+    },
+    {
+      "Nombre": "Balears, Illes. Plazas. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 165717.0,
+      "Fecha": "2023-08-01T00:00:00.000+02:00"
+    },
+    {
+      "Nombre": "Balears, Illes. Plazas. Dato base. ",
+      "Anyo": 2023,
+      "Valor": 156841.0,
+      "Fecha": "2023-02-01T00:00:00.000+01:00"
+    }
+  ],
+  "IPVA_59056": [
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2024,
+      "Valor": 122.92
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2023,
+      "Valor": 118.727
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2022,
+      "Valor": 115.684
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2021,
+      "Valor": 112.694
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2020,
+      "Valor": 110.942
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2019,
+      "Valor": 109.999
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2018,
+      "Valor": 106.247
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2017,
+      "Valor": 103.528
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2016,
+      "Valor": 101.681
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2015,
+      "Valor": 100.0
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2014,
+      "Valor": 99.741
+    },
+    {
+      "Nombre": "Total Nacional. Total. Índice. ",
+      "Anyo": 2013,
+      "Valor": 100.493
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2024,
+      "Valor": 118.005
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2023,
+      "Valor": 114.608
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2022,
+      "Valor": 112.215
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2021,
+      "Valor": 109.513
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2020,
+      "Valor": 107.422
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2019,
+      "Valor": 106.79
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2018,
+      "Valor": 105.205
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2017,
+      "Valor": 103.327
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2016,
+      "Valor": 101.744
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2015,
+      "Valor": 100.0
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2014,
+      "Valor": 99.367
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+      "Anyo": 2013,
+      "Valor": 99.347
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2024,
+      "Valor": 123.533
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2023,
+      "Valor": 119.24
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2022,
+      "Valor": 116.115
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2021,
+      "Valor": 113.088
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2020,
+      "Valor": 111.382
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2019,
+      "Valor": 110.4
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2018,
+      "Valor": 106.378
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2017,
+      "Valor": 103.553
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2016,
+      "Valor": 101.673
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2015,
+      "Valor": 100.0
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2014,
+      "Valor": 99.786
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+      "Anyo": 2013,
+      "Valor": 100.629
+    },
+    {
+      "Nombre": "Cataluña. Total. Índice. ",
+      "Anyo": 2024,
+      "Valor": 123.561
+    },
+    {
+      "Nombre": "Cataluña. Total. Índice. ",
+      "Anyo": 2023,
+      "Valor": 119.854
+    },
+    {
+      "Nombre": "Cataluña. Total. Índice. ",
+      "Anyo": 2022,
+      "Valor": 116.791
+    },
+    {
+      "Nombre": "Cataluña. Total. Índice. ",
+      "Anyo": 2021,
+      "Valor": 113.876
+    }
+  ],
+  "IPV_80270": [
+    {
+      "Nombre": "Nacional. General. Índice. ",
+      "Anyo": 2026,
+      "Valor": 111.095
+    },
+    {
+      "Nombre": "Nacional. General. Índice. ",
+      "Anyo": 2026,
+      "Valor": 107.458
+    },
+    {
+      "Nombre": "Nacional. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 103.805
+    },
+    {
+      "Nombre": "Nacional. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 101.937
+    },
+    {
+      "Nombre": "Nacional. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 99.043
+    },
+    {
+      "Nombre": "Nacional. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 95.215
+    },
+    {
+      "Nombre": "Nacional. General. Índice. ",
+      "Anyo": 2024,
+      "Valor": 91.956
+    },
+    {
+      "Nombre": "Nacional. General. Índice. ",
+      "Anyo": 2024,
+      "Valor": 90.337
+    },
+    {
+      "Nombre": "Nacional. General. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 12.2
+    },
+    {
+      "Nombre": "Nacional. General. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 12.9
+    },
+    {
+      "Nombre": "Nacional. General. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 12.9
+    },
+    {
+      "Nombre": "Nacional. General. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 12.8
+    },
+    {
+      "Nombre": "Nacional. General. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 12.7
+    },
+    {
+      "Nombre": "Nacional. General. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 12.2
+    },
+    {
+      "Nombre": "Nacional. General. Variación anual. ",
+      "Anyo": 2024,
+      "Valor": 11.3
+    },
+    {
+      "Nombre": "Nacional. General. Variación anual. ",
+      "Anyo": 2024,
+      "Valor": 8.1
+    },
+    {
+      "Nombre": "Cataluña. General. Índice. ",
+      "Anyo": 2026,
+      "Valor": 109.046
+    },
+    {
+      "Nombre": "Cataluña. General. Índice. ",
+      "Anyo": 2026,
+      "Valor": 106.491
+    },
+    {
+      "Nombre": "Cataluña. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 103.047
+    },
+    {
+      "Nombre": "Cataluña. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 101.52
+    },
+    {
+      "Nombre": "Cataluña. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 99.027
+    },
+    {
+      "Nombre": "Cataluña. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 96.405
+    },
+    {
+      "Nombre": "Cataluña. General. Índice. ",
+      "Anyo": 2024,
+      "Valor": 92.959
+    },
+    {
+      "Nombre": "Cataluña. General. Índice. ",
+      "Anyo": 2024,
+      "Valor": 91.222
+    },
+    {
+      "Nombre": "Cataluña. General. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 10.1
+    },
+    {
+      "Nombre": "Cataluña. General. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 10.5
+    },
+    {
+      "Nombre": "Cataluña. General. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 10.9
+    },
+    {
+      "Nombre": "Cataluña. General. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 11.3
+    },
+    {
+      "Nombre": "Cataluña. General. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 11.6
+    },
+    {
+      "Nombre": "Cataluña. General. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 11.7
+    },
+    {
+      "Nombre": "Cataluña. General. Variación anual. ",
+      "Anyo": 2024,
+      "Valor": 10.4
+    },
+    {
+      "Nombre": "Cataluña. General. Variación anual. ",
+      "Anyo": 2024,
+      "Valor": 6.8
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. General. Índice. ",
+      "Anyo": 2026,
+      "Valor": 111.85
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. General. Índice. ",
+      "Anyo": 2026,
+      "Valor": 107.296
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 104.115
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 102.306
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 99.111
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. General. Índice. ",
+      "Anyo": 2025,
+      "Valor": 94.468
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. General. Índice. ",
+      "Anyo": 2024,
+      "Valor": 91.164
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. General. Índice. ",
+      "Anyo": 2024,
+      "Valor": 89.567
+    }
+  ],
+  "IRAV_72975": [
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.57
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.54
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.47
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.49
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.44
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.48
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.4
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.47
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.16
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2026,
+      "Valor": 2.14
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 2.32
+    },
+    {
+      "Nombre": "Total Nacional. Índice general. Variación anual. ",
+      "Anyo": 2025,
+      "Valor": 2.29
+    }
+  ],
+  "Censo2011_3457": [
+    {
+      "Nombre": "Total Nacional. Total viviendas. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 25218536.0
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 18083692.0
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda no principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 7124931.0
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda secundaria. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 3681565.0
+    },
+    {
+      "Nombre": "Total Nacional. Vivienda vacía. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 3443365.0
+    },
+    {
+      "Nombre": "Málaga. Total viviendas. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 897647.0
+    },
+    {
+      "Nombre": "Málaga. Vivienda principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 606351.0
+    },
+    {
+      "Nombre": "Málaga. Vivienda no principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 291049.0
+    },
+    {
+      "Nombre": "Málaga. Vivienda secundaria. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 170438.0
+    },
+    {
+      "Nombre": "Málaga. Vivienda vacía. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 120611.0
+    },
+    {
+      "Nombre": "Barcelona. Total viviendas. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 2604368.0
+    },
+    {
+      "Nombre": "Barcelona. Vivienda principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 2168607.0
+    },
+    {
+      "Nombre": "Barcelona. Vivienda no principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 434490.0
+    },
+    {
+      "Nombre": "Barcelona. Vivienda secundaria. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 151335.0
+    },
+    {
+      "Nombre": "Barcelona. Vivienda vacía. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 283155.0
+    },
+    {
+      "Nombre": "Alicante/Alacant. Total viviendas. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 1274325.0
+    },
+    {
+      "Nombre": "Alicante/Alacant. Vivienda principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 738367.0
+    },
+    {
+      "Nombre": "Alicante/Alacant. Vivienda no principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 535729.0
+    },
+    {
+      "Nombre": "Alicante/Alacant. Vivienda secundaria. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 326705.0
+    },
+    {
+      "Nombre": "Alicante/Alacant. Vivienda vacía. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 209024.0
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. Total viviendas. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 2895660.0
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. Vivienda principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 2469378.0
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. Vivienda no principal. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 425301.0
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. Vivienda secundaria. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 162022.0
+    },
+    {
+      "Nombre": "Madrid, Comunidad de. Vivienda vacía. Total habitantes. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 263279.0
+    },
+    {
+      "Nombre": "Madrid. Total habitantes. Total viviendas. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 2895660.0
+    },
+    {
+      "Nombre": "Madrid. Total habitantes. Vivienda principal. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 2469378.0
+    },
+    {
+      "Nombre": "Madrid. Total habitantes. Vivienda no principal. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 425301.0
+    },
+    {
+      "Nombre": "Madrid. Total habitantes. Vivienda secundaria. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 162022.0
+    },
+    {
+      "Nombre": "Madrid. Total habitantes. Vivienda vacía. Vivienda. ",
+      "Anyo": 2011,
+      "Valor": 263279.0
+    }
+  ],
+  "Censo2011_mun_3456": [
+    {
+      "Nombre": "Málaga. Total viviendas. Total habitantes. Vivienda. ",
+      "Valor": 254736.0
+    },
+    {
+      "Nombre": "Málaga. Vivienda principal. Total habitantes. Vivienda. ",
+      "Valor": 211358.0
+    },
+    {
+      "Nombre": "Málaga. Vivienda secundaria. Total habitantes. Vivienda. ",
+      "Valor": 14890.0
+    },
+    {
+      "Nombre": "Málaga. Vivienda vacía. Total habitantes. Vivienda. ",
+      "Valor": 28410.0
+    },
+    {
+      "Nombre": "Barcelona. Total viviendas. Total habitantes. Vivienda. ",
+      "Valor": 811521.0
+    },
+    {
+      "Nombre": "Barcelona. Vivienda principal. Total habitantes. Vivienda. ",
+      "Valor": 684078.0
+    },
+    {
+      "Nombre": "Barcelona. Vivienda secundaria. Total habitantes. Vivienda. ",
+      "Valor": 38769.0
+    },
+    {
+      "Nombre": "Barcelona. Vivienda vacía. Total habitantes. Vivienda. ",
+      "Valor": 88259.0
+    }
+  ],
+  "HPT_76316": [
+    {
+      "Nombre": "Viviendas. Número de hipotecas. Total Nacional. Base nueva. Mensual. ",
+      "Anyo": 2026,
+      "Valor": 46469.0
+    },
+    {
+      "Nombre": "Viviendas. Número de hipotecas. Total Nacional. Base nueva. Mensual. ",
+      "Anyo": 2026,
+      "Valor": 33841.0
+    },
+    {
+      "Nombre": "Viviendas. Número de hipotecas. Total Nacional. Base nueva. Mensual. ",
+      "Anyo": 2026,
+      "Valor": 43372.0
+    },
+    {
+      "Nombre": "Viviendas. Número de hipotecas. Total Nacional. Base nueva. Mensual. ",
+      "Anyo": 2026,
+      "Valor": 45907.0
+    },
+    {
+      "Nombre": "Viviendas. Número de hipotecas. Total Nacional. Base nueva. Mensual. ",
+      "Anyo": 2026,
+      "Valor": 42213.0
+    },
+    {
+      "Nombre": "Viviendas. Número de hipotecas. Total Nacional. Base nueva. Mensual. ",
+      "Anyo": 2026,
+      "Valor": 40010.0
+    }
+  ]
+}

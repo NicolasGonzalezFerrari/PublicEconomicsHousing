@@ -1,0 +1,1549 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "6150",
+      "source": {
+        "operation": {
+          "id": "7",
+          "name": "Estadística de Transmisión de Derechos de la Propiedad"
+        },
+        "table": {
+          "id": "6150",
+          "name": "Compraventa de viviendas según régimen y estado",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6150"
+        },
+        "applied_filters": [
+          "349:16473",
+          "70:8997",
+          "70:8998",
+          "70:8999",
+          "345:16464",
+          "345:16465",
+          "503:284449",
+          "503:284450"
+        ],
+        "period": "latest 6 period(s) (nult=6)"
+      },
+      "applied_filters": [
+        "349:16473",
+        "70:8997",
+        "70:8998",
+        "70:8999",
+        "345:16464",
+        "345:16465",
+        "503:284449",
+        "503:284450"
+      ],
+      "applied_period": "latest 6 period(s) (nult=6)",
+      "total_observations": 16,
+      "results": [
+        {
+          "COD": "ETDP1825",
+          "Nombre": "Total Nacional. Vivienda nueva. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 12145.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 10521.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 13289.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 12766.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 11888.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 11458.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1824",
+          "Nombre": "Total Nacional. Vivienda segunda mano. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 42403.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 38798.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 48128.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 46522.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 44574.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 41783.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1823",
+          "Nombre": "Total Nacional. Vivienda libre. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 51180.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 46022.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 57607.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 55609.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 52831.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 49946.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1822",
+          "Nombre": "Total Nacional. Vivienda protegida. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 3368.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 3297.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 3810.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 3679.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 3631.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 3295.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1820",
+          "Nombre": "Andalucía. Vivienda nueva. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 3075.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 2400.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 3111.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 3257.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 2977.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 2913.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1819",
+          "Nombre": "Andalucía. Vivienda segunda mano. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 8040.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 7027.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 9128.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 8854.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 8746.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 7748.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1818",
+          "Nombre": "Andalucía. Vivienda libre. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 10247.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 8753.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 11416.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 11239.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 10669.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 9766.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1817",
+          "Nombre": "Andalucía. Vivienda protegida. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 868.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 674.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 823.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 872.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 1054.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 895.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1815",
+          "Nombre": "Aragón. Vivienda nueva. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 431.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 245.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 215.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 333.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 265.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 283.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1814",
+          "Nombre": "Aragón. Vivienda segunda mano. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 1098.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 1096.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 1302.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 1526.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 1274.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 1187.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1813",
+          "Nombre": "Aragón. Vivienda libre. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 1436.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 1247.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 1369.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 1683.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 1408.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 1361.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1812",
+          "Nombre": "Aragón. Vivienda protegida. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 93.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 94.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 148.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 176.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 131.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 109.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1810",
+          "Nombre": "Asturias, Principado de. Vivienda nueva. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 245.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 296.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 247.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 283.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 251.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 238.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1809",
+          "Nombre": "Asturias, Principado de. Vivienda segunda mano. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 856.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 773.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 987.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 1081.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 1000.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 973.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1808",
+          "Nombre": "Asturias, Principado de. Vivienda libre. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 1006.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 978.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 1129.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 1235.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 1132.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 1110.0
+            }
+          ]
+        },
+        {
+          "COD": "ETDP1807",
+          "Nombre": "Asturias, Principado de. Vivienda protegida. Compraventa. Número. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2026-09-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "09",
+                "Nombre": "M09"
+              },
+              "Anyo": 2026,
+              "Valor": 95.0
+            },
+            {
+              "Fecha": "2026-08-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "08",
+                "Nombre": "M08"
+              },
+              "Anyo": 2026,
+              "Valor": 91.0
+            },
+            {
+              "Fecha": "2026-07-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "07",
+                "Nombre": "M07"
+              },
+              "Anyo": 2026,
+              "Valor": 105.0
+            },
+            {
+              "Fecha": "2026-06-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "06",
+                "Nombre": "M06"
+              },
+              "Anyo": 2026,
+              "Valor": 129.0
+            },
+            {
+              "Fecha": "2026-05-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "05",
+                "Nombre": "M05"
+              },
+              "Anyo": 2026,
+              "Valor": 119.0
+            },
+            {
+              "Fecha": "2026-04-01T00:00:00.000+02:00",
+              "TipoDato": {
+                "Nombre": "Provisional",
+                "Codigo": "P"
+              },
+              "Periodo": {
+                "Codigo": "04",
+                "Nombre": "M04"
+              },
+              "Anyo": 2026,
+              "Valor": 101.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,921 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "3457",
+      "source": {
+        "operation": {
+          "id": "8",
+          "name": "Censos de Población y Viviendas"
+        },
+        "table": {
+          "id": "3457",
+          "name": "Viviendas según tamaño del municipio por tipo de vivienda (por comunidades autónomas y provincias)",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=3457"
+        },
+        "applied_filters": [
+          "349:16473",
+          "70:9009",
+          "115:30",
+          "115:9",
+          "115:4",
+          "115:29",
+          "545:283862",
+          "545:283864",
+          "545:283865",
+          "545:283866",
+          "545:283867"
+        ],
+        "period": "latest 1 period(s) (nult=1)"
+      },
+      "applied_filters": [
+        "349:16473",
+        "70:9009",
+        "115:30",
+        "115:9",
+        "115:4",
+        "115:29",
+        "545:283862",
+        "545:283864",
+        "545:283865",
+        "545:283866",
+        "545:283867"
+      ],
+      "applied_period": "latest 1 period(s) (nult=1)",
+      "total_observations": 30,
+      "results": [
+        {
+          "COD": "CENSO1527219",
+          "Nombre": "Total Nacional. Total viviendas. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 25218536.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527217",
+          "Nombre": "Total Nacional. Vivienda principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 18083692.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527216",
+          "Nombre": "Total Nacional. Vivienda no principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 7124931.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527215",
+          "Nombre": "Total Nacional. Vivienda secundaria. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 3681565.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527214",
+          "Nombre": "Total Nacional. Vivienda vacía. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 3443365.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527051",
+          "Nombre": "Málaga. Total viviendas. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 897647.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527049",
+          "Nombre": "Málaga. Vivienda principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 606351.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527048",
+          "Nombre": "Málaga. Vivienda no principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 291049.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527047",
+          "Nombre": "Málaga. Vivienda secundaria. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 170438.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527046",
+          "Nombre": "Málaga. Vivienda vacía. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 120611.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526904",
+          "Nombre": "Barcelona. Total viviendas. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 2604368.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526902",
+          "Nombre": "Barcelona. Vivienda principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 2168607.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526901",
+          "Nombre": "Barcelona. Vivienda no principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 434490.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526900",
+          "Nombre": "Barcelona. Vivienda secundaria. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 151335.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526899",
+          "Nombre": "Barcelona. Vivienda vacía. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 283155.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526876",
+          "Nombre": "Alicante/Alacant. Total viviendas. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 1274325.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526874",
+          "Nombre": "Alicante/Alacant. Vivienda principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 738367.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526873",
+          "Nombre": "Alicante/Alacant. Vivienda no principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 535729.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526872",
+          "Nombre": "Alicante/Alacant. Vivienda secundaria. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 326705.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1526871",
+          "Nombre": "Alicante/Alacant. Vivienda vacía. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 209024.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527128",
+          "Nombre": "Madrid, Comunidad de. Total viviendas. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 2895660.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527126",
+          "Nombre": "Madrid, Comunidad de. Vivienda principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 2469378.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527125",
+          "Nombre": "Madrid, Comunidad de. Vivienda no principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 425301.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527124",
+          "Nombre": "Madrid, Comunidad de. Vivienda secundaria. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 162022.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1527123",
+          "Nombre": "Madrid, Comunidad de. Vivienda vacía. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 263279.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1543403",
+          "Nombre": "Madrid. Total habitantes. Total viviendas. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 2895660.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1543401",
+          "Nombre": "Madrid. Total habitantes. Vivienda principal. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 2469378.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1543400",
+          "Nombre": "Madrid. Total habitantes. Vivienda no principal. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 425301.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1543399",
+          "Nombre": "Madrid. Total habitantes. Vivienda secundaria. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 162022.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1543398",
+          "Nombre": "Madrid. Total habitantes. Vivienda vacía. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 263279.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1585 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "59056",
+      "source": {
+        "operation": {
+          "id": "432",
+          "name": "Índice de Precios de Vivienda en Alquiler"
+        },
+        "table": {
+          "id": "59056",
+          "name": "Índices nacionales y por comunidades autónomas: general y por tipo de edificación",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=59056"
+        },
+        "applied_filters": [
+          "349:16473",
+          "70:9005",
+          "70:9009",
+          "3:83"
+        ],
+        "period": "latest 12 period(s) (nult=12)"
+      },
+      "applied_filters": [
+        "349:16473",
+        "70:9005",
+        "70:9009",
+        "3:83"
+      ],
+      "applied_period": "latest 12 period(s) (nult=12)",
+      "total_observations": 9,
+      "results": [
+        {
+          "COD": "IPVA4962",
+          "Nombre": "Total Nacional. Total. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 122.92
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 118.727
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 115.684
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 112.694
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 110.942
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 109.999
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 106.247
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 103.528
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.681
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.741
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 100.493
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4961",
+          "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 118.005
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 114.608
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 112.215
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 109.513
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 107.422
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 106.79
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 105.205
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 103.327
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.744
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.367
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 99.347
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4960",
+          "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 123.533
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 119.24
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 116.115
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 113.088
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 111.382
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 110.4
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 106.378
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 103.553
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.673
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.786
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 100.629
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4935",
+          "Nombre": "Cataluña. Total. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 123.561
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 119.854
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 116.791
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 113.876
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 112.364
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 111.172
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 107.312
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 103.913
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.712
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.46
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 100.193
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4934",
+          "Nombre": "Cataluña. Vivienda unifamiliar. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 117.034
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 114.188
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 111.887
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 109.219
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 107.1
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 106.16
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 105.097
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 103.177
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.75
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.057
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 98.804
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4933",
+          "Nombre": "Cataluña. Vivienda colectiva. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 124.375
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 120.563
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 117.408
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 114.461
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 113.028
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 111.805
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 107.596
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 104.01
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.708
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.511
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 100.366
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4923",
+          "Nombre": "Madrid, Comunidad de. Total. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 122.246
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 118.178
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 115.294
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 112.539
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 111.433
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 110.717
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 106.485
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 103.653
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.755
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.568
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 100.486
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4922",
+          "Nombre": "Madrid, Comunidad de. Vivienda unifamiliar. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 117.708
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 114.383
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 111.966
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 109.206
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 107.279
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 106.716
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 104.718
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 102.999
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.305
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.205
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 99.86
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4921",
+          "Nombre": "Madrid, Comunidad de. Vivienda colectiva. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 122.559
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 118.443
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 115.529
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 112.774
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 111.724
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 110.998
+            },
+            {
+              "Fecha": "2018-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2018,
+              "Valor": 106.612
+            },
+            {
+              "Fecha": "2017-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2017,
+              "Valor": 103.701
+            },
+            {
+              "Fecha": "2016-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2016,
+              "Valor": 101.787
+            },
+            {
+              "Fecha": "2015-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2015,
+              "Valor": 100.0
+            },
+            {
+              "Fecha": "2014-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2014,
+              "Valor": 99.594
+            },
+            {
+              "Fecha": "2013-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2013,
+              "Valor": 100.531
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

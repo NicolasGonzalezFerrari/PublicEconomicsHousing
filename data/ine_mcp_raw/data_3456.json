@@ -1,0 +1,186 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "3456",
+      "source": {
+        "operation": {
+          "id": "8",
+          "name": "Censos de Población y Viviendas"
+        },
+        "table": {
+          "id": "3456",
+          "name": "Viviendas por municipios (con más de 2.000 habitantes) y tipo de vivienda",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=3456"
+        },
+        "applied_filters": [
+          "19:563",
+          "545:283862",
+          "545:283864",
+          "545:283865",
+          "545:283866",
+          "545:283867"
+        ],
+        "period": "latest 6 period(s) (nult=6)"
+      },
+      "applied_filters": [
+        "19:563",
+        "545:283862",
+        "545:283864",
+        "545:283865",
+        "545:283866",
+        "545:283867"
+      ],
+      "applied_period": "latest 6 period(s) (nult=6)",
+      "total_observations": 5,
+      "results": [
+        {
+          "COD": "CENSO1539910",
+          "Nombre": "Barcelona. Total viviendas. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 811521.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1539908",
+          "Nombre": "Barcelona. Vivienda principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 684078.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1539907",
+          "Nombre": "Barcelona. Vivienda no principal. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 127028.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1539906",
+          "Nombre": "Barcelona. Vivienda secundaria. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 38769.0
+            }
+          ]
+        },
+        {
+          "COD": "CENSO1539905",
+          "Nombre": "Barcelona. Vivienda vacía. Total habitantes. Vivienda. ",
+          "Unidad": {
+            "Nombre": "Vivienda",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2011-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2011,
+              "Valor": 88259.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

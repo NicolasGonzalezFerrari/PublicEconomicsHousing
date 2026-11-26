@@ -1,0 +1,2303 @@
+{
+  "total_requests_processed": 1,
+  "response_reminder": "ALWAYS include the source of each data item in your response: operation (name and ID), table (name, ID, and URL), and applied filters. If you use multiple tables, indicate it for each data item.",
+  "results": [
+    {
+      "table_id": "59056",
+      "source": {
+        "operation": {
+          "id": "432",
+          "name": "Índice de Precios de Vivienda en Alquiler"
+        },
+        "table": {
+          "id": "59056",
+          "name": "Índices nacionales y por comunidades autónomas: general y por tipo de edificación",
+          "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=59056"
+        },
+        "applied_filters": [
+          "349:16473",
+          "70:8997",
+          "70:9005",
+          "70:9009",
+          "933:391802",
+          "545:283863",
+          "545:283868",
+          "3:83",
+          "3:74"
+        ],
+        "period": "latest 6 period(s) (nult=6)"
+      },
+      "applied_filters": [
+        "349:16473",
+        "70:8997",
+        "70:9005",
+        "70:9009",
+        "933:391802",
+        "545:283863",
+        "545:283868",
+        "3:83",
+        "3:74"
+      ],
+      "applied_period": "latest 6 period(s) (nult=6)",
+      "total_observations": 24,
+      "results": [
+        {
+          "COD": "IPVA4962",
+          "Nombre": "Total Nacional. Total. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 122.92
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 118.727
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 115.684
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 112.694
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 110.942
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 109.999
+            }
+          ]
+        },
+        {
+          "COD": "IPVA5016",
+          "Nombre": "Total Nacional. Total. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.5
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.6
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.7
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.6
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.9
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 3.5
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4961",
+          "Nombre": "Total Nacional. Vivienda unifamiliar. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 118.005
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 114.608
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 112.215
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 109.513
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 107.422
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 106.79
+            }
+          ]
+        },
+        {
+          "COD": "IPVA5015",
+          "Nombre": "Total Nacional. Vivienda unifamiliar. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.0
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.1
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.5
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.9
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.6
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 1.5
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4960",
+          "Nombre": "Total Nacional. Vivienda colectiva. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 123.533
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 119.24
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 116.115
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 113.088
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 111.382
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 110.4
+            }
+          ]
+        },
+        {
+          "COD": "IPVA5014",
+          "Nombre": "Total Nacional. Vivienda colectiva. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.6
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.7
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.7
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.5
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.9
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 3.8
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4959",
+          "Nombre": "Andalucía. Total. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 123.029
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 118.53
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 115.57
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 112.471
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 110.374
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 109.594
+            }
+          ]
+        },
+        {
+          "COD": "IPVA5013",
+          "Nombre": "Andalucía. Total. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.8
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.6
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.8
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.9
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.7
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 3.4
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4958",
+          "Nombre": "Andalucía. Vivienda unifamiliar. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 117.545
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 113.975
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 111.909
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 109.562
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 107.625
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 107.1
+            }
+          ]
+        },
+        {
+          "COD": "IPVA5012",
+          "Nombre": "Andalucía. Vivienda unifamiliar. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.1
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 1.8
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.1
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.8
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.5
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 1.7
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4957",
+          "Nombre": "Andalucía. Vivienda colectiva. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 124.166
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 119.478
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 116.336
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 113.079
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 110.948
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 110.115
+            }
+          ]
+        },
+        {
+          "COD": "IPVA5011",
+          "Nombre": "Andalucía. Vivienda colectiva. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.9
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.7
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.9
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.9
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.8
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 3.8
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4935",
+          "Nombre": "Cataluña. Total. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 123.561
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 119.854
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 116.791
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 113.876
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 112.364
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 111.172
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4989",
+          "Nombre": "Cataluña. Total. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.1
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.6
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.6
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.3
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 1.1
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 3.6
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4934",
+          "Nombre": "Cataluña. Vivienda unifamiliar. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 117.034
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 114.188
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 111.887
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 109.219
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 107.1
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 106.16
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4988",
+          "Nombre": "Cataluña. Vivienda unifamiliar. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 2.5
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.1
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.4
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 2.0
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.9
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 1.0
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4933",
+          "Nombre": "Cataluña. Vivienda colectiva. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 124.375
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 120.563
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 117.408
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 114.461
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 113.028
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 111.805
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4987",
+          "Nombre": "Cataluña. Vivienda colectiva. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.2
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.7
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.6
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.3
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 1.1
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 3.9
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4923",
+          "Nombre": "Madrid, Comunidad de. Total. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 122.246
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 118.178
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 115.294
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 112.539
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 111.433
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 110.717
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4977",
+          "Nombre": "Madrid, Comunidad de. Total. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.4
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.5
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.4
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.0
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.6
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 4.0
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4922",
+          "Nombre": "Madrid, Comunidad de. Vivienda unifamiliar. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 117.708
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 114.383
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 111.966
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 109.206
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 107.279
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 106.716
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4976",
+          "Nombre": "Madrid, Comunidad de. Vivienda unifamiliar. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 2.9
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.2
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.5
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 1.8
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.5
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 1.9
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4921",
+          "Nombre": "Madrid, Comunidad de. Vivienda colectiva. Índice. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 122.559
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 118.443
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 115.529
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 112.774
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 111.724
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 110.998
+            }
+          ]
+        },
+        {
+          "COD": "IPVA4975",
+          "Nombre": "Madrid, Comunidad de. Vivienda colectiva. Variación anual. ",
+          "Unidad": {
+            "Nombre": "Índice",
+            "Codigo": null,
+            "Abrev": null
+          },
+          "Escala": {
+            "Nombre": " ",
+            "Factor": "1E0",
+            "Codigo": null
+          },
+          "Data": [
+            {
+              "Fecha": "2024-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2024,
+              "Valor": 3.5
+            },
+            {
+              "Fecha": "2023-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2023,
+              "Valor": 2.5
+            },
+            {
+              "Fecha": "2022-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2022,
+              "Valor": 2.4
+            },
+            {
+              "Fecha": "2021-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2021,
+              "Valor": 0.9
+            },
+            {
+              "Fecha": "2020-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2020,
+              "Valor": 0.7
+            },
+            {
+              "Fecha": "2019-01-01T00:00:00.000+01:00",
+              "TipoDato": {
+                "Nombre": "Definitivo",
+                "Codigo": "D"
+              },
+              "Periodo": {
+                "Codigo": "01",
+                "Nombre": "A"
+              },
+              "Anyo": 2019,
+              "Valor": 4.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
