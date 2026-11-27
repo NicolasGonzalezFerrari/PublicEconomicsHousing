@@ -111,10 +111,12 @@ Public_Economics_TODO.pdf   ← syllabus + slides del curso
 references/                 ← fuentes housing (ver REFERENCES.md)
 docs/
   course-arguments.md       ← mapa teoría/PS del curso → vacancy tax
-  proposal-outline.md       ← guion 10′ (pendiente)
-  evidence-notes.md         ← fichas Segú et al. (pendiente)
-slides/                     ← deck (por crear)
-data/                       ← tablas/figuras propias (por crear)
+  arguments-from-papers.md  ← argumentario desde papers
+  latex/dossier-vacancy-tax.tex
+slides/
+  presentacion-10min-vacancy-tax.tex/.pdf  ← borrador ES 10′
+research/briefs/            ← research briefs (datos + presentación)
+data/                       ← tablas/figuras propias
 ```
 
 Análisis del material de clase: **[docs/course-arguments.md](docs/course-arguments.md)**.

@@ -1,0 +1,433 @@
+% ═══════════════════════════════════════════════════════════════
+%  Presentación 10′ — Impuesto a viviendas vacías (borrador ES)
+%  Public Economics & Political Economy — BIEBAM Segovia
+%  Gobierno: vía fiscal / anti-grandes poseedores
+% ═══════════════════════════════════════════════════════════════
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{tikz}
+\usepackage{hyperref}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+\setbeamerfont{title}{size=\Large\bfseries}
+\setbeamerfont{frametitle}{size=\large\bfseries}
+
+\definecolor{azuloscuro}{HTML}{1B3A4B}
+\definecolor{azulmedio}{HTML}{2E6B8A}
+\definecolor{ambar}{HTML}{B45309}
+\definecolor{verdeint}{HTML}{1F6B4A}
+\setbeamercolor{structure}{fg=azuloscuro}
+\setbeamercolor{frametitle}{bg=azuloscuro,fg=white}
+\setbeamercolor{title}{fg=azuloscuro}
+\setbeamercolor{block title}{bg=azulmedio,fg=white}
+\setbeamercolor{block body}{bg=azulmedio!8}
+\setbeamercolor{block title alerted}{bg=ambar,fg=white}
+\setbeamercolor{block body alerted}{bg=ambar!10}
+\setbeamercolor{block title example}{bg=verdeint,fg=white}
+\setbeamercolor{block body example}{bg=verdeint!8}
+
+\newcommand{\fuente}[1]{\par\vspace{0.4em}{\scriptsize\color{gray}\textit{#1}}}
+
+\title{Impuesto a viviendas vacías:\\movilizar el stock, no solo construirlo}
+\subtitle{Propuesta del Gobierno --- Tema Housing}
+\author{Public Economics \& Political Economy}
+\date{1 diciembre 2026 \\[0.3em] {\small Borrador ES --- 10 minutos}}
+
+\begin{document}
+
+% ─────────────────────────────────────────────────────────────
+\begin{frame}
+  \titlepage
+  \vspace{-1em}
+  {\footnotesize Estructura: \textbf{Problema 3--4$'$} $\rightarrow$ \textbf{Solución 6--7$'$} (4 cargas $\approx$ 4{:}1{:}1{:}1)}
+\end{frame}
+
+% ─────────────────────────────────────────────────────────────
+\begin{frame}{Hoja de ruta}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{1. Problema (~3--4$'$)}
+        \begin{enumerate}\setlength\itemsep{0.35em}
+          \item Datos impactantes de España
+          \item Framing: 2 vacancies + externalidad
+          \item Objetivo de la medida
+          \item Heurísticas del curso $\rightarrow$ Pigou
+        \end{enumerate}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{exampleblock}{2. Solución (~6--7$'$)}
+        \begin{enumerate}\setlength\itemsep{0.35em}
+          \item[\textbf{1.}] Extrapolabilidad FR$\rightarrow$ES + Cataluña
+          \item[\textbf{2.}] Incidencia (¿quién paga?)
+          \item[\textbf{3.}] Migración de inversores
+          \item[\textbf{4.}] Viabilidad política
+        \end{enumerate}
+      \end{exampleblock}
+    \end{column}
+  \end{columns}
+  \vspace{0.8em}
+  \centering
+  {\small La carga 1 pesa $\approx$ tanto como las otras tres juntas.}
+\end{frame}
+
+% ═══════════════════════════════════════════════════════════════
+%  BLOQUE 1 — PROBLEMA
+% ═══════════════════════════════════════════════════════════════
+\section{Problema}
+
+\begin{frame}{España en cuatro cifras}
+  \begin{enumerate}\setlength\itemsep{0.85em}
+    \item \textbf{3,83 millones} de viviendas vacías (\textbf{14,4\%} del stock).\\
+          {\small Definición Censo 2021: sin contrato eléctrico o consumo $<$ $\sim$15 días/año.}
+
+    \item \textbf{Concentración:} $\sim$\textbf{27\,000} titulares con $\geq$11 viviendas controlan
+          \textbf{$\sim$1,04 millones} de inmuebles residenciales ($\sim$4,3\% del stock catastral).\\
+          {\small\color{ambar} No es un problema ``solo de pequeños propietarios con un piso heredado''.}
+
+    \item Gap BdE 2022--24: \textbf{400--450\,000} hogares vs terminaciones.\\
+          Si se movilizan 2\textsuperscript{a}s + turístico/seasonal + vacías:
+          $\sim$\textbf{390k} (Madrid) y $\sim$\textbf{310k} (Barcelona).
+
+    \item Oferta nueva lenta: $\sim$\textbf{101\,000} terminadas en 2024 (MIVAU) frente a
+          $\sim$180--245k hogares/año.
+  \end{enumerate}
+  \fuente{INE Censo 2021 (tpx 59531); DG Catastro 2025; BdE Informe Anual 2024, Recuadro 4; MIVAU Observatorio.}
+\end{frame}
+
+\begin{frame}{Framing: dos vacancies, un fallo}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{1. Friccional / open ($v$)}
+        Search \& matching, obras, negociación.\\
+        \textbf{Involuntaria}: el dueño \emph{quiere} alquilar/vender.\\
+        Nivel ``natural'' positivo ($\sim$5\% en la literatura).
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{alertblock}{2. Inactiva / voluntaria ($i$)}
+        El dueño \textbf{elige} no participar.\\
+        Real option + holding estratégico.\\
+        Aquí $b_j$ (outside option) es alto --- sobre todo en \textbf{carteras grandes}.
+      \end{alertblock}
+    \end{column}
+  \end{columns}
+  \vspace{0.6em}
+  \[
+    V = v + i \qquad\text{El impuesto ataca $i$, no la fricción honesta.}
+  \]
+  \begin{exampleblock}{El fallo central: externalidad}
+    \footnotesize Mantener vacío prolongado impone costes a terceros (menos oferta efectiva,
+    presión en rentas, blight) que el propietario \textbf{no internaliza}.
+    El 1\textsuperscript{er} teorema de bienestar \textbf{no aplica}.
+  \end{exampleblock}
+  \fuente{Segú (2020); Wheaton (1990); curso Weeks 2--4.}
+\end{frame}
+
+\begin{frame}{Por qué no basta el laissez-faire (ni el ``Coase político'')}
+  \begin{block}{Political Coase Theorem (Acemoglu 2003) --- Week 6}
+    Si los grupos pudieran negociar de forma eficiente, el conflicto social
+    (grandes poseedores vs hogares sin acceso) se resolvería sin regla fiscal.\\[0.3em]
+    \textbf{Falla} cuando quien controla el status quo puede renegar y los costes de
+    bargaining son altos: millones de afectados, enforcement caro, poder asimétrico.
+  \end{block}
+  \vspace{0.5em}
+  \begin{alertblock}{Implicación}
+    No esperamos un acuerdo voluntario ``pondremos los pisos en alquiler''.
+    Hace falta una \textbf{regla de precio} sobre el uso inactivo del stock.
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{Objetivo de esta medida (y lo que \emph{no} pretendemos)}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+      \begin{exampleblock}{Sí pretendemos}
+        \begin{itemize}\setlength\itemsep{0.4em}
+          \item Cambiar el \textbf{comportamiento} de quien mantiene vacío prolongado
+          \item Liberar oferta efectiva \textbf{ya existente} --- resultados en horizonte corto
+          \item Cargar el margen de \textbf{grandes carteras / multi-propietarios}
+          \item Complementar (no sustituir) la construcción nueva
+        \end{itemize}
+      \end{exampleblock}
+    \end{column}
+    \begin{column}{0.42\textwidth}
+      \begin{alertblock}{No pretendemos}
+        \begin{itemize}\setlength\itemsep{0.4em}
+          \item ``Resolver'' solos el gap de demanda
+          \item Maximizar recaudación
+          \item Sustituir upzoning / obra nueva
+          \item Castigar la vacancy friccional
+        \end{itemize}
+      \end{alertblock}
+    \end{column}
+  \end{columns}
+  \vspace{0.7em}
+  \centering
+  \large\textit{Hay un gap de demanda que un impuesto no cierra.\\
+  Pero construir y gravar el vacío \textbf{no son excluyentes}.}
+\end{frame}
+
+\begin{frame}{Heurísticas del curso $\rightarrow$ impuesto Pigouviano}
+  \begin{block}{Heurística H1 --- Coase / Pigou (Week 4 + PS4)}
+    Cuando hay externalidad y el bargaining privado \textbf{no escala}
+    (muchos afectados, derechos incompletos sobre el \emph{uso} del stock):\\
+    remedio público clásico $=$ \textbf{impuesto correctivo} $t^{*} =$ daño marginal.
+  \end{block}
+  \vspace{0.4em}
+  \begin{block}{Heurística H2 --- Weitzman 1974 (precios vs cantidades)}
+    Con incertidumbre sobre el coste de ``abatir'' vacancy:\\
+    si el beneficio marginal social de otra vivienda al mercado es \textbf{relativamente plano},
+    el \textbf{instrumento de precio} domina al de cantidad
+    (ocupación forzosa, cupos rígidos, expropiación).
+  \end{block}
+  \vspace{0.5em}
+  \centering
+  \large\textbf{Por H1 y por H2: la mejor solución es un impuesto Pigouviano}\\[0.3em]
+  {\small sobre vacancy \emph{prolongada}, no sobre toda la propiedad.}
+\end{frame}
+
+% ═══════════════════════════════════════════════════════════════
+%  BLOQUE 2 — SOLUCIÓN
+% ═══════════════════════════════════════════════════════════════
+\section{Solución}
+
+\begin{frame}{La propuesta en una diapositiva}
+  \begin{itemize}\setlength\itemsep{0.55em}
+    \item \textbf{Base:} vivienda desocupada $\geq$ \textbf{2 años} en mercados tensionados
+          (definición operable: catastro + consumo de utilities / cruces administrativos).
+    \item \textbf{Tipo:} creciente con la duración (plantilla francesa TLV: 10\% $\rightarrow$ 12,5\% $\rightarrow$ 15\%
+          del valor locativo; hoy FR usa 17\%/34\%).
+    \item \textbf{Quién:} énfasis en \textbf{personas jurídicas} y \textbf{grandes tenedores}
+          (umbrales Ley 12/2023: $>$10 viviendas o $>$1\,500\,m$^2$; tensionadas $\geq$5).
+    \item \textbf{Exenciones:} si se demuestra oferta activa de alquiler/venta; obras mayores;
+          herencia reciente acotada.
+    \item \textbf{Uso de ingresos:} vivienda asequible / limited-profit --- \emph{secundario}
+          al objetivo de comportamiento.
+  \end{itemize}
+  \fuente{Diseño anclado en Segú (2020) / TLV; umbrales ES: Ley 12/2023 y precedente catalán Ley 14/2015.}
+\end{frame}
+
+\begin{frame}{Cuatro cargas probatorias (peso 4{:}1{:}1{:}1)}
+  \begin{enumerate}\setlength\itemsep{0.7em}
+    \item[\textbf{1.}] \textbf{Extrapolabilidad} --- ¿por qué Francia 1999--2001 habla de España 2026?
+          (+ Cataluña como caso más cercano). \hfill {\color{ambar}\textit{peso $\approx$4}}
+    \item[\textbf{2.}] \textbf{Incidencia} --- ¿cuánto pagan los inquilinos? ¿qué mecanismo podría salir mal?
+          \hfill {\color{gray}\textit{peso $\approx$1}}
+    \item[\textbf{3.}] \textbf{Migración} --- ¿se van grandes inversores?
+          \hfill {\color{gray}\textit{peso $\approx$1}}
+    \item[\textbf{4.}] \textbf{Viabilidad política} --- median voter, lobbies, opinión pública.
+          \hfill {\color{gray}\textit{peso $\approx$1}}
+  \end{enumerate}
+\end{frame}
+
+% —— CARGA 1 ——
+\begin{frame}{Carga 1a --- Evidencia estrella: Segú (2020)}
+  \begin{columns}[T]
+    \begin{column}{0.46\textwidth}
+      \begin{exampleblock}{TLV Francia 1999}
+        \footnotesize
+        \begin{itemize}\setlength\itemsep{0.25em}
+          \item Vacío $\geq$ 2 años
+          \item Tipos 10 / 12,5 / 15\% valor locativo
+          \item Ciudades $>$200k tensionadas
+          \item Exención si se oferta alquiler/venta
+        \end{itemize}
+      \end{exampleblock}
+    \end{column}
+    \begin{column}{0.50\textwidth}
+      \begin{block}{Causal (DiD + PSM)}
+        \footnotesize
+        \begin{itemize}\setlength\itemsep{0.25em}
+          \item Vacancy $\downarrow$ \textbf{$\approx$13\%} (1997--2001)
+          \item $\sim$50\% mayor si vacancy inicial alta
+          \item Concentrado en \textbf{long-term}
+          \item $\rightarrow$ residencias principales
+          \item Sin $\downarrow$ construcción a medio plazo
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \vspace{0.6em}
+  \fuente{Segú, \textit{J.\ Public Econ.} (2020). Claim seguro: $\downarrow$ vacancy inactiva. No afirmar ``baja el alquiler X\% en ES''.}
+\end{frame}
+
+\begin{frame}{Carga 1b --- ¿Por qué es aplicable a España?}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Similitudes}
+        \begin{itemize}\setlength\itemsep{0.3em}
+          \item Mercados urbanos tensionados + oferta rígida a CT
+          \item Protección al inquilino $\Rightarrow$ $b_j$ alto (holding estratégico)
+          \item Stock desviado: 2\textsuperscript{a}s, turístico, no residentes
+          \item ES tiene \textbf{más} stock no-usual-residence que FR (Eurostat unoccupied 2021: ES 30,4\% vs FR 17,9\%)
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{alertblock}{Diferencias (no matan el claim)}
+        \begin{itemize}\setlength\itemsep{0.3em}
+          \item Definición vacía: eléctrica (ES) $\neq$ fiscal/censo (FR)
+          \item Más 2\textsuperscript{a}s/turismo en costas e islas
+          \item Enforcement histórico débil del recargo IBI
+          \item TLV actual FR (1 año, 17/34\%) $\neq$ diseño Segú --- para causalidad citamos el paper
+        \end{itemize}
+      \end{alertblock}
+    \end{column}
+  \end{columns}
+  \vspace{0.5em}
+  \textit{Las diferencias enturbian la magnitud exacta, no el signo del canal:
+  gravar $i$ $\rightarrow$ $\downarrow$ vacancy inactiva.}
+\end{frame}
+
+\begin{frame}{Carga 1c --- Cataluña: el precedente más cercano}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Diseño (Ley 14/2015)}
+        \footnotesize Vacío $>$2 años; sujetos $=$ \textbf{PJ} (+ fondos) y PF grandes tenedores ($>$15);
+        bonificación si se cede a alquiler asequible.\\[0.3em]
+        Recaudación: \textbf{2,4 M€} (2023) $\rightarrow$ \textbf{7,0 M€} (2024).
+      \end{block}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{alertblock}{Ivàlua (2024) --- honestos}
+        \footnotesize
+        \begin{itemize}\setlength\itemsep{0.2em}
+          \item Sin efecto robusto en vacíos ni alquiler
+          \item Posible $\uparrow$ cesiones a alquiler assequible (causalidad frágil)
+          \item Registro débil + solape con otras leyes
+        \end{itemize}
+      \end{alertblock}
+    \end{column}
+  \end{columns}
+  \vspace{0.5em}
+  \begin{exampleblock}{Lección}
+    Viabilidad legal anti-grandes: sí. Diseño/medición: insuficiente.\\
+    Nosotros $\approx$ \textbf{TLV francesa} (base + enforcement) + umbrales a grandes poseedores.
+  \end{exampleblock}
+  \fuente{ATC / Idescat; Ivàlua --- Todeschini \& Borrell Porta (feb 2024).}
+\end{frame}
+
+% —— CARGA 2 ——
+\begin{frame}{Carga 2 --- Incidencia: ¿quién asume la carga?}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Week 2: statutory $\neq$ economic}
+        Quien paga en el BOE $\neq$ quien pierde bienestar.
+        Gravamos el margen de \textbf{no participar}.
+      \end{block}
+      \vspace{0.35em}
+      \begin{enumerate}\setlength\itemsep{0.35em}\footnotesize
+        \item Oferta activa $\rightarrow$ \textbf{exento}. Objetivo: comportamiento, no recaudar.
+        \item Modelo Segú: más participación $\Rightarrow$ presión a $\downarrow$ rentas a CT.
+        \item Pass-through inmobiliario a inquilinos: \textbf{incompleto} a CT.
+      \end{enumerate}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{alertblock}{Mecanismo ``malo''}
+        \footnotesize\textit{``Pagan el tax, suben alquileres a inquilinos previos y siguen con vacíos.''}
+        \vspace{0.35em}
+        \textbf{Por qué no convence:}
+        \begin{enumerate}\setlength\itemsep{0.2em}\footnotesize
+          \item Se evita el tax \emph{dejando de vaciar}
+          \item Más oferta debilita el traslado
+          \item Regulación/contratos limitan pass-through
+          \item Vacío + $t$ es dominado por alquilar si $t$ está calibrado
+        \end{enumerate}
+      \end{alertblock}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% —— CARGA 3 ——
+\begin{frame}{Carga 3 --- ¿Migración de grandes inversores?}
+  \begin{block}{Evidencia de clase: Jakobsen et al.\ (AER 2026) --- wealth tax}
+    +1\,pp en el tipo top $\rightarrow$ $\sim$2\% menos contribuyentes ricos,\\
+    pero efectos macro vía migración: empleo \textbf{$-$0,02\%}, inversión \textbf{$-$0,07\%}, VAB \textbf{$-$0,10\%}.
+  \end{block}
+  \vspace{0.4em}
+  \begin{itemize}\setlength\itemsep{0.4em}
+    \item Un vacancy tax es \textbf{más estrecho} que un wealth tax: solo vacancy prolongada, no todo el patrimonio.
+    \item La vivienda es un activo \textbf{inmóvil}: el propietario puede irse; el inmueble sigue en España y sujeto al impuesto.
+    \item Cataluña ya grava PJ/grandes tenedores: no hay evidencia de éxodo masivo que invalide la medida.
+    \item En el contexto español, el riesgo migratorio es \textbf{secundario} frente a enforcement y definición de base.
+  \end{itemize}
+  \fuente{Curso Week 12; Jakobsen, Kleven, Kolsrud, Landais \& Munoz (2026).}
+\end{frame}
+
+% —— CARGA 4 ——
+\begin{frame}{Carga 4 --- Viabilidad política}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Median voter (Week 6 + PS6)}
+        Con endowments inmobiliarios desiguales,
+        el votante mediano (inquilino / hogar joven)
+        puede preferir gravar ownership especulativo.\\[0.3em]
+        {\small No ``prueba'' la medida; sí encaja con el equilibrio Condorcet tax-and-transfer.}
+      \end{block}
+      \vspace{0.4em}
+      \begin{alertblock}{Lobbies (Week 12)}
+        Costes \textbf{concentrados} (grandes poseedores),
+        beneficios \textbf{difusos} $\Rightarrow$ lobby activo.\\
+        Rechazo político $\neq$ ineficiencia económica.
+      \end{alertblock}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{exampleblock}{Señales de opinión (2026)}
+        \begin{itemize}\setlength\itemsep{0.35em}
+          \item \textbf{72\%} apoya subir impuestos a grandes tenedores ($\geq$10 viv.) --- CIS
+          \item \textbf{59\%} a favor de mayores recargos IBI a vacías y turísticas --- CIS oct.\ 2026
+          \item Solo \textbf{40\%} apoya \textbf{expropiar} vacías --- el impuesto gana a la cantidad
+          \item \textbf{56\%} cree que impuestos a vacías $\uparrow$ oferta --- IEF
+        \end{itemize}
+      \end{exampleblock}
+    \end{column}
+  \end{columns}
+  \fuente{CIS Barómetro vivienda / oct.\ 2026; IEF Opiniones y actitudes fiscales; curso Weeks 6 y 12.}
+\end{frame}
+
+\begin{frame}{Cierre --- lo que pedimos al Parlamento}
+  \begin{enumerate}\setlength\itemsep{0.55em}
+    \item El problema no es solo ``faltan ladrillos'': hay \textbf{vacancy inactiva} + externalidad
+          + concentración de stock.
+    \item Objetivo: \textbf{cambiar comportamiento} de forma rápida; construir sigue siendo complemento.
+    \item Por las heurísticas del curso (Coase falla + Weitzman $\rightarrow$ precio):
+          \textbf{impuesto Pigouviano} a vacancy prolongada.
+    \item Evidencia: Segú \textbf{$-$13\%} vacancy; Cataluña muestra el precedente --- y que el
+          \textbf{diseño/enforcement} decide el éxito.
+    \item Incidencia y migración no tumban la medida; la política es viable (y más que la expropiación).
+  \end{enumerate}
+  \vspace{0.6em}
+  \centering
+  \large\textbf{Movilizar el stock ya construido es el instrumento de timing.\\
+  La construcción es el complemento; no el sustituto.}
+\end{frame}
+
+\begin{frame}{Referencias clave (para el debate)}
+  \footnotesize
+  \begin{itemize}\setlength\itemsep{0.35em}
+    \item Segú, M.\ (2020). \textit{J.\ Public Econ.} --- vacancy tax Francia, $-$13\%.
+    \item Segú / IEB Report 2/2018 --- vacancy taxation \& affordability.
+    \item BdE (2025). Informe Anual 2024, Recuadro 4.
+    \item INE Censo 2021 --- intensidad de uso (tpx 59531); DG Catastro --- titularidad.
+    \item Ivàlua (2024). Evaluación del Impost sobre habitatges buits (CAT).
+    \item Garcia-López et al.\ (2020). \textit{JUE} --- Airbnb Barcelona (stock desviado).
+    \item Jakobsen et al.\ (2026). \textit{AER} --- migración ante wealth tax.
+    \item Acemoglu (2003); Weitzman (1974); curso Weeks 2, 4, 6, 12 + PS4/PS6/PS7.
+  \end{itemize}
+  \vspace{0.8em}
+  \centering
+  {\small\textit{Borrador en castellano. Versión de presentación oficial: inglés.}}
+\end{frame}
+
+\end{document}
