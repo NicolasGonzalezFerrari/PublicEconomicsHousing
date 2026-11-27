@@ -1,0 +1,1116 @@
+\documentclass[11pt,a4paper]{report}
+
+% ═══════════════════════════════════════════════════════════════
+%  Dossier: Vacancy tax / anti-grandes poseedores
+%  Public Economics & Political Economy — BIEBAM Segovia
+% ═══════════════════════════════════════════════════════════════
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{lmodern}
+\usepackage[margin=2.2cm,top=2.6cm,bottom=2.6cm,headheight=22pt]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage[most]{tcolorbox}
+\usepackage{parskip}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{float}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=azuloscuro,
+  urlcolor=azulmedio,
+  citecolor=azuloscuro,
+  pdftitle={Dossier Vacancy Tax --- Public Economics Housing},
+  pdfauthor={Equipo Housing / Vacancy Tax}
+}
+
+% ── Colores ──────────────────────────────────────────────────
+\definecolor{azuloscuro}{HTML}{1B3A4B}
+\definecolor{azulmedio}{HTML}{2E6B8A}
+\definecolor{verdeint}{HTML}{1F6B4A}
+\definecolor{ambar}{HTML}{B45309}
+\definecolor{rojoaviso}{HTML}{9B1C1C}
+\definecolor{fondosuave}{HTML}{F4F7FA}
+\definecolor{fondoverde}{HTML}{ECF6F0}
+\definecolor{fondoambar}{HTML}{FFF7ED}
+\definecolor{fondorojo}{HTML}{FEF2F2}
+\definecolor{linea}{HTML}{CBD5E1}
+
+% ── Boxes ────────────────────────────────────────────────────
+\newtcolorbox{intuicion}[1][]{%
+  enhanced, breakable,
+  colback=fondoverde, colframe=verdeint,
+  boxrule=0.6pt, arc=2pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt,
+  fonttitle=\bfseries\color{verdeint},
+  title={Intuici\'on},
+  #1
+}
+
+\newtcolorbox{modelo}[1][]{%
+  enhanced, breakable,
+  colback=fondosuave, colframe=azulmedio,
+  boxrule=0.6pt, arc=2pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt,
+  fonttitle=\bfseries\color{azuloscuro},
+  title={Modelo (versi\'on sencilla)},
+  #1
+}
+
+\newtcolorbox{dato}[1][]{%
+  enhanced, breakable,
+  colback=fondoambar, colframe=ambar,
+  boxrule=0.6pt, arc=2pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt,
+  fonttitle=\bfseries\color{ambar},
+  title={Dato ancla},
+  #1
+}
+
+\newtcolorbox{cuidado}[1][]{%
+  enhanced, breakable,
+  colback=fondorojo, colframe=rojoaviso,
+  boxrule=0.6pt, arc=2pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt,
+  fonttitle=\bfseries\color{rojoaviso},
+  title={Cuidado / no exagerar},
+  #1
+}
+
+\newtcolorbox{frase}[1][]{%
+  enhanced, breakable,
+  colback=white, colframe=azuloscuro,
+  boxrule=1pt, arc=0pt,
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  fontupper=\itshape\large,
+  #1
+}
+
+\newtcolorbox{resumenbox}[1][]{%
+  enhanced, breakable,
+  colback=azuloscuro!5, colframe=azuloscuro,
+  boxrule=0.8pt, arc=2pt,
+  left=10pt, right=10pt, top=8pt, bottom=8pt,
+  fonttitle=\bfseries\color{azuloscuro},
+  title={En una frase},
+  #1
+}
+
+% ── Headers ───────────────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{azulmedio} Vacancy tax --- dossier de trabajo}
+\fancyhead[R]{\small\color{azulmedio} Public Economics}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{linea}\leaders\hrule height \headrulewidth\hfill}}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{azuloscuro}}
+  {\chaptertitlename\ \thechapter}{12pt}{\Huge}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{azuloscuro}}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{azulmedio}}
+  {\thesubsection}{1em}{}
+
+\setcounter{tocdepth}{2}
+\setlist[itemize]{leftmargin=1.4em, itemsep=0.25em}
+\setlist[enumerate]{leftmargin=1.6em, itemsep=0.25em}
+
+\begin{document}
+
+% ══════════════════════════════════════════════════════════════
+\begin{titlepage}
+\raggedright
+\vspace*{1.5cm}
+{\color{azulmedio}\rule{\textwidth}{2pt}}\\[0.6cm]
+{\fontsize{28}{34}\selectfont\bfseries\color{azuloscuro}
+  Impuesto a viviendas vac\'ias\\[0.2cm]
+  Dossier de argumentos, modelos y evidencia}\\[0.5cm]
+{\color{azulmedio}\rule{\textwidth}{1.2pt}}\\[1.2cm]
+{\Large\color{azuloscuro}
+  Public Economics \& Political Economy\\[0.3cm]
+  Debate \emph{Government vs Parliament} --- Tema Housing}\\[0.8cm]
+{\large
+  Posici\'on: \textbf{gobierno fiscal / anti-grandes poseedores}\\[0.2cm]
+  Pol\'itica estrella: \textbf{vacancy tax} sobre vacancy prolongada\\[0.2cm]
+  Fecha del debate: 1 de diciembre de 2026}\\[1.5cm]
+\begin{tcolorbox}[colback=fondosuave, colframe=azulmedio, boxrule=0.5pt, arc=2pt]
+  Documento de trabajo para el equipo. Recoge \textbf{todo} lo elaborado hasta ahora:
+  posici\'on, argumentos del curso, modelos de los papers, evidencia causal,
+  datos oficiales (BdE, INE, Catastro, MIVAU), dise\~no de la propuesta,
+  respuestas al equipo construction-led, y trampas a evitar.
+  Estilo: intuitivo primero; f\'ormulas solo cuando ayudan.
+\end{tcolorbox}
+\vfill
+{\small\color{azulmedio}
+  Fuentes locales en \texttt{docs/}, \texttt{references/}, \texttt{data/}, \texttt{research/briefs/}.\\
+  Compilado a partir del material del repositorio PublicEconomicsHousing.}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Qui\'enes somos y qu\'e defendemos}
+\label{ch:posicion}
+
+\section{La pregunta del debate}
+
+El syllabus plantea dos v\'ias frente a la crisis de vivienda en Espa\~na:
+
+\begin{quote}
+\emph{Should we tackle housing affordability primarily through expanding construction
+or through taxation aimed at discouraging speculative ownership?}
+\end{quote}
+
+No son mutuamente excluyentes. Pero obligan a elegir una \textbf{prioridad}.
+Nosotros somos el gobierno de la v\'ia fiscal.
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Campo} & \textbf{Decisi\'on} \\
+\midrule
+Tema & 1 --- \emph{The Housing Crisis: Who Should Build and Own?} \\
+Lado & Tributaci\'on (no expansi\'on de oferta v\'ia construcci\'on) \\
+Encuadre & Anti-grandes poseedores / anti-especulaci\'on \\
+Pol\'itica & Impuesto a viviendas vac\'ias (\emph{vacancy tax}) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Narrativa en 30 segundos}
+
+\begin{frase}
+La asequibilidad en Espa\~na no se resuelve solo construyendo m\'as.
+Hay viviendas que ya existen y no se usan como hogar.
+Nuestro trabajo es corregir los incentivos que permiten mantenerlas vac\'ias
+como activo especulativo.
+\end{frase}
+
+\section{Formato del d\'ia}
+
+\begin{itemize}
+  \item Presentaci\'on del gobierno: \textbf{10 minutos}.
+  \item Preguntas del parlamento: \textbf{6 minutos}.
+  \item Voto + cambio de grupo: \textbf{2 minutos}.
+  \item Todos hablan; claims con teor\'ia + evidencia; presentaci\'on en ingl\'es.
+\end{itemize}
+
+\section{Qu\'e pide el brief (checklist)}
+
+Antes de salir a escena, la propuesta debe dejar claro:
+
+\begin{enumerate}
+  \item Definici\'on de \textbf{vivienda vac\'ia} (tiempo, registros, excepciones).
+  \item \textbf{Qui\'en paga} (\'enfasis en grandes poseedores / umbrales).
+  \item Base, tipo(s), exenciones (obras, herencia reciente,\ldots).
+  \item \textbf{Enforcement} (catastro, utilities, cruces administrativos).
+  \item Uso de la recaudaci\'on (vivienda p\'ublica / limited-profit).
+  \item Canal causal: vac\'ia $\downarrow$ $\Rightarrow$ oferta efectiva $\uparrow$ $\Rightarrow$ acceso.
+  \item Incidencia y winners/losers.
+  \item Respuestas al contraargumento construction-led.
+  \item Ancla emp\'irica: \textbf{Seg\'u (2020)} + datos ES (BdE / INE).
+\end{enumerate}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{La historia completa en una cadena}
+\label{ch:cadena}
+
+Antes de entrar argumento por argumento, conviene tener el hilo entero
+en la cabeza. Es la cadena causal que queremos contar en 10 minutos.
+
+\begin{center}
+{\shorthandoff{<>}%
+\begin{tikzpicture}[
+  box/.style={draw=azulmedio, fill=fondosuave, rounded corners=2pt,
+              align=center, text width=11.5cm, inner sep=7pt, font=\small},
+  flecha/.style={-latex, thick, color=azulmedio}
+]
+\node[box] (a) at (0,0) {\textbf{Demanda alta} + oferta nueva lenta (BdE)\\
+  + stock desviado: vac\'ios, 2\textsuperscript{a}s, tur\'istico (BdE + Airbnb BCN)\\
+  + incentivos privados a retener vac\'io (opci\'on real / holding estrat\'egico)};
+\node[box] (b) at (0,-2.1) {\textbf{Fallo:} inactive housing + externalidades + equity};
+\node[box] (c) at (0,-3.8) {\textbf{Vacancy tax} eleva el coste de no participar};
+\node[box] (d) at (0,-5.5) {Vacancy inactiva $\downarrow$ $\rightarrow$ m\'as residencias principales\\
+  (evidencia Francia: $-13\%$; Seg\'u 2020)};
+\node[box] (e) at (0,-7.2) {Oferta efectiva \textbf{r\'apida} + recaudaci\'on $\rightarrow$ vivienda asequible\\
+  Incidencia sobre carteras grandes inactivas};
+\draw[flecha] (a) -- (b);
+\draw[flecha] (b) -- (c);
+\draw[flecha] (c) -- (d);
+\draw[flecha] (d) -- (e);
+\end{tikzpicture}}
+\end{center}
+
+\begin{resumenbox}
+Misma crisis que el otro gobierno; distinto cuello de botella a corto plazo:
+no solo ``faltan permisos'', sino \textbf{incentivos de uso del stock}.
+La construcci\'on es complemento; la vacancy tax es nuestra prioridad.
+\end{resumenbox}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Argumentos del curso (hablar el idioma del profesor)}
+\label{ch:curso}
+
+El PDF del curso (Weeks 1--10, 12 + PS1--8) no tiene un paper de vacancy tax.
+Lo que s\'i tiene es el \textbf{andamiaje te\'orico} para justificar la medida
+y anticipar objeciones. Aqu\'i cada pieza va con intuici\'on primero.
+
+\section{N\'ucleo: eficiencia + equity}
+
+\subsection{A1. Primer teorema de bienestar + derechos incompletos}
+
+\begin{intuicion}
+El mercado ``funciona bien'' solo si nadie impone costes a terceros que no
+paga. Si dejar un piso vac\'io en un barrio tensionado perjudica a inquilinos
+y vecinos, el equilibrio laissez-faire \textbf{no} es eficiente.
+\end{intuicion}
+
+\textbf{Qu\'e dice el curso.} El First Fundamental Theorem exige, entre otras cosas,
+\emph{no externalities / perfectly defined property rights}. Si falla, el
+equilibrio no es Pareto eficiente. Closing line de externalidades (Week~4):
+\emph{``Externalities arise because of incomplete property rights.''}
+
+\textbf{Extrapolaci\'on.} El t\'itulo de propiedad puede estar claro; el
+\textbf{uso} (vac\'io prolongado) genera efectos no cotizados: menos oferta
+efectiva, presi\'on en rentas, degradaci\'on urbana.
+
+\begin{frase}
+``El 1.\textsuperscript{er} teorema no aplica: hay un gap entre el coste privado
+de dejar vac\'io y el coste social de restar una vivienda al mercado residencial.''
+\end{frase}
+
+\subsection{A2. Pigou: impuesto correctivo = da\~no marginal}
+
+\begin{intuicion}
+Si contaminar es malo, no hace falta prohibir: se pone un precio al da\~no.
+Aqu\'i el ``contaminante'' es mantener vac\'io prolongado. El impuesto no es
+castigo gen\'erico a la propiedad; es un precio sobre la actividad da\~nina.
+\end{intuicion}
+
+\begin{modelo}
+En el \'optimo, el tipo Pigouviano cumple $t^{*} =$ da\~no marginal social.
+Analog\'ia limpia con el carbon tax del PS4: el laissez-faire produce
+``demasiado'' del mal (emisiones / vac\'ios).
+\end{modelo}
+
+\textbf{Dise\~no Weitzman / PS4.} Sin incertidumbre fuerte sobre el da\~no
+marginal, el instrumento de \textbf{precio} es natural frente a cupos r\'igidos
+de ocupaci\'on forzada. Si el parlamento pide ``expropiar'', Weitzman os deja
+defender el tax.
+
+\textbf{L\'imite Coase.} El bargaining privado no escala cuando hay muchos
+afectados (igual que contaminaci\'on atmosf\'erica). Los inquilinos potenciales
+no pueden negociar con cada gran poseedor de vac\'ios.
+
+\subsection{A3. Equity no es efficiency; Sen; segundo teorema}
+
+\begin{intuicion}
+Un mercado puede ser ``eficiente'' y a la vez socialmente inaceptable.
+Pareto no es suficiente. Adem\'as, en la pr\'actica no podemos redistribuir
+vivienda con lump-sum m\'agicos: hay trade-off equity--efficiency.
+\end{intuicion}
+
+\textbf{Qu\'e dice el curso.}
+\begin{itemize}
+  \item \emph{``A society can be Pareto optimal and still perfectly disgusting''} (Sen).
+  \item SFTWE: cualquier Pareto se alcanza redistribuyendo endowments y dejando al mercado;
+        lump-sum no es factible $\Rightarrow$ trade-off.
+  \item Week~12: intervenci\'on por (1)~fallos de mercado y (2)~redistribuci\'on.
+\end{itemize}
+
+\textbf{Uso.} Incluso si el oponente dice ``el mercado constructivo es eficiente'',
+respond\'eis en equity: concentraci\'on de stock + vac\'ios puede ser
+Pareto-compatible y socialmente inaceptable. La vacancy tax ataca uso del stock
+\textbf{y} carga sobre multi-propietarios.
+
+\subsection{A4. Capital / wealth m\'as concentrados que labour}
+
+\begin{intuicion}
+Los ingresos del trabajo est\'an menos concentrados que la riqueza.
+La vivienda es un veh\'iculo t\'ipico de esa riqueza. El problema no es solo
+``faltan pisos nuevos'': es \textbf{qui\'en controla el stock} y con qu\'e incentivos.
+\end{intuicion}
+
+\textbf{Hechos de clase.} Top~10\% labour $\sim$20--30\% vs capital $\sim$50--90\%;
+wealth m\'as concentrado que income.
+
+\section{Dise\~no, incidencia y medici\'on}
+
+\subsection{B5. Incidencia econ\'omica frente a statutory incidence}
+
+\begin{intuicion}
+Quien ``aparece'' en la ley como pagador no es necesariamente quien pierde
+poder adquisitivo. Depende de elasticidades. Anticipad: ``el impuesto lo pagan
+los inquilinos''.
+\end{intuicion}
+
+\textbf{Respuesta de clase.} Con stock r\'igido y multi-propietarios que pueden
+poner en alquiler, parte de la carga cae en owners. El canal deseado es
+\textbf{cambio de comportamiento} (dejar de vaciar), no recaudar por recaudar.
+El curso usa Linden \& Rockoff (2008) como ejemplo expl\'icito de housing.
+
+\subsection{B6. Capitalizaci\'on en precios}
+
+\begin{intuicion}
+Las mejoras urbanas se ``meten'' en el precio de la vivienda. Si no grav\'ais
+ownership especulativo, los gains de pol\'itica p\'ublica los capturan
+landowners --- otra raz\'on para gravar usos vac\'ios/especulativos.
+\end{intuicion}
+
+El curso usa house prices como m\'etrica de bienestar: Linden--Rockoff,
+Chay--Greenstone, Samuelson (revelaci\'on de preferencias), CBA Week~7.
+
+\subsection{B7. Elasticidades y DWL / ``ETI inmobiliaria''}
+
+\begin{intuicion}
+Un impuesto falla si la gente responde cambiando de etiqueta (evasión) en
+lugar de cambiando de comportamiento real. Por eso importan definici\'on,
+enforcement y umbrales.
+\end{intuicion}
+
+\textbf{Checklist de dise\~no.} Definici\'on operativa de ``vac\'ia'', cruces
+catastro/utilities, umbrales para grandes poseedores $\rightarrow$ bajar la
+evasión (Airbnb, sociedades pantalla,\ldots). Week~12: si la base es el\'astica
+por redefinici\'on, ensanchad la base y reforzad enforcement.
+
+\subsection{B8. Timing: stock vs flujo (PS7)}
+
+\begin{intuicion}
+Construir da beneficios tarde (permisos, obras). Poner vac\'ios en uso da
+beneficios antes. Con descuento alto o impaciencia pol\'itica, el instrumento
+sobre stock gana el CBA de timing --- exactamente la l\'ogica del PS7 con dos
+housing projects.
+\end{intuicion}
+
+\section{Econom\'ia pol\'itica (parlamento)}
+
+\subsection{C9. Costes concentrados, beneficios difusos}
+
+\begin{intuicion}
+Una vacancy tax seria tiene lobby de grandes poseedores; los beneficiarios
+(inquilinos) est\'an dispersos. El rechazo pol\'itico no prueba ineficiencia
+econ\'omica (Week~12, Prop~40 / wealth tax California).
+\end{intuicion}
+
+\subsection{C10. Tax-and-transfer + median voter}
+
+\begin{intuicion}
+Si el votante mediano es ``pobre'' relativo a la media de endowments, puede
+preferir gravar ownership especulativo. No afirm\'eis que el MVT ``prueba''
+la vacancy tax; s\'i que la desigualdad inmobiliaria entra en el equilibrio pol\'itico.
+\end{intuicion}
+
+\subsection{C11. Political Coase Theorem falla}
+
+\begin{intuicion}
+No esper\'eis un acuerdo voluntario limpio entre grandes poseedores y
+households sin techo asequible. Hace falta \textbf{regla fiscal} con enforcement,
+no solo promesas de ``poner en alquiler'' (Acemoglu 2003 / Week~6).
+\end{intuicion}
+
+\subsection{C12. ``Los ricos se van'' --- magnitud vs an\'ecdota}
+
+\begin{intuicion}
+El curso (Jakobsen et al.\ sobre wealth tax) ense\~na a separar respuesta
+migratoria de owners vs efecto macro. Pedid evidencia de magnitud.
+Una vacancy tax acotada a vacancy prolongada es menos ``exit-inducing''
+que un wealth tax amplio.
+\end{intuicion}
+
+\section{Analog\'ias \'utiles (con matices)}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.2cm}
+  >{\raggedright\arraybackslash}X
+  >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Tema de clase} & \textbf{Analog\'ia cuidadosa} & \textbf{No dig\'ais} \\
+\midrule
+Public goods / free riding &
+Asequibilidad urbana tiene rasgos de bien p\'ublico local &
+Que la vivienda sea un pure public good \\
+Lindahl / preference revelation &
+Capitalizaci\'on y datos de vac\'ios ayudan a calibrar &
+Que conocemos el MD con precisi\'on quir\'urgica \\
+Moral hazard &
+Subsidiar solo oferta nueva sin gravar vac\'io puede ``asegurar'' el hold-out &
+Que vacancy = moral hazard de UI \\
+Crowd-out &
+Inversi\'on p\'ublica puede desplazarse si el stock privado se retira a vac\'io/tur\'istico &
+Equivalencia exacta con carbon offsets \\
+Piketty $r$ vs $g$ &
+Capital (incl.\ housing) captura renta; el tax reduce el return a \emph{no usar} &
+Que $r>g$ ``demuestra'' vacancy tax \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Guion m\'inimo de teor\'ia (unos 2 minutos)}
+
+\begin{enumerate}
+  \item \textbf{Diagn\'ostico:} FFTWE falla --- coste social $\neq$ coste privado.
+  \item \textbf{Equity:} capital/housing wealth concentrados; Pareto puede ser ``disgusting''.
+  \item \textbf{Instrumento:} Pigou sobre vacancy prolongada; Coase privado no escala.
+  \item \textbf{Dise\~no:} base, enforcement, bajar evasión; ingresos a vivienda asequible.
+  \item \textbf{Vs construction-only:} timing --- stock responde antes que obra nueva.
+  \item \textbf{Incidencia / capitalizaci\'on:} owners vs renters; qui\'en captura land rents.
+  \item \textbf{Pol\'itica:} costes concentrados; migraci\'on $\neq$ colapso macro.
+\end{enumerate}
+
+Luego ancl\'ais evidencia: Seg\'u (2020) + BdE + Airbnb Barcelona si habl\'ais de desv\'io de uso.
+
+% ══════════════════════════════════════════════════════════════
+\chapter{N\'ucleo te\'orico desde los papers: por qu\'e hay vac\'ios}
+\label{ch:teoria-papers}
+
+\section{Dos tipos de vacancy (la idea m\'as importante)}
+
+\begin{intuicion}
+No todos los vac\'ios son ``especulaci\'on''. Hay vac\'ios normales de b\'usqueda
+(como el paro friccional) y vac\'ios voluntarios: el due\~no \textbf{elige}
+no participar. Nuestro impuesto apunta al segundo, no al primero.
+\end{intuicion}
+
+\begin{modelo}[title={Modelo (versi\'on sencilla) --- Seg\'u / Wheaton}]
+Dos componentes:
+\begin{enumerate}
+  \item \textbf{Frictional / open vacancies ($v$).}
+        El propietario \emph{quiere} alquilar o vender, pero tarda en emparejar
+        (heterogeneidad, costes de transacci\'on, negociaci\'on). Nivel ``natural''
+        t\'ipico $\sim 5\%$ (Wheaton 1990).
+  \item \textbf{Inactive / voluntary vacancy ($i$).}
+        El propietario elige no participar. Dos mecanismos:
+        \begin{itemize}
+          \item \textbf{Opci\'on real / incertidumbre:} con precios inciertos,
+                esperar tiene valor (Cunningham 2006).
+          \item \textbf{Holding estrat\'egico} bajo regulaci\'on pro-inquilino:
+                si no puedes ajustar renta ni terminar contratos f\'acilmente,
+                puede ser racional sacar la unidad del alquiler
+                (Gabriel \& Nothaft 2001).
+        \end{itemize}
+\end{enumerate}
+Total medido: $V = v + i$.
+\end{modelo}
+
+\begin{resumenbox}
+Grandes poseedores / inversores son los agentes para los que la
+\emph{outside option} de dejar vac\'io ($b_j$) es sistem\'aticamente alta:
+plusval\'ia, cartera diversificada, menor urgencia de cash-flow.
+El tax apunta a ese margen.
+\end{resumenbox}
+
+\section{Modelo de participaci\'on (Seg\'u sobre Desgranges \& Wasmer)}
+
+\begin{intuicion}
+Imagina que cada due\~no compara: ``¿me compensa meter el piso en el mercado
+o me quedo fuera?'' El impuesto hace m\'as caro quedarse fuera. Quien de verdad
+oferta (y lo demuestra) puede estar exento --- no castig\'ais la fricci\'on honesta.
+\end{intuicion}
+
+\begin{modelo}
+Setup: equilibrio parcial, corto plazo, stock fijo.
+\begin{itemize}
+  \item Condici\'on de participaci\'on: $rV_j \ge b_j - t$.
+  \item Subir $t$ eleva el umbral $b^{*}$: menos unidades inactivas.
+\end{itemize}
+\textbf{Predicciones:}
+\begin{itemize}
+  \item $i \downarrow$ (cae el stock inactivo)
+  \item $v$ puede subir un poco (entran m\'as al matching)
+  \item $V = v+i \downarrow$ neto (domina la ca\'ida de $i$)
+  \item Corto plazo: presi\'on a la baja en rentas
+  \item Largo plazo: posible efecto adverso sobre nueva construcci\'on
+        (limitaci\'on del modelo ST --- admitirlo)
+\end{itemize}
+\end{modelo}
+
+\begin{frase}
+El impuesto no castiga fricciones; castiga \textbf{no participar}.
+\end{frase}
+
+\section{Tres justificaciones de intervenci\'on}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\raggedright\arraybackslash}p{2.6cm}
+  >{\raggedright\arraybackslash}X
+  >{\raggedright\arraybackslash}X@{}}
+\toprule
+Canal & L\'ogica & C\'omo lo usamos \\
+\midrule
+Equity / asequibilidad &
+Con demanda alta y oferta inel\'astica, mucha vacancy es parad\'ojica &
+``No hace falta esperar a que se construya: hay viviendas que ya existen'' \\
+Eficiencia / externalidades &
+Concentraciones de vac\'ios $\rightarrow$ $\downarrow$ valor de vecinos, inseguridad, cohesi\'on &
+Caso Pigouviano: el vac\'io impone coste social no internalizado \\
+Second-best / place-based &
+Distorsiones previas (protecci\'on inquilino, real options) justifican un tax local &
+En ES: Ley de vivienda + plusval\'ias $\rightarrow$ inactive stock plausible \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{dato}
+Timing argument (frente a construction-led), cita Seg\'u (2020):\\[0.3em]
+\emph{``Focusing on vacancy reduction may be a faster and easier way to increase
+residential capacity than promoting the construction of new housing units.''}
+\end{dato}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Evidencia estrella: Seg\'u (2020) --- Francia}
+\label{ch:segu}
+
+\section{Qu\'e hizo Francia (TLV 1999) --- plantilla de dise\~no}
+
+\begin{intuicion}
+Francia grav\'o pisos vac\'ios \textbf{mucho tiempo} (años), en ciudades grandes
+con desequilibrio, con tipo creciente, y eximi\'o a quien demostraba que
+intentaba alquilar/vender o reformar. Eso es el blueprint.
+\end{intuicion}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}llX@{}}
+\toprule
+\textbf{Par\'ametro} & \textbf{TLV Francia} & \textbf{Implicaci\'on para nosotros} \\
+\midrule
+Definici\'on & Vac\'io $\ge$ \textbf{2 a\~nos} & Ataca long-term / especulaci\'on, no rotaci\'on \\
+Tipo & 10\% $\rightarrow$ 12.5\% $\rightarrow$ 15\% valor locativo & M\'as caro cuanto m\'as se alarga \\
+\'Ambito & Urbano $>200$k con desequilibrio & Focalizar mercados tensionados \\
+Exenci\'on & Oferta alquiler/venta; obras mayores & No castigar matching / reforma \\
+Resultado & Vacancy $\downarrow$ \textbf{0.8\,pp $\approx$ 13\%} & Ancla emp\'irica \#1 \\
+Heterogeneidad & Efecto $\sim$50\% mayor donde hab\'ia m\'as vac\'ios & Targeting de hotspots \\
+Margen & Concentrado en \textbf{long-term} & Encaja anti-especulaci\'on \\
+Destino & Mayor\'ia $\rightarrow$ \textbf{primary residences} & No solo relabel a 2\textsuperscript{a} \\
+Construcci\'on & Sin efecto significativo a medio plazo & Contra el miedo ``mata la oferta'' \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Claims seguros vs cuidadosos}
+
+\begin{dato}[title={Claims seguros (decir en presentaci\'on)}]
+\begin{itemize}
+  \item Hay evidencia cuasi-experimental de que un vacancy tax reduce vacancy.
+  \item El efecto es mayor en long-term vacancy y en municipios con m\'as vac\'ios previos.
+  \item Las unidades tienden a pasar a residencia principal.
+\end{itemize}
+\end{dato}
+
+\begin{cuidado}
+Seg\'u \textbf{no} estima un efecto grande y limpio de $\downarrow$ rentas a corto
+plazo en todos los specs. Mejor claim: ``libera stock residencial / reduce
+inactive housing'', no ``bajará el alquiler un $X\%$ mañana''.
+Extrapolaci\'on Francia $\rightarrow$ Espa\~na no es autom\'atica (medici\'on, enforcement, 2\textsuperscript{a}s).
+\end{cuidado}
+
+\section{Catalunya / Espa\~na ya tienen piezas del dise\~no}
+
+\begin{intuicion}
+No inventamos la rueda. Catalunya (desde 2015) grava vac\'ios $\ge 2$ a\~nos a
+personas jur\'idicas (y grandes tenedores). El IBI +50\% a desocupados existe
+en teor\'ia estatal, pero hist\'oricamente el enforcement fall\'o por falta de
+definici\'on operable de ``desocupado''.
+\end{intuicion}
+
+\begin{dato}
+\begin{itemize}
+  \item Espa\~na (Censo 2011, IEB): vacancy $\sim$\textbf{12.3\%} en ciudades $>50$k
+        vs ``natural'' $\sim 5\%$.
+  \item Impuesto CAT: recaudaci\'on \textbf{2.44\,M€} (2023) $\rightarrow$ \textbf{7.01\,M€} (2024).
+  \item Nuestra posici\'on puede \textbf{generalizar y endurecer}: umbrales por
+        n\'umero de viviendas / personas jur\'idicas / carteras.
+\end{itemize}
+\end{dato}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Airbnb, segundas residencias y desv\'io de stock}
+\label{ch:airbnb}
+
+\section{Garcia-L\'opez et al.\ (2020) --- Barcelona}
+
+\begin{intuicion}
+Si un piso pasa de alquiler largo a tur\'istico permanente, no ``faltan
+ladrillos'': se ha \textbf{desviado} stock residencial. Eso sube rentas y precios.
+Vacancy tax y reglas STR son la misma familia de instrumentos.
+\end{intuicion}
+
+\begin{dato}
+Evidencia causal BCN:
+\begin{itemize}
+  \item Barrio medio: rentas \textbf{+1.9\%}, precios transacci\'on \textbf{+4.6\%}.
+  \item Top decil Airbnb: rentas \textbf{+7\%}, precios hasta \textbf{+17\%}.
+  \item En 2015, $\sim$2\% del stock en Airbnb; $\sim$7\% de las unidades en alquiler.
+  \item Con $\sim$10 d\'ias/mes de Airbnb se igualaba la renta mensual de largo plazo
+        --- incentivo potente a desviar.
+\end{itemize}
+\end{dato}
+
+\textbf{C\'omo lo usamos sin abandonar vacancy tax:}
+\begin{enumerate}
+  \item El problema no es solo oferta nueva: es \textbf{asignaci\'on del stock}.
+  \item Vacancy tax + fiscalidad STR son complementarios.
+  \item Grandes poseedores / hosts multi-listing = margen intensivo
+        (misma narrativa anti-concentraci\'on).
+\end{enumerate}
+
+\section{BdE Box 4: holgura contable del stock}
+
+\begin{intuicion}
+El Banco de Espa\~na dice, en esencia: s\'i hay gap de construcci\'on,
+\textbf{pero} si moviliz\'ais 2\textsuperscript{a}s + tur\'istico/seasonal + vac\'ias,
+Madrid y Barcelona podr\'ian absorber cientos de miles de hogares.
+\end{intuicion}
+
+\begin{dato}
+\begin{itemize}
+  \item Gap acumulado 2022--24 (completions vs hogares): \textbf{400--450 mil} viviendas.
+  \item Capacidad si se moviliza stock no residencial:
+        $\sim$\textbf{390 mil} hogares (Madrid), $\sim$\textbf{310 mil} (Barcelona).
+  \item $+\,\sim 50\,000$ viviendas tur\'isticas en 2024 vs 2023.
+  \item Stock de extranjeros no residentes: $>$\textbf{500 mil} viviendas.
+  \item Compraventas de no residentes: $\sim$\textbf{8.4\%} del total (2024).
+\end{itemize}
+\end{dato}
+
+\begin{resumenbox}
+Equipo construction-led: ``hay que construir 400k''.\\
+Nosotros: construir es lento; parte del shortage es \textbf{uso del stock};
+vacancy tax ataca ese margen, m\'as barato y m\'as r\'apido.
+\end{resumenbox}
+
+\section{Ryan-Collins / UCL: financiarizaci\'on}
+
+\begin{intuicion}
+Si tratamos la vivienda como activo financiero (homes as assets), el vac\'io
+especulativo es un s\'intoma. Subsidiar compradores (estilo Help-to-Buy) con
+oferta r\'igida \textbf{infla} precios. Mejor: gravar demanda especulativa / 2\textsuperscript{a}s
++ vivienda p\'ublica asequible.
+\end{intuicion}
+
+Esto encaja exactamente con: vacancy tax + uso de recaudaci\'on + complemento
+STR/2\textsuperscript{a}s.
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Datos oficiales de Espa\~na (diagn\'ostico)}
+\label{ch:datos}
+
+Esta parte no es ``paper'': es lo que pod\'eis citar como \textbf{institucional}
+(BdE, INE, MIVAU, Catastro, BOE).
+
+\section{Censo 2021 --- intensidad de uso (INE)}
+
+\begin{cuidado}
+La definici\'on 2021 es el\'ectrica (sin contrato o consumo $<$ umbral $\approx$ 15 d\'ias/año).
+\textbf{No} es la taxonom\'ia principal/secundaria/vac\'ia del Censo 2011.
+No dig\'ais ``subi\'o de 13.7\% a 14.4\%'' sin explicar el cambio de m\'etodo.
+\end{cuidado}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{\'Ambito} & \textbf{Totales} & \textbf{Vac\'ias} & \textbf{\% vac\'ia} & \textbf{Uso espor\'adico} \\
+\midrule
+España & 26\,623\,708 & 3\,828\,307 & \textbf{14.4\%} & 9.5\% \\
+Madrid capital & 1\,533\,221 & 96\,921 & 6.3\% & --- \\
+Barcelona ciudad & 808\,751 & 75\,488 & 9.3\% & --- \\
+Alicante prov. & 1\,350\,006 & 209\,487 & 15.5\% & --- \\
+Málaga prov. & 996\,557 & 152\,843 & 15.3\% & --- \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{cuidado}
+En ciudades $>250$k hay relativamente \textbf{poca} fracci\'on del total de vac\'ias
+(BdE: solo $\sim$400k de $\sim$4M). El claim anti-especulaci\'on en centros tensionados
+debe apoyarse tambi\'en en \textbf{2\textsuperscript{a}s + STR + no residentes + multi-propietarios},
+no solo en ``hay millones de vac\'ias en Madrid centro''.
+\end{cuidado}
+
+\section{Censo 2011 (referencia IEB / Tempus3)}
+
+\'Util para comparar con la literatura (IEB $\sim$12.3\% ciudades grandes) y con
+Francia hist\'orica. Espa\~na 2011: tasa vac\'ia \textbf{13.65\%}
+(3.44M de 25.2M viviendas).
+
+\section{Construcci\'on vs hogares (timing)}
+
+\begin{dato}
+\begin{itemize}
+  \item Terminadas 2024 (MIVAU): $\sim$\textbf{101 mil}.
+  \item Creaci\'on neta de hogares: $\sim$\textbf{180 mil} (2024); promedio
+        $\sim$\textbf{245 mil}/año en 2022--23 (BdE / INE ECP).
+  \item Conclusi\'on de debate: el flujo nuevo no cierra el gap pronto;
+        el stock ya existente s\'i puede moverse con incentivos.
+\end{itemize}
+\end{dato}
+
+\section{Grandes tenedores (Catastro 2025)}
+
+\begin{intuicion}
+``Anti-grandes poseedores'' no es eslogan: el Catastro cuenta cu\'antos titulares
+tienen muchas viviendas. Ah\'i est\'a la base para umbrales de dise\~no.
+\end{intuicion}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Tramo viviendas/titular} & \textbf{Titulares} & \textbf{Viviendas} \\
+\midrule
+1 & 12\,941\,416 & 12\,941\,416 \\
+2--5 & 3\,974\,244 & 9\,515\,931 \\
+6--10 & 104\,314 & 737\,462 \\
+11--25 (``gran tenedor'' Ley 12/2023) & 21\,515 & 316\,766 \\
+26--100 & 4\,539 & 195\,321 \\
+$>100$ & 843 & 528\,868 \\
+\midrule
+\textbf{$\ge 11$ (suma ``grandes'')} & \textbf{26\,897} & \textbf{1\,040\,955 ($\sim$4.3\%)} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Marco legal \'util:}
+\begin{itemize}
+  \item Ley 12/2023: gran tenedor $>10$ inmuebles residenciales (o $>1500\,\mathrm{m}^{2}$);
+        en tensionadas CCAA puede bajar a $\ge 5$.
+  \item Recargo IBI desocupadas: $>2$ a\~nos, m\'inimo 4 viviendas/titular; hasta $+150\%$.
+  \item Impuesto CAT vac\'ias: personas jur\'idicas + grandes tenedores ($>15$);
+        recaudaci\'on finalista a vivienda protegida.
+\end{itemize}
+
+\section{Precios y alquileres (INE, contexto)}
+
+\begin{itemize}
+  \item IPV (compraventa): variaci\'on anual reciente $\sim$\textbf{+12\%} nacional;
+        Madrid $\sim$\textbf{+13\%}.
+  \item IPVA (alquiler): \'indice 2015$=100$ $\rightarrow$ 2024$=122.9$ ($\sim$\textbf{+23\%} acumulado).
+  \item VTE (tur\'isticas): stock nacional reciente del orden de \textbf{341k--403k}
+        seg\'un corte; BdE destaca el salto 2023$\rightarrow$2024.
+\end{itemize}
+
+\section{Extrapolabilidad Espa\~na--Francia}
+
+\begin{dato}
+\begin{itemize}
+  \item INSEE: $\sim$\textbf{7.6\%} logements vacants (m\'etropole 2025).
+  \item Eurostat Census 2021 \emph{unoccupied}: ES \textbf{30.4\%} vs FR \textbf{17.9\%}.
+  \item Claim seguro: ES tiene m\'as stock no-usual-residence que FR.
+  \item Claim cuidadoso: definiciones \textbf{no son id\'enticas} (el\'ectrica ES vs
+        recensement/fiscal FR). No mezclar 14.4\% con 7.6\% como si fueran el mismo objeto.
+\end{itemize}
+\end{dato}
+
+\section{Claims listos (solo institucionales)}
+
+\begin{enumerate}
+  \item ``El BdE cifra el d\'eficit acumulado 2022--24 entre terminaciones y hogares
+        en 400--450 mil viviendas.''
+  \item ``Si se movilizasen 2\textsuperscript{a}s, usos tur\'isticos/seasonal y vac\'ias,
+        Madrid $\sim$390 mil hogares y Barcelona $\sim$310 mil (BdE 2024).''
+  \item ``Censo 2021 (consumo el\'ectrico): 3.83 millones de vac\'ias (14.4\%);
+        Madrid capital $\sim$6.3\%, Barcelona ciudad $\sim$9.3\%.''
+  \item ``M\'as de 500 mil viviendas de extranjeros no residentes; compras de no residentes
+        $\sim$8.4\% (BdE).''
+  \item ``Catastro: $\sim$27 mil titulares con m\'as de 10 viviendas residenciales,
+        $\sim$1.04 millones de inmuebles ($\sim$4\% del stock).''
+  \item ``Catalunya ya grava vac\'ios $\ge 2$ a\~nos a PJ/grandes tenedores;
+        recaud\'o 7\,M€ en 2024 (Idescat).''
+  \item ``En 2024 se terminaron $\sim$101 mil viviendas (MIVAU) frente a una creaci\'on
+        de hogares mucho mayor --- la v\'ia stock es el complemento de timing.''
+\end{enumerate}
+
+\begin{cuidado}[title={Lo que NO hay como dato oficial}]
+Elasticidades, da\~no marginal Pigou, efecto causal del tax en ES, y vacancy
+``natural'' $\sim$5\% (literatura). Para eso se citan papers del source pack
+como evidencia, o se dejan como supuestos de dise\~no.
+\end{cuidado}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Dise\~no de nuestra propuesta}
+\label{ch:diseno}
+
+\section{N\'ucleo de la medida}
+
+\begin{frase}
+Impuesto sobre vacancy \textbf{prolongada}, con umbrales/\'enfasis en
+multi-propietarios y grandes poseedores; recaudaci\'on hacia vivienda
+asequible / limited-profit; \textbf{complementaria} a (no sustituta de) oferta nueva.
+\end{frase}
+
+\section{Lecciones de welfare (IEB + Seg\'u)}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4cm} X@{}}
+\toprule
+\textbf{Factor} & \textbf{Efecto / implicaci\'on} \\
+\midrule
+Qui\'en ocupa las ex-vac\'ias &
+Si pasan a residencia primaria $\rightarrow$ gana asequibilidad; si solo se relabelan como 2\textsuperscript{a} $\rightarrow$ no \\
+Uso de la recaudaci\'on &
+Reinvertir en vivienda social/asequible amplifica el efecto (ej.\ Catalunya) \\
+Distorsi\'on LT a inversi\'on &
+Teor\'ia: puede $\downarrow$ construction; empiria francesa: no se ve a medio plazo \\
+Calidad / obras &
+Exenciones por reforma evitan castigar rehabilitaci\'on \\
+Medici\'on &
+Sin definici\'on legal operable de ``vac\'io'', el tax muere (problema ES cl\'asico) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Plantilla de dise\~no (para slides)}
+
+Dedicad \textbf{al menos una slide} a esto --- convierte el slogan en
+``government proposal'':
+
+\begin{enumerate}[leftmargin=1.8em]
+  \item \textbf{Definici\'on:} vac\'ia si sin uso residencial efectivo $\ge$ 2 a\~nos
+        (o 1 a\~no en zonas tensionadas, alineable con TLV francesa actual);
+        proxy: catastro + consumo el\'ectrico / agua + cruces empadronamiento.
+  \item \textbf{Sujetos:} tipos m\'as altos / umbrales para personas jur\'idicas y
+        titulares con $\ge N$ viviendas (inspiraci\'on CAT + Ley 12/2023).
+  \item \textbf{Tipo:} creciente con la duraci\'on de la vacancy (l\'ogica francesa).
+  \item \textbf{Exenciones:} oferta seria de alquiler/venta; obras mayores;
+        herencia reciente / circunstancias personales acotadas.
+  \item \textbf{\'Ambito:} mercados tensionados primero (Madrid, BCN, costas, islas).
+  \item \textbf{Recaudaci\'on:} finalista a vivienda asequible / limited-profit.
+  \item \textbf{Complementos} (misma familia, sin diluir el mensaje):
+        recargo 2\textsuperscript{a}s / no residentes / STR permanente.
+\end{enumerate}
+
+\section{Extrapolaci\'on a ``anti-grandes poseedores'' (sin traicionar papers)}
+
+\begin{enumerate}
+  \item \textbf{Incidencia esperada:} el coste es m\'as alto para quien mantiene
+        muchas unidades inactivas.
+  \item \textbf{Heterogeneidad (Seg\'u):} m\'as impacto donde vacancy inicial es alta.
+  \item \textbf{Personas jur\'idicas / umbrales (Catalunya):} no pegar al propietario
+        de una sola vivienda en transici\'on.
+  \item \textbf{Complemento STR/2\textsuperscript{a}s:} grandes operadores sobrerrepresentados
+        en multi-listing y carteras de inversi\'on.
+\end{enumerate}
+
+\begin{cuidado}
+Seg\'u \textbf{no} identifica causalmente ``fondos buitre'' vs peque\~nos.
+Argumentadlo como \textbf{dise\~no de incidencia}, no como hallazgo del paper.
+\end{cuidado}
+
+\begin{cuidado}[title={Recaudaci\'on CAT $\approx$ 7\,M€}]
+Es peque\~na. Argumentad \textbf{comportamiento + finalismo}, no
+``financia sola el parque p\'ublico''.
+\end{cuidado}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{El otro lado: c\'omo no suicidarnos (y c\'omo girarlo)}
+\label{ch:otro-lado}
+
+\section{Greenaway-McGrevy \& Phillips (2023) --- Auckland upzoning}
+
+\begin{intuicion}
+Upzoning \textbf{s\'i} aumenta permisos/construcci\'on. No lo neg\'eis.
+Negad que sea la \textbf{\'unica} soluci\'on y recordad el timing.
+\end{intuicion}
+
+\textbf{Respuesta parlamentaria:}
+\begin{enumerate}
+  \item Distinguir \textbf{permitted} vs \textbf{completed} homes.
+  \item Timing: construcci\'on tarda a\~nos; vacancy tax act\'ua sobre stock ya existente.
+  \item Complementariedad: ``No estamos en contra de construir; priorizamos movilizar stock
+        \textbf{y} no tratamos upzoning como soluci\'on \'unica''.
+  \item Auckland $\neq$ Espa\~na (turismo, 2\textsuperscript{a}s, financiarizaci\'on, elasticidad).
+\end{enumerate}
+
+\section{Asquith, Mast \& Reed --- pisos nuevos y rentas locales}
+
+\begin{intuicion}
+Edificios nuevos market-rate bajan rentas cercanas (5--7\%) absorbiendo hogares
+de renta alta. Eso \textbf{confirma} que subir oferta efectiva baja rentas ---
+exactamente la microeconom\'ia de liberar vac\'ios. Distinto instrumento, distinto horizonte.
+\end{intuicion}
+
+\begin{frase}
+No conceder: ``entonces solo hay que construir''.\\
+Conceder: ``la oferta importa; la m\'as r\'apida es la que ya est\'a vac\'ia''.
+\end{frase}
+
+\section{Jofre--Mart\'inez--Seg\'u (2023) --- rent control Catalunya}
+
+\begin{itemize}
+  \item Rentas $-4\%$ a $-6\%$; sin evidencia clara de $\downarrow$ supply de contratos en su ventana.
+  \item \textbf{No es nuestro instrumento}, pero:
+        (a) muestra que pol\'iticas ``anti-mercado puro'' pueden funcionar en ES bajo dise\~no fuerte;
+        (b) rent control fuerte puede \textbf{aumentar} voluntary vacancy --- el tax es el
+        complemento second-best.
+  \item Si el parlamento propone solo rent control: ``sin movilizar vac\'ios, los caps pueden
+        coexistir con stock inactivo''.
+\end{itemize}
+
+\section{Chay--Greenstone / Linden--Rockoff (lectures)}
+
+Capitalizaci\'on: precios revelan WTP por amenities / riesgos.
+Uso lateral: externalidades de vacancy (blight, inseguridad) se capitalizan en vecinos
+$\rightarrow$ argumento Pigouviano. No forzar: no son papers de vacancy tax.
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Mapa r\'apido: qu\'e paper para qu\'e claim}
+\label{ch:mapa}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{@{}p{5.2cm}p{4.2cm}p{3.5cm}@{}}
+\toprule
+\textbf{Claim} & \textbf{Fuente ancla} & \textbf{Tipo} \\
+\midrule
+\endhead
+Vacancy voluntaria es racional, no ``error'' & Seg\'u 2020; IEB 2/2018 & Modelo + teor\'ia \\
+Vacancy por encima de la ``natural'' justifica intervenci\'on & IEB ($\sim$12\% vs $\sim$5\%) & Benchmark \\
+Vacancy tax \textbf{reduce} vacancy (esp.\ long-term) & Seg\'u: $-13\%$ & Causal DiD+PSM \\
+Unidades vuelven a uso residencial primario & Seg\'u 2020 & Mecanismo \\
+M\'as r\'apido movilizar stock que construir & Seg\'u; slides BdE & Timing \\
+Externalidades de vac\'ios $\rightarrow$ eficiencia & Seg\'u intro (Lee, Glaeser\ldots) & Teor\'ia \\
+Distorsiones previas justifican tax place-based & Kline \& Moretti via Seg\'u & Second-best \\
+Airbnb/STR desv\'ia stock $\rightarrow$ rentas/precios $\uparrow$ & Garcia-L\'opez et al.\ 2020 & Causal ES \\
+Demanda no residencial aprieta mercados ES & BdE Box 4 & Datos oficiales \\
+Movilizar 2\textsuperscript{a}s+tur\'istico+vac\'ias libera capacidad & BdE Box 4 & Contabilidad \\
+Impuestos a demanda especulativa + vivienda p\'ublica & Ryan-Collins / UCL & Pol\'itica \\
+Subsidios a demanda pueden inflar precios & Seg\'u lit.\ review & Contra-alternativa \\
+Construcci\'on nueva baja rentas locales & Asquith et al. & Complementariedad \\
+Upzoning aumenta permisos & Greenaway-McGrevy \& Phillips & Distinguir permisos vs uso \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Frases listas y trampas}
+\label{ch:frases}
+
+\section{Seis frases con ancla}
+
+\begin{enumerate}[leftmargin=1.6em, itemsep=0.6em]
+  \item ``En Francia, la primera evaluaci\'on cuasi-experimental de un vacancy tax
+        encuentra una ca\'ida del \textbf{13\%} en la tasa de vac\'ios, concentrada en
+        vacancy de largo plazo, con desplazamiento hacia residencias principales.''
+        --- Seg\'u \emph{JPubE} 2020.
+  \item ``Con oferta casi fija a corto plazo, gravar el vac\'io aumenta el coste de
+        oportunidad de no alquilar y, en el modelo de search-and-matching, reduce
+        el stock inactivo.'' --- Seg\'u / Desgranges--Wasmer.
+  \item ``España lleva a\~nos con vacancy urbana por encima de la tasa `natural'
+        ($\sim$5\% vs $\sim$12\% en ciudades grandes, Censo 2011).'' --- IEB 2/2018.
+  \item ``Airbnb en Barcelona no es anecd\'otico: en barrios del top decil, rentas +7\%
+        y precios hasta +17\%.'' --- Garcia-L\'opez et al.\ \emph{JUE} 2020.
+  \item ``El BdE cuantifica que movilizar 2\textsuperscript{a}s, usos tur\'isticos/seasonal
+        y vac\'ios liberar\'ia cientos de miles de hogares potenciales en Madrid y Barcelona.''
+        --- Box 4, 2024.
+  \item ``Los subsidios a la demanda en mercados r\'igidos tienden a capitalizarse en precios;
+        mejor gravar demanda especulativa y reinvertir en vivienda asequible.''
+        --- lit.\ allowances en Seg\'u + Ryan-Collins/UCL.
+\end{enumerate}
+
+\section{Lo que \emph{no} debemos decir}
+
+\begin{cuidado}[title={Trampas}]
+\begin{itemize}
+  \item ``Seg\'u demuestra que bajan los alquileres un $X\%$ en Espa\~na.''
+        (Paper Francia; foco principal = vacancy rate.)
+  \item ``Upzoning no funciona.''
+        (Auckland dice que s\'i aumenta construcci\'on; atacar exclusividad, no existencia.)
+  \item ``Asquith prueba que construir no ayuda.''
+        (Prueba lo contrario a escala local.)
+  \item ``Todos los vac\'ios son especulaci\'on de fondos.''
+        (Parte es fricci\'on; por eso umbral de a\~nos + exenciones.)
+  \item ``El tax no tiene costes.''
+        (Teor\'ia LT: posible $\downarrow$ inversi\'on; admitir trade-off + evidencia media plazo FR + reinversi\'on.)
+  \item Mezclar Censo 2011 y 2021 como si la tasa fuera comparable sin matices.
+  \item Usar recaudaci\'on catalana de 7\,M€ como si financiara sola el parque p\'ublico.
+\end{itemize}
+\end{cuidado}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Problem sets del curso --- checklist operativo}
+\label{ch:ps}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}c>{\raggedright\arraybackslash}p{4cm} X@{}}
+\toprule
+\textbf{PS} & \textbf{Tema} & \textbf{Para nuestra postura} \\
+\midrule
+PS1 & Elasticidades, CV/EV & Bienestar de inquilinos ante cambio de rentas/precios \\
+PS2 & Edgeworth, SFTWE, utilitarista vs Rawls & Equity slide; ``Pareto no basta'' \\
+PS3 & Emp\'iricos & Disciplina causal al citar Seg\'u / BdE \\
+PS4 & Externalidades + Pigou + Weitzman & \textbf{Plantilla formal} del argumento de eficiencia \\
+PS5 & Public goods / free riding & Solo si habl\'ais de provisi\'on p\'ublica con recaudaci\'on \\
+PS6 & Tax-transfer + median voter & Econom\'ia pol\'itica del apoyo a gravar poseedores \\
+PS7 & CBA housing + discounting + distribution & Timing stock vs new build; impactos sociales \\
+PS8 & Repaso / MCQ & Pigou, Coase, Samuelson --- vocabulario oral \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+% ══════════════════════════════════════════════════════════════
+\chapter{Cierre: c\'omo montar los 10 minutos}
+\label{ch:cierre}
+
+\begin{intuicion}[title={Estructura sugerida de la presentaci\'on}]
+\begin{enumerate}
+  \item \textbf{Problema (1'):} crisis ES = demanda + stock mal usado (BdE 400--450k
+        \emph{y} 310k/390k movilizables).
+  \item \textbf{Fallo (1.5'):} inactive vacancy + externalidades + equity
+        (curso A1--A4 en lenguaje simple).
+  \item \textbf{Modelo (1.5'):} $V=v+i$; el tax baja $i$ (participaci\'on $b_j-t$).
+  \item \textbf{Evidencia (2'):} Seg\'u $-13\%$; Airbnb BCN; Catastro grandes tenedores.
+  \item \textbf{Propuesta (2.5'):} definici\'on, tipos, umbrales, exenciones,
+        enforcement, uso de ingresos.
+  \item \textbf{Vs construction (1'):} complementarios; nosotros priorizamos timing del stock.
+  \item \textbf{Cierre (0.5'):} winners/losers + voto.
+\end{enumerate}
+\end{intuicion}
+
+\begin{resumenbox}
+Si solo record\'ais tres cosas:\\[0.4em]
+(1) Hay vac\'ios voluntarios racionales --- un precio los reduce.\\
+(2) Francia lo midió: $-13\%$, hacia residencia principal.\\
+(3) En Espa\~na el BdE ya cuantifica la holgura del stock; nosotros ponemos el incentivo.
+\end{resumenbox}
+
+\vspace{1.2cm}
+{\color{azulmedio}\rule{\textwidth}{1pt}}
+
+\vspace{0.6cm}
+\noindent\small\color{azuloscuro}
+\textbf{Fuentes principales del dossier:}\\[0.3em]
+Seg\'u (2020) \emph{JPubE}; IEB Report 2/2018; Garcia-L\'opez et al.\ (2020) \emph{JUE};
+BdE Informe Anual 2024 Box~4; Ryan-Collins/UCL 2024; Greenaway-McGrevy \& Phillips (2023);
+Asquith--Mast--Reed; Jofre--Mart\'inez--Seg\'u (2023); INE Censo 2021 (tpx~59531);
+MIVAU; DG Catastro; BOE Ley 12/2023 y Ley 14/2015; material de curso Weeks~1--12 + PS1--8.\\[0.5em]
+Archivos locales: \texttt{docs/arguments-from-papers.md}, \texttt{docs/course-arguments.md},
+\texttt{docs/ine-data-from-mcp.md}, \texttt{research/briefs/research-brief-datos-oficiales-faltantes.md},
+\texttt{references/}.
+
+\end{document}
